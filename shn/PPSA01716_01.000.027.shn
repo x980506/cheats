@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Need for Speed Unbound" Moder="Yharnam & baobao8888汉化" Cusa="PPSA01716" Version="01.000.027" Process="eboot.bin">
+<Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Need for Speed Unbound" Moder="Yharnam" Cusa="PPSA01716" Version="01.000.027" Process="eboot.bin">
   <Genres Name="Racing" />  
   <Items />
-  <Cheat Text="Infi Nitro - 无限氮气">
+  <Cheat Text="无限氮气 | Infi Nitro">
     <Cheatline>
       <Offset>4EAF032</Offset>
       <Section>0</Section>
@@ -16,7 +16,7 @@
       <ValueOff>C5-FA-10-48-48-C5-F2-5D-C8</ValueOff>
     </Cheatline>		
   </Cheat>
-  <Cheat Text="Drain Enemies Nitro - 吸取敌人氮气">
+  <Cheat Text="吸取敌人氮气 | Drain Enemies Nitro">
     <Cheatline>
       <Offset>4EAF064</Offset>
       <Section>0</Section>
@@ -30,7 +30,7 @@
       <ValueOff>C5-FA-11-83-74-01-00-00</ValueOff>
     </Cheatline>		
   </Cheat>  
-  <Cheat Text="Max Money - 金钱最大" Description="Buy Anything 购买任何东西">
+  <Cheat Text="金钱最大 | Max Money" Description="购买任何东西| Buy Anything">
     <Cheatline>
       <Offset>4EAF000</Offset>
       <Section>0</Section>
