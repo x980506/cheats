@@ -6,33 +6,162 @@
     <title>PS5 金手指资料库</title>
     <style>
         *{margin:0;padding:0;box-sizing:border-box;font-family:微软雅黑,sans-serif;}
-        body{background:#f1f1f1;padding:20px 15px;}
         
+        body{
+            background-color: #ffffff;
+            background-image: radial-gradient(#cfe2ff 1.2px, transparent 1.2px), radial-gradient(#cfe2ff 1.2px, transparent 1.2px);
+            background-size: 40px 40px;
+            background-position: 0 0, 20px 20px;
+            background-attachment: fixed;
+            padding:20px 15px;
+            min-height: 100vh;
+        }
+        
+        /* 顶部标题 + 统计 */
+        .header{
+            max-width: 1200px;
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 16px;
+            flex-wrap:wrap;
+        }
         .top-title{
-            text-align:center;
             font-size:26px;
             color:#222;
-            margin-bottom:16px;
             font-weight:600;
         }
+        .stat-box-title{
+            padding: 6px 12px;
+            background:#fff;
+            border:1px solid #ddd;
+            border-radius:8px;
+            font-size:14px;
+            color:#333;
+            white-space:nowrap;
+        }
 
-        /* 搜索框样式 */
-        .search-box{
-            max-width:600px;
-            margin:0 auto 25px auto;
+        /* 海报轮播样式 */
+        .banner-swiper{
+            max-width:1200px;
+            height:220px;
+            margin:0 auto 20px;
+            border-radius:16px;
+            overflow:hidden;
             position:relative;
         }
-        .search-input{
+        .banner-list{
             width:100%;
+            height:100%;
+            display:flex;
+            transition: all 0.5s ease;
+        }
+        .banner-item{
+            min-width:100%;
+            height:100%;
+            background-size:cover;
+            background-position:center;
+            position:relative;
+            cursor:pointer;
+        }
+        /* 最新更新 —— 移到海报内部左上角 */
+        .new-banner-title{
+            position:absolute;
+            top:14px;
+            left:18px;
+            z-index:2;
+            font-size:16px;
+            color:#fff;
+            font-weight:bold;
+            text-shadow:0 1px 3px rgba(0,0,0,0.5);
+        }
+        .banner-info{
+            position:absolute;
+            left:0;
+            bottom:0;
+            width:100%;
+            padding:25px 20px;
+            background:linear-gradient(transparent,rgba(0,0,0,0.7));
+            color:#fff;
+        }
+        .banner-name{
+            font-size:18px;
+            font-weight:bold;
+            margin-bottom:5px;
+        }
+        .banner-id{
+            font-size:13px;
+            opacity:0.9;
+        }
+        .banner-btn{
+            position:absolute;
+            top:50%;
+            transform:translateY(-50%);
+            width:36px;
+            height:36px;
+            border-radius:50%;
+            background:rgba(255,255,255,0.3);
+            border:none;
+            color:#fff;
+            font-size:18px;
+            cursor:pointer;
+            z-index:10;
+        }
+        .banner-prev{left:15px;}
+        .banner-next{right:15px;}
+        .banner-dots{
+            position:absolute;
+            bottom:15px;
+            left:50%;
+            transform:translateX(-50%);
+            display:flex;
+            gap:8px;
+        }
+        .dot{
+            width:10px;
+            height:10px;
+            border-radius:50%;
+            background:rgba(255,255,255,0.4);
+        }
+        .dot.active{
+            background:#2563eb;
+        }
+
+        /* 排序 + 搜索 —— 海报下方 */
+        .search-sort-wrap{
+            max-width:1200px;
+            margin:0 auto 25px auto;
+            display:flex;
+            gap:10px;
+            align-items:center;
+        }
+        .sort-select{
+            padding:12px 10px;
+            border:1px solid #ddd;
+            border-radius:10px;
+            font-size:14px;
+            outline:none;
+            background:#fff;
+        }
+        .search-box{ flex:1; display:flex; gap:10px; }
+        .search-input{
+            flex:1;
             padding:12px 16px;
             border:1px solid #ddd;
             border-radius:10px;
             font-size:15px;
             outline:none;
-            box-shadow:0 2px 6px rgba(0,0,0,0.05);
+            background:#fff;
         }
-        .search-input:focus{
-            border-color:#0ea5e9;
+        .search-btn{
+            padding:0 18px;
+            background:#2563eb;
+            color:#fff;
+            border:none;
+            border-radius:10px;
+            font-size:15px;
+            cursor:pointer;
         }
         
         .game-wrap{
@@ -42,7 +171,6 @@
             grid-template-columns:repeat(4,1fr);
             gap:18px;
         }
-
         .game-card{
             width:100%;
             aspect-ratio:1/1;
@@ -51,21 +179,26 @@
             position:relative;
             cursor:pointer;
             transition:0.3s;
-            background: linear-gradient(135deg,#1e293b,#0f172a);
             background-size:cover;
-            background-position:center;
+            background-position: center 60%;
+            box-shadow:0 4px 12px rgba(0,0,0,0.1);
         }
         .game-card:hover{transform:translateY(-5px);}
-
+        .ps5-badge {
+            position: absolute;
+            top: 10px; left: 10px;
+            width: 34px; height: 34px;
+            background-image: url('https://cdn.jsdelivr.net/gh/DaBingOG/cheats@main/images/UI/PS5.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            z-index:3;
+        }
         .game-card-info{
             position:absolute;
-            bottom:0;
-            left:0;
-            right:0;
-            background:rgba(0,0,0,0.75);
+            bottom:0; left:0; right:0;
+            background: linear-gradient(to top, rgba(0,0,0,0.85), transparent);
             color:white;
-            padding:10px 12px;
-            z-index:2;
+            padding:20px 12px 10px 12px;
         }
         .game-card-name{
             font-size:15px;
@@ -74,24 +207,72 @@
             overflow:hidden;
             text-overflow:ellipsis;
         }
-        .game-card-id{
-            font-size:12px;
-            color:#eee;
-            margin-top:2px;
-        }
+        .game-card-id{ font-size:12px; color:#eee; }
 
+        /* 蓝色主题翻页样式 */
         .pagination{
             display:flex;
             justify-content:center;
-            gap:12px;
+            align-items:center;
+            gap: 12px;
             margin:30px 0;
         }
-        .page-btn{padding:10px 16px;border:1px solid #ddd;background:#fff;border-radius:8px;cursor:pointer;}
-        .page-btn:disabled{opacity:0.5;}
-        .page-info{line-height:36px;}
+        .page-arrow{
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size:16px;
+            font-weight:bold;
+            background:#2563eb;
+            color:white;
+            cursor:pointer;
+            border:none;
+        }
+        .page-arrow.page-disabled{
+            opacity:0.5;
+            cursor:not-allowed;
+        }
+        .page-number{
+            width:34px;
+            height:34px;
+            border-radius:50%;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            font-size:14px;
+            background:#ffffff;
+            border:1px solid #e5e7eb;
+            color:#374151;
+            cursor:pointer;
+        }
+        .page-number.page-active{
+            background:#2563eb;
+            color:white;
+            border-color:#2563eb;
+        }
+        .page-dots{
+            font-size:14px;
+            color:#999;
+            padding:0 4px;
+        }
+
+        .footer{
+            text-align:center;
+            margin-top:20px;
+            padding:15px 0;
+            font-size:14px;
+            color:#666;
+            border-top:1px solid #ddd;
+        }
 
         @media (max-width:768px){
             .game-wrap{grid-template-columns:repeat(2,1fr);}
+            .search-sort-wrap{ flex-direction:column; }
+            .banner-swiper{height:160px;}
+            .top-title{font-size:22px;}
         }
 
         .pop-box{
@@ -121,71 +302,55 @@
             font-size:18px;
             cursor:pointer;
         }
-        .game-title{
-            font-size:22px;
-            text-align:center;
-            margin-bottom:10px;
-        }
-        .game-info-row{
-            display:flex;
-            justify-content:center;
-            gap:24px;
-            color:#666;
-            margin-bottom:20px;
-        }
-        .cheat-container{
-            max-height:400px;
-            overflow-y:auto;
-            margin-bottom:20px;
-        }
-        .cheat-item{
-            display:flex;
-            justify-content:space-between;
-            align-items:center;
-            padding:12px 14px;
-            border:1px solid #eee;
-            border-radius:8px;
-            margin-bottom:8px;
-        }
+        /* 预览界面游戏名称加粗 */
+        .game-title{ font-size:22px; text-align:center; margin-bottom:10px; font-weight: bold; }
+        .game-info-row{ display:flex; gap:24px; color:#666; margin-bottom:20px; justify-content:center; }
+        .cheat-container{ max-height:400px; overflow-y:auto; margin-bottom:20px; }
+        .cheat-item{ padding:12px 14px; border:1px solid #eee; border-radius:8px; margin-bottom:8px; }
         .cheat-label{font-weight:bold;color:#b91c1c;}
-        .switch{width:44px;height:22px;background:#ccc;border-radius:99px;position:relative;}
-        .switch::after{content:'';position:absolute;width:18px;height:18px;background:#fff;border-radius:50%;top:2px;left:2px;transition:0.2s;}
-        .switch.on{background:#16a34a;}
-        .switch.on::after{left:24px;}
         .download-btn{
-            width:100%;
-            padding:12px;
-            background:#0ea5e9;
-            color:#fff;
-            border:none;
-            border-radius:8px;
-            font-size:16px;
-            cursor:pointer;
+            width:100%; padding:12px; background:#2563eb;
+            color:#fff; border:none; border-radius:8px; font-size:16px; cursor:pointer; margin-top:10px;
         }
     </style>
 </head>
 <body>
 
-<h2 class="top-title">PS5 金手指资料库</h2>
+<!-- 顶部：标题 + 统计 -->
+<div class="header">
+    <h1 class="top-title">PS5 金手指资料库</h1>
+    <div class="stat-box-title" id="statBox">📊 已收录：0 个金手指</div>
+</div>
 
-<!-- 🔍 搜索框 -->
-<div class="search-box">
-    <input 
-        type="text" 
-        class="search-input" 
-        id="searchInput" 
-        placeholder="搜索游戏名称 或 游戏ID（如：生化危机3 / PPSA03952）"
-        oninput="searchGames()"
-    >
+<!-- 轮播海报（内部左上角带文字） -->
+<div class="banner-swiper" id="bannerSwiper">
+    <div class="new-banner-title">🔥 最新更新</div>
+    <div class="banner-list" id="bannerList"></div>
+    <button class="banner-btn banner-prev" onclick="prevBanner()">&lt;</button>
+    <button class="banner-btn banner-next" onclick="nextBanner()">&gt;</button>
+    <div class="banner-dots" id="bannerDots"></div>
+</div>
+
+<!-- 排序 + 搜索 → 海报下方 -->
+<div class="search-sort-wrap">
+    <select class="sort-select" id="sortSelect" onchange="changeSortSelect()">
+        <option value="desc">倒序</option>
+        <option value="asc">正序</option>
+        <option value="name">游戏名称排序</option>
+    </select>
+    <div class="search-box">
+        <input type="text" class="search-input" id="searchInput" placeholder="搜索游戏名称 或 游戏ID">
+        <button class="search-btn" onclick="searchGames()">搜索</button>
+    </div>
 </div>
 
 <div id="loading" style="text-align:center;padding:30px;">加载中...</div>
 <div class="game-wrap" id="gameBox"></div>
 
-<div class="pagination">
-    <button class="page-btn" id="prevBtn">上一页</button>
-    <span class="page-info" id="pageInfo">第 1 页</span>
-    <button class="page-btn" id="nextBtn">下一页</button>
+<div class="pagination" id="pagination"></div>
+
+<div class="footer">
+    作者：大饼电玩 | 仅供学习使用 | 学习交流群：310630593
 </div>
 
 <div class="pop-box" id="pop">
@@ -197,159 +362,236 @@
             <span id="gameModer"></span>
         </div>
         <div class="cheat-container" id="cheatContent"></div>
-        <button class="download-btn" onclick="downloadCheat()">下载文件</button>
+        <button class="download-btn" onclick="downloadCheat()">下载金手指</button>
     </div>
 </div>
 
 <script>
-// ==============================================
-// ✅ 你的新 GitHub 用户名：DaBingOG
-// ==============================================
 const BASE_URL = "https://raw.githubusercontent.com/DaBingOG/cheats/main/shn/";
 const LIST_URL = "https://raw.githubusercontent.com/DaBingOG/cheats/main/shn.txt";
-const IMAGE_BASE = "https://raw.githubusercontent.com/DaBingOG/cheats/main/images/";
+const IMAGE_BASE = "https://cdn.jsdelivr.net/gh/DaBingOG/cheats@main/images/";
 
 let GAME_LIST = [];
-let FILTERED_LIST = []; // 搜索结果
+let ORIGIN_LIST = [];
+let FILTERED_LIST = [];
 let currentPage = 1;
 const pageSize = 20;
-let currentText = "";
-let currentFileName = "";
+let CURRENT_FILE = "";
+let CURRENT_CONTENT = "";
+let bannerIndex = 0;
+let bannerTimer = null;
+let bannerData = [];
+let currentSort = "desc";
 
 window.onload = async function () {
-    try {
-        let res = await fetch(LIST_URL);
-        let text = await res.text();
+    let res = await fetch(LIST_URL);
+    let text = await res.text();
+    
+    let allGames = text.split("\n")
+        .filter(i=>i&&i.includes("="))
+        .map(i=>{
+            let [file,name]=i.split("=");
+            return {file:file.trim(),name:name.trim(),id:file.replace(".shn","")};
+        });
 
-        GAME_LIST = text.split("\n")
-            .map(line => line.trim())
-            .filter(line => line && line.includes("="))
-            .map(line => {
-                let [file, name] = line.split("=");
-                file = file.trim();
-                name = name.trim();
-                let id = file.replace(".shn", "");
-                return { file, name, id };
-            });
-        
-        FILTERED_LIST = [...GAME_LIST];
-        document.getElementById("loading").style.display = "none";
-        renderFileList();
-    } catch (err) {
-        document.getElementById("loading").innerText = "加载失败";
-    }
-};
+    ORIGIN_LIST = [...allGames];
+    bannerData = allGames
+        .filter(g => /^[1-5]-/.test(g.file))
+        .map(g => ({
+            ...g,
+            file: g.file.replace(/^[1-5]-/, ""),
+            id: g.id.replace(/^[1-5]-/, "")
+        }));
 
-// 🔍 搜索功能
-function searchGames() {
-    let keyword = document.getElementById("searchInput").value.toLowerCase().trim();
-    currentPage = 1;
-
-    if (!keyword) {
-        FILTERED_LIST = [...GAME_LIST];
-        renderFileList();
-        return;
-    }
-
-    FILTERED_LIST = GAME_LIST.filter(item => {
-        return (
-            item.name.toLowerCase().includes(keyword) || 
-            item.id.toLowerCase().includes(keyword)
-        );
+    GAME_LIST = allGames.filter(g => !/^[1-5]-/.test(g.file)).reverse();
+    FILTERED_LIST = [...GAME_LIST];
+    
+    // 点击空白处关闭弹窗
+    document.getElementById("pop").addEventListener("click", function(e){
+        if(e.target === this){
+            closePop();
+        }
     });
 
-    renderFileList();
+    document.getElementById("loading").style.display="none";
+    updateStat();
+    initBannerSwiper();
+    render();
+};
+
+// 下拉排序
+function changeSortSelect(){
+    currentSort = document.getElementById("sortSelect").value;
+    doSort();
+    FILTERED_LIST = [...GAME_LIST];
+    currentPage = 1;
+    render();
 }
 
-function renderFileList() {
-    const box = document.getElementById("gameBox");
-    box.innerHTML = "";
-
-    let start = (currentPage - 1) * pageSize;
-    let end = start + pageSize;
-    let list = FILTERED_LIST.slice(start, end);
-
-    if (list.length === 0) {
-        box.innerHTML = `<div style="grid-column:1/-1;text-align:center;padding:40px;color:#666;">未找到相关游戏</div>`;
-        updatePage();
-        return;
+function doSort(){
+    if(currentSort === "desc"){
+        GAME_LIST = [...ORIGIN_LIST].filter(g=>!/^[1-5]-/.test(g.file)).reverse();
+    }else if(currentSort === "asc"){
+        GAME_LIST = [...ORIGIN_LIST].filter(g=>!/^[1-5]-/.test(g.file));
+    }else if(currentSort === "name"){
+        GAME_LIST = [...ORIGIN_LIST].filter(g=>!/^[1-5]-/.test(g.file)).sort((a,b)=>a.name.localeCompare(b.name));
     }
+}
 
-    list.forEach(item => {
-        let card = document.createElement("div");
-        card.className = "game-card";
-        card.onclick = () => openFile(item);
+// 初始化轮播
+function initBannerSwiper(){
+    const listDom = document.getElementById("bannerList");
+    const dotsDom = document.getElementById("bannerDots");
+    let listHtml = "";
+    let dotHtml = "";
+    bannerData.forEach((item,idx)=>{
+        listHtml += `
+        <div class="banner-item" style="background-image:url(${IMAGE_BASE+item.id+".jpg"})" onclick="openFile(bannerData[${idx}])">
+            <div class="banner-info">
+                <div class="banner-name">${item.name}</div>
+                <div class="banner-id">ID：${item.id}</div>
+            </div>
+        </div>`;
+        dotHtml += `<span class="dot ${idx===0?'active':''}" onclick="switchBanner(${idx})"></span>`;
+    });
+    listDom.innerHTML = listHtml;
+    dotsDom.innerHTML = dotHtml;
+    startAutoBanner();
+    document.getElementById("bannerSwiper").addEventListener('mouseenter',()=>clearInterval(bannerTimer));
+    document.getElementById("bannerSwiper").addEventListener('mouseleave',startAutoBanner);
+}
 
-        let imgUrl = IMAGE_BASE + item.id + ".jpg";
-        card.style.backgroundImage = `url(${imgUrl})`;
+function startAutoBanner(){
+    clearInterval(bannerTimer);
+    bannerTimer = setInterval(()=>{
+        bannerIndex++;
+        if(bannerIndex >= bannerData.length) bannerIndex = 0;
+        switchBanner(bannerIndex);
+    },4000);
+}
 
-        card.innerHTML = `
+function switchBanner(idx){
+    bannerIndex = idx;
+    document.getElementById("bannerList").style.transform = `translateX(-${idx*100}%)`;
+    document.querySelectorAll(".dot").forEach((dot,i)=>{
+        dot.classList.toggle("active",i===idx);
+    });
+}
+function prevBanner(){
+    bannerIndex--;
+    if(bannerIndex < 0) bannerIndex = bannerData.length - 1;
+    switchBanner(bannerIndex);
+}
+function nextBanner(){
+    bannerIndex++;
+    if(bannerIndex >= bannerData.length) bannerIndex = 0;
+    switchBanner(bannerIndex);
+}
+
+function updateStat(){
+    document.getElementById("statBox").innerText = `📊 已收录：${FILTERED_LIST.length} 个金手指`;
+}
+
+function render(){
+    renderList();
+    renderPagination();
+}
+
+function renderList(){
+    const box=document.getElementById("gameBox");
+    box.innerHTML="";
+    const total=Math.ceil(FILTERED_LIST.length/pageSize);
+    const list=FILTERED_LIST.slice((currentPage-1)*pageSize,currentPage*pageSize);
+    if(!list.length){box.innerHTML=`<div style="padding:40px;text-align:center">未找到</div>`;return;}
+    list.forEach(item=>{
+        let c=document.createElement("div");
+        c.className="game-card";
+        c.onclick=()=>openFile(item);
+        c.style.backgroundImage=`url(${IMAGE_BASE+item.id+".jpg"})`;
+        c.innerHTML=`
+            ${item.id.startsWith("PPSA")?'<div class="ps5-badge"></div>':''}
             <div class="game-card-info">
                 <div class="game-card-name">${item.name}</div>
                 <div class="game-card-id">${item.id}</div>
-            </div>
-        `;
-        box.appendChild(card);
+            </div>`;
+        box.appendChild(c);
     });
-
-    updatePage();
 }
 
-function updatePage() {
-    let total = Math.ceil(FILTERED_LIST.length / pageSize);
-    document.getElementById("pageInfo").innerText = `第 ${currentPage}/${total} 页`;
-    document.getElementById("prevBtn").disabled = currentPage <= 1;
-    document.getElementById("nextBtn").disabled = currentPage >= total;
+function renderPagination(){
+    const p=document.getElementById("pagination");
+    p.innerHTML="";
+    const total=Math.ceil(FILTERED_LIST.length/pageSize);
+    if(total<=1)return;
+
+    const prev=document.createElement("div");
+    prev.className="page-arrow"+(currentPage<=1?" page-disabled":"");
+    prev.innerText="<";
+    prev.onclick=()=>{if(currentPage>1){currentPage--;render();}};
+    p.appendChild(prev);
+
+    let start=Math.max(1,currentPage-2);
+    let end=Math.min(total,currentPage+2);
+
+    if(start>1){add(1);if(start>2)dots();}
+    for(let i=start;i<=end;i++)add(i);
+    if(end<total){if(end<total-1)dots();add(total);}
+
+    const next=document.createElement("div");
+    next.className="page-arrow"+(currentPage>=total?" page-disabled":"");
+    next.innerText=">";
+    next.onclick=()=>{if(currentPage<total){currentPage++;render();}};
+    p.appendChild(next);
+
+    function add(n){
+        let d=document.createElement("div");
+        d.className="page-number"+(n===currentPage?" page-active":"");
+        d.innerText=n;
+        d.onclick=()=>{currentPage=n;render();};
+        p.appendChild(d);
+    }
+    function dots(){
+        let t=document.createElement("span");
+        t.className="page-dots";
+        t.innerText="...";
+        p.appendChild(t);
+    }
 }
 
-document.getElementById("prevBtn").onclick = () => {
-    if (currentPage > 1) { currentPage--; renderFileList(); }
-};
-document.getElementById("nextBtn").onclick = () => {
-    let total = Math.ceil(FILTERED_LIST.length / pageSize);
-    if (currentPage < total) { currentPage++; renderFileList(); }
-};
+// 点击按钮搜索
+function searchGames(){
+    const k=document.getElementById("searchInput").value.toLowerCase();
+    FILTERED_LIST=GAME_LIST.filter(i=>i.name.toLowerCase().includes(k)||i.id.toLowerCase().includes(k));
+    currentPage=1;
+    updateStat();
+    render();
+}
 
-function openFile(item) {
-    currentFileName = item.file;
-    document.getElementById("pop").style.display = "flex";
-    document.getElementById("gameTitle").innerText = item.name;
+async function openFile(item){
+    CURRENT_FILE = item.file;
+    document.getElementById("pop").style.display="flex";
+    document.getElementById("gameTitle").innerText=item.name;
     document.getElementById("gameId").innerText = "ID：" + item.id;
-    document.getElementById("gameModer").innerText = "作者：读取中...";
-    document.getElementById("cheatContent").innerText = "加载中...";
-
-    fetch(BASE_URL + item.file)
-        .then(res => res.text())
-        .then(data => {
-            currentText = data;
-            let m = data.match(/Moder="([^"]+)"/i);
-            document.getElementById("gameModer").innerText = "作者：" + (m ? m[1] : "未知");
-
-            let cheats = [];
-            let r = /Text="([^"]+)"/g;
-            let t; while (t = r.exec(data)) cheats.push(t[1]);
-
-            let html = "";
-            cheats.forEach(n => {
-                html += `<div class="cheat-item">
-                    <div class="cheat-label">${n}</div>
-                    <div class="switch"></div>
-                </div>`;
-            });
-            document.getElementById("cheatContent").innerHTML = html;
-        });
+    
+    let res = await fetch(BASE_URL + item.file);
+    CURRENT_CONTENT = await res.text();
+    
+    document.getElementById("gameModer").innerText="作者："+(CURRENT_CONTENT.match(/Moder="([^"]+)"/i)?.[1]||"未知");
+    document.getElementById("cheatContent").innerHTML=CURRENT_CONTENT.match(/Text="([^"]+)"/g)?.map(i=>`<div class="cheat-item">${i.replace(/Text="/g,"").replace(/"$/,"")}</div>`).join("")||"";
 }
 
-function closePop() {
-    document.getElementById("pop").style.display = "none";
-}
-
-function downloadCheat() {
-    let a = document.createElement("a");
-    a.href = URL.createObjectURL(new Blob([currentText]));
-    a.download = currentFileName;
+function downloadCheat(){
+    if(!CURRENT_FILE || !CURRENT_CONTENT) return;
+    const blob = new Blob([CURRENT_CONTENT], { type: "text/plain" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = CURRENT_FILE;
     a.click();
+    URL.revokeObjectURL(url);
 }
+
+function closePop(){document.getElementById("pop").style.display="none";}
 </script>
 </body>
 </html>
