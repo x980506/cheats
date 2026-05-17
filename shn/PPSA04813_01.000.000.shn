@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Outcast A New Beginning" Moder="Yharnam & baobao8888汉化" Cusa="PPSA04813" Version="01.000.000" Process="eboot.bin">
+<Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Outcast A New Beginning" Moder="Yharnam" Cusa="PPSA04813" Version="01.000.000" Process="eboot.bin">
   <Genres Name="Action" />
   <Items />
-  <Cheat Text="Infi Health-无限生命">
+  <Cheat Text="无限生命 | Infi Health">
     <Cheatline>
       <Section>0</Section>
       <Offset>6CFE900</Offset>
@@ -16,7 +16,7 @@
       <ValueOff>C4-C1-7A-5F-85-B4-00-00-00</ValueOff>
     </Cheatline>	
   </Cheat>
-  <Cheat Text="1 Hit Kill-一击必杀">
+  <Cheat Text="一击必杀 | 1 Hit Kill">
     <Cheatline>
       <Section>0</Section>
       <Offset>6CFE996</Offset>
@@ -30,7 +30,7 @@
       <ValueOff>88-85-A8-F9-FF-FF</ValueOff>
     </Cheatline>	
   </Cheat>
-  <Cheat Text="Infi Power-无限能量">
+  <Cheat Text="无限能量 | Infi Power">
     <Cheatline>
       <Section>0</Section>
       <Offset>1BC9C1B</Offset>
@@ -38,7 +38,7 @@
       <ValueOff>C5-FA-5D-0D-CD-95-84-06</ValueOff>
     </Cheatline>	
   </Cheat>  
-  <Cheat Text="Max Items (2st get)-物品最大数量（获取即满）">
+  <Cheat Text="物品最大数量（获取即满） | Max Items (2st get)">
     <Cheatline>      
       <Section>0</Section>
       <Offset>6CFE964</Offset>
@@ -52,7 +52,7 @@
       <ValueOff>44-01-E8-41-89-47-38</ValueOff>
     </Cheatline>	
   </Cheat>
-  <Cheat Text="Infi Ammo & Items (Unlimited Use)-无限弹药与物品（无限使用）">
+  <Cheat Text="无限弹药与物品（无限使用） | Infi Ammo & Items (Unlimited Use)">
     <Cheatline>      
       <Section>0</Section>
       <Offset>6CFE932</Offset>
@@ -66,7 +66,7 @@
       <ValueOff>41-89-44-24-38</ValueOff>
     </Cheatline>	
   </Cheat>
-  <Cheat Text="No Weapon Overheating-武器无过热">
+  <Cheat Text="武器无过热 | No Weapon Overheating">
     <Cheatline>      
       <Section>0</Section>
       <Offset>201138D</Offset>
@@ -74,7 +74,7 @@
       <ValueOff>C5-F2-5C-C0</ValueOff>
     </Cheatline>
   </Cheat>  
-  <Cheat Text="Infi Jet-无限喷气背包">
+  <Cheat Text="无限喷气背包 | Infi Jet">
     <Cheatline>      
       <Section>0</Section>
       <Offset>1BCF618</Offset>

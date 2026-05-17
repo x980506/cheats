@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Dragons Dogma 2" Moder="Celogamez & baobao8888汉化" Cusa="PPSA18727" Version="03.000.000" Process="eboot.bin">
+<Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Dragons Dogma 2" Moder="Celogamez" Cusa="PPSA18727" Version="03.000.000" Process="eboot.bin">
   <Genres Name="Action" />
   <Genres Name="RPG" />
   <Items />
-  <Cheat Text="Infinite Health/Pawns (Mastercode/Must Be On) - 无限生命/队友（主代码/必须开启）">
+  <Cheat Text="无限生命/队友（主代码/必须开启） | Infinite Health/Pawns (Mastercode/Must Be On) ">
     <Cheatline>
       <Offset>8083DB0</Offset>
       <Section>0</Section>
@@ -17,7 +17,7 @@
       <ValueOff>C4-C1-7A-11-47-34</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health - 无限生命">
+  <Cheat Text="无限生命 | Infinite Health">
     <Cheatline>
       <Offset>8083DB8</Offset>
       <Section>0</Section>
@@ -25,7 +25,7 @@
       <ValueOff>EB-11</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Health Pawns - 队友无限生命">
+  <Cheat Text="队友无限生命 | Infinite Health Pawns">
     <Cheatline>
       <Offset>8083DD2</Offset>
       <Section>0</Section>
@@ -33,7 +33,7 @@
       <ValueOff>EB-EC</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Stamina - 无限耐力">
+  <Cheat Text="无限耐力 | Infinite Stamina">
     <Cheatline>
       <Offset>80839E0</Offset>
       <Section>0</Section>
@@ -47,7 +47,7 @@
       <ValueOff>C5-FA-11-43-20</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite Items - 无限物品">
+  <Cheat Text="无限物品 | Infinite Items">
     <Cheatline>
       <Offset>6E10D21</Offset>
       <Section>0</Section>
@@ -55,7 +55,7 @@
       <ValueOff>66-89-41-1A</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max/Infinite Gold On Pick - 拾取时获得最大/无限金币">
+  <Cheat Text="拾取时获得最大/无限金币 | Max/Infinite Gold On Pick">
     <Cheatline>
       <Offset>8083A60</Offset>
       <Section>0</Section>
@@ -69,7 +69,7 @@
       <ValueOff>44-89-A9-CC-02-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="No Weight - 无负重">
+  <Cheat Text="无负重 | No Weight">
     <Cheatline>
       <Offset>80836E0</Offset>
       <Section>0</Section>
@@ -83,7 +83,7 @@
       <ValueOff>48-8B-4D-B8-89-44-19-0C</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Max Xp/Levels - 最大经验/等级">
+  <Cheat Text="最大经验/等级 | Max Xp/Levels">
     <Cheatline>
       <Offset>8083B90</Offset>
       <Section>0</Section>
@@ -97,7 +97,7 @@
       <ValueOff>74-3A-41-01-5D-28</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infinite DCP Points - 无限DCP点数">
+  <Cheat Text="无限DCP点数 | Infinite DCP Points">
     <Cheatline>
       <Offset>8083580</Offset>
       <Section>0</Section>

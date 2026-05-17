@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="DOOM The Dark Ages" Moder="Yharnam & baobao8888汉化" Cusa="PPSA20560" Version="01.009.000" Process="eboot.bin">
+<Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="DOOM The Dark Ages" Moder="Yharnam" Cusa="PPSA20560" Version="01.009.000" Process="eboot.bin">
   <Genres Name="Action"/>
   <Items/>
-  <Cheat Text="1 Hit Kill-一击必杀">
+  <Cheat Text="一击必杀 | 1 Hit Kill">
     <Cheatline>
       <Section>0</Section>
       <Offset>3725DA0</Offset>
@@ -16,7 +16,7 @@
       <ValueOff>C5-FA-10-83-BC-2F-00-00</ValueOff>
     </Cheatline>		
   </Cheat>  
-  <Cheat Text="Untouchable (Player)-无敌（玩家）" Description="教程关卡中关闭此功能可使用盾牌格挡攻击">
+  <Cheat Text="无懈可击（玩家） | Untouchable (Player)" Description="教程关卡中关闭此功能可使用盾牌格挡攻击">
     <Cheatline>      
       <Section>0</Section>
       <Offset>3725C00</Offset>
@@ -30,7 +30,7 @@
       <ValueOff>FF-90-10-0F-00-00</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Untouchable (Mech, Turret)-无敌（机甲、炮台）">
+  <Cheat Text="无懈可击（机甲、炮台） | Untouchable (Mech, Turret)">
     <Cheatline>      
       <Section>0</Section>
       <Offset>E59CC3</Offset>
@@ -38,7 +38,7 @@
       <ValueOff>E8-E4-A9-03-00</ValueOff>
     </Cheatline>
   </Cheat>  
-  <Cheat Text="Infi Health (Player)-无限生命（玩家）">
+  <Cheat Text="无限生命（玩家） | Infi Health (Player)">
     <Cheatline>      
       <Section>0</Section>
       <Offset>3725C50</Offset>
@@ -52,7 +52,7 @@
       <ValueOff>C4-E3-79-17-00-01</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infi Health (Mech, Turret)-无限生命（机甲、炮台）">
+  <Cheat Text="无限生命（机甲、炮台） | Infi Health (Mech, Turret)">
     <Cheatline>      
       <Section>0</Section>
       <Offset>3725D00</Offset>
@@ -66,7 +66,7 @@
       <ValueOff>C4-E3-79-17-00-01</ValueOff>
     </Cheatline>
   </Cheat>
-  <Cheat Text="Infi Health (Dragon)-无限生命（巨龙）">
+  <Cheat Text="无限生命（巨龙） | Infi Health (Dragon)">
     <Cheatline>      
       <Section>0</Section>
       <Offset>3725DF0</Offset>
@@ -80,7 +80,7 @@
       <ValueOff>C5-FA-10-93-C4-2F-00-00</ValueOff>
     </Cheatline>
   </Cheat>  
-  <Cheat Text="Infi Ammo-无限弹药">
+  <Cheat Text="无限弹药 | Infi Ammo">
     <Cheatline>      
       <Section>0</Section>
       <Offset>3725CA0</Offset>
@@ -94,7 +94,7 @@
       <ValueOff>44-01-F6-89-73-60</ValueOff>
     </Cheatline>	
   </Cheat>  
-  <Cheat Text="Infi Shield Durability-无限盾牌耐久度">
+  <Cheat Text="无限盾牌耐久度 | Infi Shield Durability">
     <Cheatline>      
       <Section>0</Section>
       <Offset>7FAEA9</Offset>
@@ -108,7 +108,7 @@
       <ValueOff>C5-FA-11-87-50-0A-00-00</ValueOff>
     </Cheatline>	
   </Cheat>
-  <Cheat Text="Infi Punch-无限重拳">
+  <Cheat Text="无限重拳 | Infi Punch">
     <Cheatline>
       <Section>0</Section>
       <Offset>E1EED4</Offset>
@@ -116,7 +116,7 @@
       <ValueOff>C5-F2-5C-C0</ValueOff>
     </Cheatline>	
   </Cheat>
-  <Cheat Text="Infi Gold & Ruby (Use)-无限金币与红宝石（使用时）">
+  <Cheat Text="无限金币与红宝石（使用时） | Infi Gold & Ruby (Use)">
     <Cheatline>      
       <Section>0</Section>
       <Offset>3725D50</Offset>

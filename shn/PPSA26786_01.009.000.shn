@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Indiana Jones and The Great Circle" Moder="Yharnam & baobao8888汉化" Cusa="PPSA26786" Version="01.009.000" Process="eboot.bin">
+<Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Indiana Jones and The Great Circle" Moder="Yharnam" Cusa="PPSA26786" Version="01.009.000" Process="eboot.bin">
   <Genres Name="Action"/>
   <Items/>
-  <Cheat Text="1 Hit Kill-一击必杀">
+  <Cheat Text="一击必杀 | 1 Hit Kill">
     <Cheatline>      
       <Section>0</Section>
       <Offset>352F3E0</Offset>
@@ -16,7 +16,7 @@
       <ValueOff>C4-C1-7A-11-4D-44</ValueOff>
     </Cheatline>	
   </Cheat>    
-  <Cheat Text="Infi Health-无限生命">
+  <Cheat Text="无限生命 | Infi Health">
     <Cheatline>      
       <Section>0</Section>
       <Offset>352F390</Offset>
@@ -30,7 +30,7 @@
       <ValueOff>C4-C1-7A-11-45-50</ValueOff>
     </Cheatline>
   </Cheat>  
-  <Cheat Text="Infi Stamina-无限体力">
+  <Cheat Text="无限体力 | Infi Stamina">
     <Cheatline>      
       <Section>0</Section>
       <Offset>E8ABB8</Offset>
@@ -50,7 +50,7 @@
       <ValueOff>41-FF-C9</ValueOff>
     </Cheatline>	
   </Cheat>
-  <Cheat Text="Infi Money & Points (Get)-无限金钱与点数（获取）" Description="药瓶数量不减少">
+  <Cheat Text="无限金钱与点数（获取） | Infi Money & Points (Get)" Description="药瓶数量不减少">
     <Cheatline>      
       <Section>0</Section>
       <Offset>352F430</Offset>

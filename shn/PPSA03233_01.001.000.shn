@@ -1,4 +1,4 @@
-?<?xml version="1.0" encoding="utf-8"?><Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Stranger Of Paradise - Final Fantasy" Moder="Reddevil82 & baobao8888汉化" Cusa="PPSA03233" Version="01.001.000" Process="eboot.bin">  
+?<?xml version="1.0" encoding="utf-8"?><Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Stranger Of Paradise - Final Fantasy" Moder="Reddevil82" Cusa="PPSA03233" Version="01.001.000" Process="eboot.bin">  
 <Genres Name="Action" />  <Items />  
 
   <Cheat Text="作弊器提示信息（只读）" Description="注意：若尝试用职业点数提升贤者职业等级，重新打开职业菜单后游戏会崩溃。此问题并非作弊器问题，即使未启用作弊器也会出现该问题，属于游戏自身漏洞。">    
