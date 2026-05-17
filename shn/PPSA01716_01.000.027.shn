@@ -2,7 +2,7 @@
 <Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Need for Speed Unbound" Moder="Yharnam" Cusa="PPSA01716" Version="01.000.027" Process="eboot.bin">
   <Genres Name="Racing" />  
   <Items />
-  <Cheat Text="无限氮气 | Infi Nitro">
+  <Cheat Text="无限氮气 | Infi Nitro" Description="">
     <Cheatline>
       <Offset>4EAF032</Offset>
       <Section>0</Section>
@@ -16,7 +16,7 @@
       <ValueOff>C5-FA-10-48-48-C5-F2-5D-C8</ValueOff>
     </Cheatline>		
   </Cheat>
-  <Cheat Text="吸取敌人氮气 | Drain Enemies Nitro">
+  <Cheat Text="吸取敌人的氮气 | Drain Enemies Nitro" Description="">
     <Cheatline>
       <Offset>4EAF064</Offset>
       <Section>0</Section>
@@ -30,7 +30,7 @@
       <ValueOff>C5-FA-11-83-74-01-00-00</ValueOff>
     </Cheatline>		
   </Cheat>  
-  <Cheat Text="金钱最大 | Max Money" Description="购买任何东西| Buy Anything">
+  <Cheat Text="最大货币 | Max Money" Description="Buy Anything">
     <Cheatline>
       <Offset>4EAF000</Offset>
       <Section>0</Section>
