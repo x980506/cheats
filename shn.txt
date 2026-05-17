@@ -1,3 +1,9 @@
+1-PPSA02530_01.200.000.shn=实质存在.PRAGMATA Deluxe Edition
+2-PPSA30803_01.200.000.shn=生化危机9：安魂曲（美版全DLC）
+3-PPSA26679_01.003.000.shn=忍者龙剑传2 – 黑之章.NINJA GAIDEN 2 Black
+4-PPSA26344_01.008.000.shn=羊蹄山之魂：数字豪华版.Ghost of Yōtei Digital Deluxe Edition
+5-PPSA21704_01.041.000.shn=天国：拯救2 – 黄金版.Kingdom Come: Deliverance II Gold Edition
+---------------------------------------------------------------------------------------
 PPSA01285_03.000.004.shn=死亡回归.Returnal
 PPSA01337_01.009.000.shn=对马岛之魂
 PPSA01341_01.004.000.shn=恶魔之魂：重制版.Demon’s Souls Remake
