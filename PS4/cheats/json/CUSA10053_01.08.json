@@ -1,0 +1,77 @@
+{
+  "name": "Hokuto Ga Gotoku 人中北斗",
+  "id": "CUSA10053",
+  "version": "01.08",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Infinite Health | 无限生命",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1C1FF53",
+          "on": "89",
+          "off": "39"
+        }
+      ]
+    },
+    {
+      "name": "Max Power Gauge | 最大七星量表",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1C1FF5B",
+          "on": "89",
+          "off": "39"
+        }
+      ]
+    },
+    {
+      "name": "One Hit Kill | 一击必杀",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1C1FF38",
+          "on": "89",
+          "off": "39"
+        }
+      ]
+    },
+    {
+      "name": "Max Experience | 最大经验值",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "995AD6",
+          "on": "4F",
+          "off": "4C"
+        }
+      ]
+    },
+    {
+      "name": "Destiny Orbs 999 | 宿命珠 999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1C1FF71",
+          "on": "00",
+          "off": "07"
+        }
+      ]
+    },
+    {
+      "name": "Cash & Casino Chip 99,999,999 | 理想币和赌场筹码 99,999,999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1C1FF91",
+          "on": "00",
+          "off": "15"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Fullcodes"
+  ]
+}

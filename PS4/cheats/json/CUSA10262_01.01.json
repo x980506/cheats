@@ -1,0 +1,47 @@
+{
+  "name": "The Coma: Recut 昏迷：切割",
+  "id": "CUSA10262",
+  "version": "01.00",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Infinite Health | 无限生命",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "816E65E0",
+          "on": "8B48308948304D85F6E9A66EA0FE",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "section": "0",
+          "offset": "800ED48E",
+          "on": "E94D915F0190",
+          "off": "8948304D85F6"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Stamina | 无限耐力",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "816E6610",
+          "on": "8B481C8948344D85F6E9DF7CA0FE",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "section": "0",
+          "offset": "800EE2F7",
+          "on": "E914835F0190",
+          "off": "8948344D85F6"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Dreamcast2"
+  ]
+}
