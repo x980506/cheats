@@ -1,0 +1,207 @@
+{
+  "name": "ONE PIECE ODYSSEY 海贼王：时光旅诗",
+  "id": "CUSA17998",
+  "version": "02.01",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Invincible Mode | 无敌模式",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "086EFFE7",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Infinite HP | 无限 HP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "086EFFE0",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Infinite TP | 无限 TP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "086EFFE1",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Empty Enemies TP | 清空敌人 TP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "086EFFE5",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Always Revive | 总是复活",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "086EFFE2",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "One Hit Kill | 一击必杀",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "086EFFE6",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Item Usage In Battle | 战斗中道具使用不减",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1C3ACEC",
+          "on": "39",
+          "off": "29"
+        }
+      ]
+    },
+    {
+      "name": "100%% Critical Change | 100%% 暴击率",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "086EFFE3",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "100%% Drop Rate | 100%% 掉宝率",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "086EFFE4",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Move Speed Multiply 2 | 移动速度 2 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "086EFFE8",
+          "on": "01",
+          "off": "00"
+        },
+        {
+          "offset": "627E3BC",
+          "on": "0040",
+          "off": "803F"
+        }
+      ]
+    },
+    {
+      "name": "Move Speed Multiply 3 | 移动速度 3 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "086EFFE8",
+          "on": "01",
+          "off": "00"
+        },
+        {
+          "offset": "627E3BC",
+          "on": "4040",
+          "off": "803F"
+        }
+      ]
+    },
+    {
+      "name": "EXP Multiply 10 | 经验值 10 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "183718F",
+          "on": "C9",
+          "off": "35"
+        }
+      ]
+    },
+    {
+      "name": "Max EXP | 最大经验值",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "18371C9",
+          "on": "89",
+          "off": "39"
+        }
+      ]
+    },
+    {
+      "name": "Belly Multiply 1000 | 金钱 1000 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "627E476",
+          "on": "05484102",
+          "off": "0DCA4602"
+        },
+        {
+          "offset": "627E482",
+          "on": "FA474102",
+          "off": "02CA4602"
+        }
+      ]
+    },
+    {
+      "name": "Belly Multiply 5000 | 金钱 5000 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "627E476",
+          "on": "F1D9FBFF",
+          "off": "0DCA4602"
+        },
+        {
+          "offset": "627E482",
+          "on": "E6D9FBFF",
+          "off": "02CA4602"
+        }
+      ]
+    },
+    {
+      "name": "Belly 9,999,999,999 | 金钱 9,999,999,999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1837F24",
+          "on": "89",
+          "off": "39"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Fullcodes"
+  ]
+}

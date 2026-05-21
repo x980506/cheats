@@ -1,0 +1,149 @@
+{
+  "name": "Assassin's Creed® Valhalla",
+  "id": "CUSA18534",
+  "version": "08.00",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Infinite Health | 无限 HP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4EAE430",
+          "on": "C7873801000054010000E9451B73FD",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "25DFF7E",
+          "on": "E9ADE48C0290",
+          "off": "899738010000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Stamina | 无限耐力",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4EAE440",
+          "on": "C5FA10570CE943B9BDFD",
+          "off": "00000000000000000000"
+        },
+        {
+          "offset": "2A89D88",
+          "on": "E9B3464202",
+          "off": "C5FA11570C"
+        },
+        {
+          "offset": "4EAE450",
+          "on": "C5FA10470CE909BABDFD",
+          "off": "00000000000000000000"
+        },
+        {
+          "offset": "2A89E5E",
+          "on": "E9ED454202",
+          "off": "C5FA11470C"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Horse Stamina | 马匹无限耐力",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4EAE460",
+          "on": "C4C17A10470CE919C8BDFD",
+          "off": "0000000000000000000000"
+        },
+        {
+          "offset": "2A8AC7E",
+          "on": "E9DD37420290",
+          "off": "C4C17A11470C"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Oxygen | 无限氧气",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4EAE470",
+          "on": "C5FA108084060000E900DE88FF",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "473C275",
+          "on": "E9F6217700909090",
+          "off": "C5FA118084060000"
+        }
+      ]
+    },
+    {
+      "name": "Max Money/Arrows/Resources/Consumables | 最大金钱/箭矢/资源/消耗品 (使用或购买后)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4EAE480",
+          "on": "0F42C141C704240F270000E9EA24CCFD",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "2B70973",
+          "on": "E908DB33029090",
+          "off": "0F42C141890424"
+        }
+      ]
+    },
+    {
+      "name": "Max Adrenaline | 最大肾上腺素 (使用或获得后)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4EAE490",
+          "on": "41C78740010000F4010000E9747572FD",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "25D5A0D",
+          "on": "E97E8A8D029090",
+          "off": "41899F40010000"
+        }
+      ]
+    },
+    {
+      "name": "Max Skill Points | 最大技能点数 (获得后)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4EAE4A0",
+          "on": "410F47DDC74110E7030000E9E075B5FD",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "2A05A89",
+          "on": "E9128A4A029090",
+          "off": "410F47DD895910"
+        }
+      ]
+    },
+    {
+      "name": "Max Mastery Points | 最大特长点数 (获得后)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4EAE4B0",
+          "on": "410F47DDC741183E000000E98475B5FD",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "2A05A3D",
+          "on": "E96E8A4A029090",
+          "off": "410F47DD895918"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Celogamez"
+  ]
+}

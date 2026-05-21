@@ -1,0 +1,11 @@
+{"name":"SCARLET NEXUS 绯红结系","id":"CUSA17758","version":"01.08","process":"eboot.bin","mods":[
+{"name":"Infinite Health | 无限生命","type":"checkbox","memory":[{"offset":"0953FFF1","on":"01","off":"00"}]},
+{"name":"Infinite Psychokinesis Attack | 无限念力攻击","type":"checkbox","memory":[{"offset":"0953FFF6","on":"01","off":"00"}]},
+{"name":"SAS Skills No Cooldown | SAS 技能无需冷却","type":"checkbox","memory":[{"offset":"0953FFF7","on":"01","off":"00"}]},
+{"name":"One Hit Kill | 一击必杀","type":"checkbox","memory":[{"offset":"0953FFF2","on":"01","off":"00"}]},
+{"name":"Max Items | 最大道具数量","type":"checkbox","memory":[{"offset":"1125D5D","on":"00","off":"2E"}]},
+{"name":"Max EXP | 最大经验值","type":"checkbox","memory":[{"offset":"0953FFF3","on":"01","off":"00"}]},
+{"name":"Infinite BP | 无限 BP","type":"checkbox","memory":[{"offset":"0953FFF4","on":"01","off":"00"}]},
+{"name":"Funds 99999999 | 持有金钱 99999999","type":"checkbox","memory":[{"offset":"1124D36","on":"EB","off":"7D"}]},
+{"name":"Dash Speed Multiply 2 | 冲刺速度 2 倍","type":"checkbox","memory":[{"offset":"0953FFF5","on":"01","off":"00"}]}
+],"credits":["Fullcodes"]}

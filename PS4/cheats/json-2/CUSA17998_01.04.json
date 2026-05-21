@@ -1,0 +1,75 @@
+{
+  "name": "ONE PIECE ODYSSEY 海贼王：时光旅诗",
+  "id": "CUSA17998",
+  "version": "01.04",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Infinite TP | 无限 TP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5CEC540",
+          "on": "66C780240200000F27E9D412B2FB",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "180D81C",
+          "on": "E91FED4D0490",
+          "off": "899024020000"
+        }
+      ]
+    },
+    {
+      "name": "Max EXP | 最大经验值",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5CEC560",
+          "on": "C5FA2CC041C74750FFE0F50541034750E9D84BB2FB",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1811145",
+          "on": "E916B44D04909090",
+          "off": "C5FA2CC041034750"
+        }
+      ]
+    },
+    {
+      "name": "Berry 99,999,999 | 贝里 99,999,999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5CEC590",
+          "on": "488B7C2430C74750FFE0F505E98359B2FB",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "1811F1B",
+          "on": "E970A64D0490909090",
+          "off": "488B7C24304C897F50"
+        }
+      ]
+    },
+    {
+      "name": "Items 90 on Use | 道具使用后数量 90",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5CEC5C0",
+          "on": "488B4DC0C6075AE9F019F1FB",
+          "off": "000000000000000000000000"
+        },
+        {
+          "offset": "1BFDFB5",
+          "on": "E906E60E049090",
+          "off": "488B4DC044892F"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Wander"
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "name": "Resident Evil Village Gold Edition 生化危机 村庄 黄金版",
+  "id": "CUSA18045",
+  "version": "01.11",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Invincible / Ignore Hits | 无敌模式 / 无视伤害判定",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "100ABE06",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health | 无限生命",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "100ABE00",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "One Hit Kill | 一击必杀",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "100ABE01",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "No Reload | 无需装弹",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "04A98FA7",
+          "on": "00",
+          "off": "01"
+        },
+        {
+          "offset": "04A89A03",
+          "on": "00",
+          "off": "01"
+        }
+      ]
+    },
+    {
+      "name": "Rapid Fire | 快速射击",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "100ABE09",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "No Recoil | 无后坐力",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "034E6E2E",
+          "on": "8F",
+          "off": "8E"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ammo & Items | 无限弹药和物品",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "100ABE02",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Freeze Game Time | 锁定游玩时间",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6253FD0",
+          "on": "C3",
+          "off": "55"
+        }
+      ]
+    },
+    {
+      "name": "Full Rose's Power Gauge | 满萝丝变异霉菌力量槽",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "A12EE80",
+          "on": "B8F40100008942108942148941283B4128E904DEF2F6",
+          "off": "00000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "105CC94",
+          "on": "E9E7210D0990",
+          "off": "8B42143B4128"
+        }
+      ]
+    },
+    {
+      "name": "Hold L1 or L2 to High Speed | 按住 L1 或 L2 高速移动",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "100ABE03",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Lei 9999999 | 列伊 9999999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "100ABE05",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "CP 9999900 in Extra Content Shop | 奖励内容商店 CP 9999900",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "100ABE04",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "The Mercenaries - Restore Limit Time  | 佣兵模式 - 还原限制时间",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "100ABE08",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "The Mercenaries - Score Multiply 100 | 佣兵模式 - 得分 100 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "100ABE07",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Highlight Items & Interactables | 显示可互动 / 可收集物品",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3107D44",
+          "on": "0F57C090",
+          "off": "C5F258C0"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Fullcodes"
+  ]
+}

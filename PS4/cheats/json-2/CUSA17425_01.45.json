@@ -1,0 +1,173 @@
+{
+  "name": "SnowRunner 雪地奔驰",
+  "id": "CUSA17425",
+  "version": "01.45",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Infinite Fuel | 无限汽油",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "02EEFFF2",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Engine No Damage | 引擎不会受损", 
+      "type": "checkbox", 
+      "memory": [
+        {
+          "offset": "20028A6", 
+          "on": "00", 
+          "off": "09"
+        }
+      ]
+    }, 
+    {
+      "name": "Infinite Repair Points | 无限修理点数", 
+      "type": "checkbox", 
+      "memory": [
+        {
+          "offset": "02EEFFF4", 
+          "on": "01", 
+          "off": "00"
+        }
+      ]
+    }, 
+    {
+      "name": "Infinite Spare Tires | 无限备用轮胎",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "02EEFFF5", 
+          "on": "01", 
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Money 999999999 | 金钱 999999999", 
+      "type": "checkbox", 
+      "memory": [
+        {
+          "offset": "02EEFFF0", 
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    }, 
+    {
+      "name": "Max EXP | 最大经验值", 
+      "type": "checkbox", 
+      "memory": [
+        {
+          "offset": "02EEFFF1", 
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    }, 
+    {
+      "name": "Freeze Daytime | 锁定当天时间",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2002900",
+          "on": "C5FA108138010000C5FA118138010000E91189DAFE",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "DAB21E",
+          "on": "E9DD762501909090",
+          "off": "C5FA118138010000"
+        }
+      ]
+    },
+    {
+      "name": "Set Time of Day (Morning 08:00) | 设定时间 (上午 08:00)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2002900",
+          "on": "C7813801000000000041E91789DAFE",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "DAB21E",
+          "on": "E9DD762501909090",
+          "off": "C5FA118138010000"
+        }
+      ]
+    },
+    {
+      "name": "Set Time of Day (Midday 12:00) | 设定时间 (上午 12:00)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2002900",
+          "on": "C7813801000000004041E91789DAFE",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "DAB21E",
+          "on": "E9DD762501909090",
+          "off": "C5FA118138010000"
+        }
+      ]
+    },
+    {
+      "name": "Set Time of Day (Afternoon 16:00) | 设定时间 (下午 16:00)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2002900",
+          "on": "C7813801000000008041E91789DAFE",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "DAB21E",
+          "on": "E9DD762501909090",
+          "off": "C5FA118138010000"
+        }
+      ]
+    },
+    {
+      "name": "Set Time of Day (Evening 20:00) | 设定时间 (下午 20:00)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2002900",
+          "on": "C781380100000000A041E91789DAFE",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "DAB21E",
+          "on": "E9DD762501909090",
+          "off": "C5FA118138010000"
+        }
+      ]
+    },
+    {
+      "name": "Set Time of Day (Night 00:00) | 设定时间 (夜晚 00:00)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2002900",
+          "on": "C7813801000000000000E91789DAFE",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "DAB21E",
+          "on": "E9DD762501909090",
+          "off": "C5FA118138010000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Reddevil82 & jwhy"
+  ]
+}

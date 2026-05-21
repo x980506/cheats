@@ -1,0 +1,14 @@
+{"name":"Resident Evil Village Gold Edition 生化危机 村庄 黄金版","id":"CUSA18045","version":"01.11","process":"eboot.bin","mods":[
+{"name":"Money 9999999 金钱 9999999","type":"checkbox","memory":[{"offset":"100ABE05","on":"01","off":"00"}]},
+{"name":"CP 9999900 in Extra Content Shop 奖励内容商店CP 9999900","type":"checkbox","memory":[{"offset":"100ABE04","on":"01","off":"00"}]},
+{"name":"Infinite Ammo and Item Use 无限弹药和道具使用","type":"checkbox","memory":[{"offset":"100ABE02","on":"01","off":"00"}]},
+{"name":"No Reload 无需装弹","type":"checkbox","memory":[{"offset":"04A98FA7","on":"00","off":"01"},{"offset":"04A89A03","on":"00","off":"01"}]},
+{"name":"Rapid Fire 快速射击","type":"checkbox","memory":[{"offset":"100ABE09","on":"01","off":"00"}]},
+{"name":"No Recoil 无后坐力","type":"checkbox","memory":[{"offset":"034E6E2E","on":"8F","off":"8E"}]},
+{"name":"Infinite Player Health 生命值最大维持","type":"checkbox","memory":[{"offset":"100ABE00","on":"01","off":"00"}]},
+{"name":"Player Invincible 角色无敌状态","type":"checkbox","memory":[{"offset":"100ABE06","on":"01","off":"00"}]},
+{"name":"Hold <L1> or <L2> to Player High Speed 按住<L1>或<L2>高速移动","type":"checkbox","memory":[{"offset":"100ABE03","on":"01","off":"00"}]},
+{"name":"One Hit Kill 一击必杀","type":"checkbox","memory":[{"offset":"100ABE01","on":"01","off":"00"}]},
+{"name":"Restore Limit Time in The Mercenaries 佣兵模式还原限制时间","type":"checkbox","memory":[{"offset":"100ABE08","on":"01","off":"00"}]},
+{"name":"Score Mulit 100 on Gain in The Mercenaries 佣兵模式分数100倍获得","type":"checkbox","memory":[{"offset":"100ABE07","on":"01","off":"00"}]}
+],"credits":[" Fullcodes"]}

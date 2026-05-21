@@ -1,0 +1,63 @@
+﻿{
+	"name": "四海兄弟1决定版",
+	"id": "CUSA18100",
+	"version": "01.04",
+	"process": "eboot.bin",
+	"mods": [
+		{
+			"name": "无限生命",
+			"type": "checkbox",
+			"memory": [
+				{
+					"offset": "4BEFE00",
+					"on": "C7430C003C1C46EB00C5FA10430CE9EE6739FD",
+					"off": "00000000000000000000000000000000000000"
+				},
+				{
+					"offset": "1F865FC",
+					"on": "E9FF97C602",
+					"off": "C5FA10430C"
+				}
+			]
+		},
+		{
+			"name": "无限弹夹/手雷",
+			"type": "checkbox",
+			"memory": [
+				{
+					"offset": "19865C9",
+					"on": "01C6",
+					"off": "29C6"
+				}
+			]
+		},
+		{
+			"name": "无需装弹",
+			"type": "checkbox",
+			"memory": [
+				{
+					"offset": "4BEFE30",
+					"on": "0F85FA272AFD6681FC70A4750866C742186300EB038B4218E902282AFD",
+					"off": "0000000000000000000000000000000000000000000000000000000000"
+				},
+				{
+					"offset": "1E9264A",
+					"on": "E9E1D7D502",
+					"off": "75EA8B4218"
+				}
+			]
+		}
+	],
+	"credits": [
+		"Test"
+	]
+}  
+ 
+   
+   
+ 
+  
+   
+
+
+  

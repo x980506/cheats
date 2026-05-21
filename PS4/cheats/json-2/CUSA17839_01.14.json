@@ -1,0 +1,241 @@
+{
+  "name": "Marvel's Spider-Man: Miles Morales 漫威蜘蛛侠：迈尔斯·莫拉莱斯",
+  "id": "CUSA17839",
+  "version": "01.14",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Invincible / Ignore Hits | 无敌模式 / 无视伤害判定",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3C04630",
+          "on": "51B90100000041894D5159C4C1782E8588000000E94783C0FC",
+          "off": "00000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "80C987",
+          "on": "E9A47C3F0390909090",
+          "off": "C4C1782E8588000000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health | 无限生命",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3C04420",
+          "on": "81BBD00000000000803F751B4983FC087515C5FA109380000000C5FA119388000000E901BD2CFEC5FA119388000000E9F4BC2CFE",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1ED0140",
+          "on": "E9F342D301909090",
+          "off": "C5FA119388000000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Venom Gauge | 无限毒液槽",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3C04550",
+          "on": "51B90000C842660F6EE159E94033BEFC",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "7E7896",
+          "on": "E9B5CC41039090909090",
+          "off": "C4C17A11A4C50C010000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Shooter Devices | 无限发射装置",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3C04520",
+          "on": "29D8B80800000041894738E90DF72FFE",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "1F03C37",
+          "on": "E9E408D00190",
+          "off": "29D841894738"
+        }
+      ]
+    },
+    {
+      "name": "Finishers Always Available | 终结技始终可用",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3C04710",
+          "on": "45896678B80100000041894760E9D0EEB8FC",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "7935EA",
+          "on": "E921114703909090",
+          "off": "45896678418B4760"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Camouflage Duration | 伪装效果无限持续",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3C045D0",
+          "on": "C4C17A108E8801000041C786880100000000A041E934A6BBFC",
+          "off": "00000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "7BEC14",
+          "on": "E9B759440390909090",
+          "off": "C4C17A108E88010000"
+        }
+      ]
+    },
+    {
+      "name": "Instant Charge Camouflage Gauge | 瞬间充满伪装槽",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3C04600",
+          "on": "C4C17A1087A8010000C4C17A1187A0010000E9E7B9BBFC",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "7BFFF5",
+          "on": "E90646440390909090",
+          "off": "C4C17A1187A0010000"
+        }
+      ]
+    },
+    {
+      "name": "Activity Tokens & Tech Parts 99 | 活动代币和技术零件 99",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3C045A0",
+          "on": "FF901001000041BC6300000044896038E9F2A630FE",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1F0EC9D",
+          "on": "E9FE58CF019090909090",
+          "off": "FF901001000044036038"
+        }
+      ]
+    },
+    {
+      "name": "Skill Points 99 | 技能点 99",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3C044A0",
+          "on": "B8630000008981F8B90000E9EE17FAFC",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "BA5C98",
+          "on": "E903E8050390",
+          "off": "2981F8B90000"
+        }
+      ]
+    },
+    {
+      "name": "Max EXP | 最大经验值",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3C04470",
+          "on": "BB3C6D010041899EF0B90000E91F3DFAFC",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "BA8199",
+          "on": "E9D2C205039090",
+          "off": "41899EF0B90000"
+        }
+      ]
+    },
+    {
+      "name": "Combo 999 | 连击数 999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3C044C0",
+          "on": "0F841FF9B8FC41C74650E7030000E900F7B8FC",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "793BC9",
+          "on": "E9F20847039090909090",
+          "off": "0F841602000041FF4650"
+        }
+      ]
+    },
+    {
+      "name": "Move Speed Multiply 1.5 | 移动速度 1.5 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3C04664",
+          "on": "48EA8001",
+          "off": "D8FE8202"
+        }
+      ]
+    },
+    {
+      "name": "Move Speed Multiply 2 | 移动速度 2 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3C04664",
+          "on": "20ED24FF",
+          "off": "D8FE8202"
+        }
+      ]
+    },
+    {
+      "name": "Freeze Travesal Challenge Timer | 锁定穿梭挑战和潜行挑战倒计时",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3C046B0",
+          "on": "41C7010000A041C4C17A1001E91930E4FD",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "1A476D5",
+          "on": "E9D6CF1B02",
+          "off": "C4C17A1101"
+        }
+      ]
+    },
+    {
+      "name": "Freeze Combat Challenge Timer | 锁定战斗挑战和普通任务倒计时",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3C046E0",
+          "on": "C7436400006C42C5FA104364E925099CFC",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "5C5011",
+          "on": "E9CAF66303",
+          "off": "C5FA114364"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Gatot Kaca & Kevintamvan"
+  ]
+}
