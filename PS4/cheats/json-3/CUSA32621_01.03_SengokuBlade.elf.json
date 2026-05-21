@@ -1,0 +1,52 @@
+{
+  "name": "SengokuBlade",
+  "id": "CUSA32621",
+  "version": "01.03",
+  "process": "SengokuBlade.elf",
+  "mods": [
+    {
+      "name": "infinite boom/无限炸弹",
+      "description": "无限炸弹",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "397C4",
+          "on": "909090",
+          "off": "66FF08"
+        }
+      ]
+    },
+    {
+      "name": "infinite life/无限生命数",
+      "description": "无限生命数",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "39501",
+          "on": "909090909090",
+          "off": "6643FF4C3548"
+        }
+      ]
+    },
+    {
+      "name": "max power/最大火力",
+      "description": "最大火力",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1DB000",
+          "on": "66C744016E04000FBF4C016EE913D5E5FF",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "3851F",
+          "on": "E9DC2A1A00",
+          "off": "0FBF4C016E"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "allyzc"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "name": "哥里：可爱大灭绝",
+  "id": "CUSA33370",
+  "version": "01.08",
+  "process": "eboot.bin",
+  "mods": [
+	{
+      "name": "infinite hp/无限HP",
+      "description": "无限HP",
+      "type": "checkbox",
+      "memory": [
+		{
+          "offset": "10BE66A",
+          "on": "90909090909090909090",
+          "off": "C4C17A118424441A0000"
+        }
+      ]
+    },
+	{
+      "name": "infinite stamina/无限体力",
+      "description": "无限体力",
+      "type": "checkbox",
+      "memory": [
+		{
+          "offset": "10A4853",
+          "on": "90909090909090909090",
+          "off": "C4C17A11842474050000"
+        },
+		{
+          "offset": "10A5C4A",
+          "on": "9090909090909090",
+          "off": "C5FA118774050000"
+        }
+      ]
+    },
+	{
+      "name": "money +10000 when money add/每次金钱增加时额外加10000",
+      "description": "每次金钱增加时额外加10000",
+      "type": "checkbox",
+      "memory": [
+		{
+          "offset": "4F1B000",
+          "on": "4181C6960A00004489B0D0000000E9796A1CFC",
+          "off": "00000000000000000000000000000000000000"
+        },
+		{
+          "offset": "10E1A85",
+          "on": "E97695E3039090",
+          "off": "4489B0D0000000"
+        }
+      ]
+    },
+	{
+      "name": "score mul 10/十倍分数获取",
+      "description": "十倍分数获取",
+      "type": "checkbox",
+      "memory": [
+		{
+          "offset": "4F1B020",
+          "on": "6BDB0A019844010000E960521CFC",
+          "off": "0000000000000000000000000000"
+        },
+		{
+          "offset": "10E0288",
+          "on": "E993ADE30390",
+          "off": "019844010000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "allyzc"
+  ]
+}

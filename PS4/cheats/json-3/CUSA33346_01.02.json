@@ -1,0 +1,11 @@
+{"name":"Like a Dragon: Ishin!/如龙 维新 极","id":"CUSA33346","version":"01.02","process":"eboot.bin","mods":[
+{"name":"God Mode/Ignore Hits 无敌模式/无视伤害判定","type":"checkbox","memory":[{"offset":"06287FE5","on":"01","off":"00"}]},
+{"name":"Infinite Health 无限生命","type":"checkbox","memory":[{"offset":"06287FE7","on":"01","off":"00"}]},
+{"name":"Infinite Ammo 无限弹药","type":"checkbox","memory":[{"offset":"06287FE1","on":"01","off":"00"}]},
+{"name":"No Reload 无需装弹","type":"checkbox","memory":[{"offset":"06287FE0","on":"01","off":"00"}]},
+{"name":"No Recoil 无后坐力","type":"checkbox","memory":[{"offset":"06287FE8","on":"01","off":"00"}]},
+{"name":"Walk Speed Multi 3.0 移动速度3.0倍","type":"checkbox","memory":[{"offset":"06287FE3","on":"01","off":"00"}]},
+{"name":"Player Speed Multi 2.0 角色速度2.0倍","type":"checkbox","memory":[{"offset":"06287FE4","on":"01","off":"00"}]},
+{"name":"Unlock Player Sprint 解锁角色冲刺","type":"checkbox","memory":[{"offset":"06287FE2","on":"01","off":"00"}]},
+{"name":"One Hit Kill 一击必杀","type":"checkbox","memory":[{"offset":"06287FE6","on":"01","off":"00"}]}
+],"credits":[" Fullcodes（PLAYSTATION/PC修改讨论群:1167084913）"]}

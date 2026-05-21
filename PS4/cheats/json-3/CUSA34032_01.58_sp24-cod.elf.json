@@ -1,0 +1,11 @@
+{"name":"Call of Duty: Black OPS 6 使命召唤21：黑色行动6","id":"CUSA34032","version":"01.58","process":"sp24-cod.elf","mods":[
+{"name":"Infinite Health | 无限生命","type":"checkbox","memory":[{"offset":"2A3FCE8","on":"1A","off":"00"}]},
+{"name":"Infinite Ammo | 无限弹药","type":"checkbox","memory":[{"offset":"1B2720D","on":"31D2","off":"F7DA"}]},
+{"name":"No Reload | 无需装弹","type":"checkbox","memory":[{"offset":"23C5E9B","on":"00","off":"01"}]},
+{"name":"Infinite Grenades | 无限手雷","type":"checkbox","memory":[{"offset":"1B1A1CF","on":"00","off":"01"}]},
+{"name":"Rifle No Recoil | 步枪无后坐力","type":"checkbox","memory":[{"offset":"1B14553","on":"B0014831D2","off":"E888EEFFFF"}]},
+{"name":"No Spread | 准心不扩散","type":"checkbox","memory":[{"offset":"1AFFECB","on":"5D","off":"5F"}]},
+{"name":"Rapid Fire | 快速连射","type":"checkbox","memory":[{"offset":"1B2348F","on":"20","off":"28"},{"offset":"1B234B2","on":"9090","off":"8901"}]},
+
+{"name":"One Hit Kill | 一击必杀","type":"checkbox","memory":[{"offset":"2A3FCF0","on":"75","off":"EB"}]}
+],"credits":["Hank"]}

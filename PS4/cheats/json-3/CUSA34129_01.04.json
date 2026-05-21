@@ -1,0 +1,74 @@
+{
+  "name": "魔骑少女",
+  "id": "CUSA34129",
+  "version": "01.04",
+  "process": "eboot.bin",
+  "mods": [
+	{
+      "name": "infinite MP/无限MP",
+      "description": "无限MP",
+      "type": "checkbox",
+      "memory": [
+		{
+          "offset": "817609A5",
+          "on": "909090",
+          "off": "295844"
+        }
+      ]
+    },
+	{
+      "name": "infinite HP/无限HP",
+      "description": "无限HP",
+      "type": "checkbox",
+      "memory": [
+		{
+          "offset": "835E7000",
+          "on": "4983FA000F84157C17FEC5FA114328E90B7C17FE",
+          "off": "0000000000000000000000000000000000000000"
+        },
+		{
+          "offset": "8175EC1A",
+          "on": "E9E183E801",
+          "off": "C5FA114328"
+        }
+      ]
+    },
+	{
+      "name": "engrgy crystal X100/百倍能量水晶",
+      "description": "百倍能量水晶",
+      "type": "checkbox",
+      "memory": [
+		{
+          "offset": "835E7020",
+          "on": "0F8416B45AFD4183FF000F8C1CB35AFD456BFF64E913B35AFD",
+          "off": "00000000000000000000000000000000000000000000000000"
+        },
+		{
+          "offset": "80B92346",
+          "on": "E9D54CA50290",
+          "off": "0F84F0000000"
+        }
+      ]
+    },
+	{
+      "name": "Yupi Gold Coin X100/百倍尤皮金币",
+      "description": "百倍尤皮金币",
+      "type": "checkbox",
+      "memory": [
+		{
+          "offset": "835E7050",
+          "on": "0F849AB45AFD83FE000F8C04B45AFD6BF664E9FCB35AFD",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+		{
+          "offset": "80B9245D",
+          "on": "E9EE4BA50290",
+          "off": "0F848D000000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "allyzc"
+  ]
+}

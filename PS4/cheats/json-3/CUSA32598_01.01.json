@@ -1,0 +1,18 @@
+{"name":"Armored Core VI: Fires of Rubico 机战佣兵VI 境界天火","id":"CUSA32598","version":"01.01","process":"eboot.bin","mods":[
+{"name":"God Mode/Ignore Hits 无敌模式","type":"checkbox","memory":[{"offset":"03B4FF04","on":"01","off":"00"}]},
+{"name":"Infinite AP 无限机体点数","type":"checkbox","memory":[{"offset":"03B4FF01","on":"01","off":"00"}]},
+{"name":"Infinite EN 无限能源","type":"checkbox","memory":[{"offset":"03B4FF00","on":"01","off":"00"}]},
+{"name":"ACS Never Load Limit ACS不会过载","type":"checkbox","memory":[{"offset":"03B4FF02","on":"01","off":"00"}]},
+{"name":"AInfinite Defend Objectives AP 无限防卫目标机体点数","type":"checkbox","memory":[{"offset":"03B4FF06","on":"01","off":"00"}]},
+{"name":"COAM 99,999,999 金钱 99,999,999","type":"checkbox","memory":[{"offset":"03B4FF05","on":"01","off":"00"}]},
+{"name":"Infinite Repair Kits 修理工具使用不减","type":"checkbox","memory":[{"offset":"03B4FF0C","on":"01","off":"00"}]},
+{"name":"Infinite Ammo 无限弹药","type":"checkbox","memory":[{"offset":"00FA82B6","on":"39","off":"29"}]},
+{"name":"No Reload 无需装弹","type":"checkbox","memory":[{"offset":"00FA8BEA","on":"39","off":"29"}]},
+{"name":"Weapon No OverHeat 武器不过热","type":"checkbox","memory":[{"offset":"00FAC9EB","on":"5D","off":"5F"}]},
+{"name":"Freeze Mission Timer 任务计时器停止","type":"checkbox","memory":[{"offset":"03B4FF08","on":"01","off":"00"}]},
+{"name":"Zero Mission Timer 任务计时器清零","type":"checkbox","memory":[{"offset":"03B4FF09","on":"01","off":"00"}]},
+{"name":"Zero Mission Time Elapsed 任务耗时极少","type":"checkbox","memory":[{"offset":"03B4FF0A","on":"01","off":"00"}]},
+{"name":"Unlocks OS Tuning 解锁OS调整","type":"checkbox","memory":[{"offset":"03B4FF0B","on":"01","off":"00"}]},
+{"name":"One Hit ACS Load Limit 一击ACS过载","type":"checkbox","memory":[{"offset":"03B4FF03","on":"01","off":"00"}]},
+{"name":"One Hit Kill 一击必杀","type":"checkbox","memory":[{"offset":"03B4FF07","on":"01","off":"00"}]}
+],"credits":[" Fullcodes（PLAYSTATION/PC修改讨论群:1167084913）"]}

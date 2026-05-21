@@ -1,0 +1,257 @@
+{
+  "name": "Assassin's Creed Mirage 刺客信条：幻景",
+  "id": "CUSA33151",
+  "version": "01.06",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Invincible Mode | 无敌模式",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "09043FE2",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health | 无限生命",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "09043FE0",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Stamina | 无限耐力",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2E3565C",
+          "on": "5F",
+          "off": "5D"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Oxygen | 无限氧气",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1B4F46A",
+          "on": "D8",
+          "off": "DC"
+        }
+      ]
+    },
+    {
+      "name": "Stealth Mode | 隐身模式",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "09043FE5",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "One Hit Stun | 一击眩晕",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "09043FE4",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "One Hit Kill | 一击必杀",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "09043FE3",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Elixir | 无限灵药",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "37B2213",
+          "on": "00",
+          "off": "01"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Throwables | 无限投掷物",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "18A956E",
+          "on": "EB",
+          "off": "74"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Skill Points | 无限技能点数",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "09043FE7",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Skill Points 99 | 技能点数 99",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "09043FE6",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Zero Notoriety | 清空恶名度",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "09043FE8",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Maximum Health | 最大生命上限",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "09043FE1",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Ignore Upgrade Requirments | 无视升级需求",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "09043FED",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Resources 999999 | 资源 999999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "09043FE9",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Upgrade Materials 99999 | 升级材料 99999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "09043FEA",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Quest Items 999 | 任务物品 999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "09043FEE",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Game Speed Multiply 1.5 | 游戏速度 1.5 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "09043FEC",
+          "on": "01",
+          "off": "00"
+        },
+        {
+          "offset": "510467C",
+          "on": "C03F",
+          "off": "803F"
+        }
+      ]
+    },
+    {
+      "name": "Game Speed Multiply 2 | 游戏速度 2 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "09043FEC",
+          "on": "01",
+          "off": "00"
+        },
+        {
+          "offset": "510467C",
+          "on": "0040",
+          "off": "803F"
+        }
+      ]
+    },
+    {
+      "name": "Game Speed Multiply 3 | 游戏速度 3 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "09043FEC",
+          "on": "01",
+          "off": "00"
+        },
+        {
+          "offset": "510467C",
+          "on": "4040",
+          "off": "803F"
+        }
+      ]
+    },
+    {
+      "name": "Press L1+L2 Teleport to 1st Waypoint | 按 L1+L2 瞬移到第 1 个标志位",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "09043FEB",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Fullcodes"
+  ]
+}

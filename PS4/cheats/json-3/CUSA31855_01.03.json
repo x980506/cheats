@@ -1,0 +1,226 @@
+{
+  "name": "STAR OCEAN THE DIVINE FORCE 星之海洋：神圣之力",
+  "id": "CUSA31855",
+  "version": "01.05",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Infinite HP | 无限 HP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "03023FF1", 
+          "on": "01", 
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Infinite AP | 无限 AP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3BB0CD",
+          "on": "5F", 
+          "off": "5D"
+        }
+      ]
+    },
+    {
+      "name": "Infinite VA | 无限 VA",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6858D4",
+          "on": "5F", 
+          "off": "5D"
+        },
+        {
+          "offset": "685921",
+          "on": "5F", 
+          "off": "5D"
+        }
+      ]
+    },
+    {
+      "name": "Infinite VA Rush | 无限 VA 冲刺",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1C3936",
+          "on": "909090909090",
+          "off": "899194010000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite VATTING Gauge | 无限 VATTING 量表",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "685D16",
+          "on": "90909090",
+          "off": "C5EA5DC9"
+        }
+      ]
+    },
+    {
+      "name": "999 HITS | 999 HITS",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "38A395",
+          "on": "4489EB90", 
+          "off": "410F4FDD"
+        }
+      ]
+    },
+    {
+      "name": "One Hit Kill | 一击必杀",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "03023FF3", 
+          "on": "01", 
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Item Use | 无限道具使用",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6A8FD8",
+          "on": "BD", 
+          "off": "85"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Food Battles Effect Lasts | 料理效果持续战斗次数不减",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6875AC",
+          "on": "9090909090909090",
+          "off": "41FF8C24D8530700"
+        }
+      ]
+    }, 
+    {
+      "name": "EXP Multiply 10 on Gain | 经验值 10 倍获得",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "03023FF4", 
+          "on": "01", 
+          "off": "00"
+        }
+      ]
+    }, 
+    {
+      "name": "Max Level After Upgrade | 升级后等级 255",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2E2249",
+          "on": "F8", 
+          "off": "C7"
+        }
+      ]
+    },
+
+    {
+      "name": "SP 9999999 | SP 9999999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "03023FF2", 
+          "on": "01", 
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "FOL 99999999 on Gain | 金钱获得时 99999999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6A8D34",
+          "on": "00",
+          "off": "0F"
+        }
+      ]
+    }, 
+    {
+      "name": "DP 99999999 on Gain | DUMA 点数获得时 99999999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3FC752",
+          "on": "4E", 
+          "off": "4F"
+        }
+      ]
+    },
+    {
+      "name": "DP 99999999 on Use | DUMA 点数使用时 99999999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "A962AF",
+          "on": "B9FFE0F505", 
+          "off": "C4E268F2C9"
+        }
+      ]
+    },
+    {
+      "name": "Instant Full Hacking Progress Gauge | 破解进度量表瞬间达到 100%%",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B2C63E",
+          "on": "53",
+          "off": "43"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Hacking Progress Gauge Timer | 破解进度量表倒计时不减",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B2C816",
+          "on": "F828D0",
+          "off": "EA5CC0"
+        }
+      ]
+    },
+    {
+      "name": "Es'owa Auto Win | 索尔棋自动获胜",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8F39E7",
+          "on": "31C990",
+          "off": "4429F1"
+        }
+      ]
+    },
+    {
+      "name": "Enable CHAOS Difficulty | 可选 CHAOS 难度",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "779799",
+          "on": "B001",
+          "off": "08C8"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Fullcodes & 炸片饭"
+  ]
+}

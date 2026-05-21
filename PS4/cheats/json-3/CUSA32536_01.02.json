@@ -1,0 +1,113 @@
+{
+  "name": "幻想水浒传：1+2 高清重制版",
+  "id": "CUSA32536",
+  "version": "01.02",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "(I) Level up after battle/战斗后升级",
+      "description": "战斗后升级",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "83EAB000",
+          "on": "6641BFE8036645897C2422E90B328FFD",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "8179E215",
+          "on": "E9E6CD700290",
+          "off": "6645897C2422"
+        }
+      ]
+    },
+    {
+      "name": "(I) infinite hp/无限HP",
+      "description": "无限HP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "83EAB020",
+          "on": "4881FE000001000F82791B9BFD4429E966894822E96D1B9BFD",
+          "off": "00000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "8185CB9F",
+          "on": "E97CE464029090",
+          "off": "4429E966894822"
+        }
+      ]
+    },
+    {
+      "name": "(I) max money/金钱最大",
+      "description": "变化时生效",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "83EAB040",
+          "on": "C4E268F2C9B93F420F00894844E9DFE8B1FD",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "819C9929",
+          "on": "E912174E02909090",
+          "off": "C4E268F2C9894844"
+        }
+      ]
+    },
+	{
+      "name": "(II) infinite hp/无限HP",
+      "description": "II无限HP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "83EAB100",
+          "on": "4881FF000001000F87D9931DFE664429681AE9CF931DFE",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "820844E1",
+          "on": "E91A6CE201",
+          "off": "664429681A"
+        }
+      ]
+    },
+    {
+      "name": "(II) Level up after battle/战斗后升级",
+      "description": "II战斗后升级",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "83EAB120",
+          "on": "66BAE8036641895512E9C705CDFD",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "81B7B6F0",
+          "on": "E92BFA3202",
+          "off": "6641895512"
+        }
+      ]
+    },
+    {
+      "name": "(II) max money/金钱最大",
+      "description": "变化时生效",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "83EAB140",
+          "on": "488B4058BB3F420F0089585CE99F601AFE",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "820511E9",
+          "on": "E9529FE5019090",
+          "off": "488B405801585C"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "allyzc"
+  ]
+}

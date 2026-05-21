@@ -1,0 +1,83 @@
+{
+  "name": "SONIC SUPERSTARS 索尼克 超级巨星",
+  "id": "CUSA32740",
+  "version": "01.05",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Rings 9999 | 金环 9999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "8493FC10",
+          "on": "C740140F270000E884762CFDE903CDF5FB",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "section": "0",
+          "offset": "8089C91B",
+          "on": "E9F0320A0490909090",
+          "off": "44017014E87CA93601"
+        }
+      ]
+    },
+    {
+      "name": "Score 99999 | 得分 99999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "8493FC40",
+          "on": "C740109F860100498B7D00E9C3E2F5FB",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "section": "0",
+          "offset": "8089DF0B",
+          "on": "E9301D0A04909090",
+          "off": "44016010498B7D00"
+        }
+      ]
+    },
+    {
+      "name": "Time 0'00''00 | 时间 0'00''00",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "8493FC70",
+          "on": "41C7456000000000E986651EFD",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "section": "0",
+          "offset": "81B261FD",
+          "on": "E96E9AE10290",
+          "off": "C4C17A114560"
+        }
+      ]
+    },
+    {
+      "name": "Medallions 9999 | 奖章 9999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "8493FCA0",
+          "on": "C740600F270000488D0D4AD87601E994D10AFD",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "section": "0",
+          "offset": "819ECE3D",
+          "on": "E95E2EF5029090909090",
+          "off": "294860488D0DB1066C04"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Dreamcast2"
+  ]
+}

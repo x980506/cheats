@@ -1,0 +1,52 @@
+{
+  "name": "Gunbird2",
+  "id": "CUSA32621",
+  "version": "01.03",
+  "process": "Gunbird2.elf",
+  "mods": [
+    {
+      "name": "infinite boom/无限炸弹",
+      "description": "无限炸弹",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "498D7",
+          "on": "909090",
+          "off": "66FF08"
+        }
+      ]
+    },
+    {
+      "name": "infinite life/无限生命数",
+      "description": "无限生命数",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "49BD1",
+          "on": "909090909090",
+          "off": "6643FF4C2F1C"
+        }
+      ]
+    },
+    {
+      "name": "max power/最大火力",
+      "description": "最大火力",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1EF000",
+          "on": "6642C744335203004A0FBF443352E92264E6FF",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "5542F",
+          "on": "E9CC9B190090",
+          "off": "4A0FBF443352"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "allyzc"
+  ]
+}

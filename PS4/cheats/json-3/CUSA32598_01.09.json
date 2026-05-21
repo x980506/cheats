@@ -1,0 +1,18 @@
+{"name":"ARMORED CORE™ VI FIRES OF RUBICON™ 机战佣兵™VI 境界天火™","id":"CUSA32598","version":"01.09","process":"eboot.bin","mods":[
+{"name":"Invincible Mode | 无敌模式","type":"checkbox","memory":[{"offset":"03B4FF04","on":"01","off":"00"}]},
+{"name":"Infinite AP | 无限机体点数","type":"checkbox","memory":[{"offset":"03B4FF01","on":"01","off":"00"}]},
+{"name":"Infinite EN | 无限能源","type":"checkbox","memory":[{"offset":"03B4FF00","on":"01","off":"00"}]},
+{"name":"Infinite Repair Kits | 无限修理工具","type":"checkbox","memory":[{"offset":"03B4FF0C","on":"01","off":"00"}]},
+{"name":"Infinite Ammo | 无限弹药","type":"checkbox","memory":[{"offset":"FC3E96","on":"39","off":"29"}]},
+{"name":"No Reload | 无需装弹","type":"checkbox","memory":[{"offset":"FC47CA","on":"39","off":"29"}]},
+{"name":"No ACS Overload | ACS 不会过载","type":"checkbox","memory":[{"offset":"03B4FF02","on":"01","off":"00"}]},
+{"name":"One Hit ACS Overload | 一击 ACS 过载","type":"checkbox","memory":[{"offset":"03B4FF03","on":"01","off":"00"}]},
+{"name":"Instant Weapon Cooldown | 武器瞬间冷却","type":"checkbox","memory":[{"offset":"FC85DB","on":"5D","off":"5F"}]},
+{"name":"One Hit Kill | 一击必杀","type":"checkbox","memory":[{"offset":"03B4FF07","on":"01","off":"00"}]},
+{"name":"Freeze Mission Timer | 锁定任务时间","type":"checkbox","memory":[{"offset":"03B4FF08","on":"01","off":"00"}]},
+{"name":"Zero Mission Timer | 任务时间清零","type":"checkbox","memory":[{"offset":"03B4FF09","on":"01","off":"00"}]},
+{"name":"Zero Mission Time Elapsed | 任务耗时极少","type":"checkbox","memory":[{"offset":"03B4FF0A","on":"01","off":"00"}]},
+{"name":"Infinite Defend Objectives AP | 无限防卫目标机体点数","type":"checkbox","memory":[{"offset":"03B4FF06","on":"01","off":"00"}]},
+{"name":"Max OS Updrades Status | 最高 OS 强化状态","type":"checkbox","memory":[{"offset":"03B4FF0B","on":"01","off":"00"}]},
+{"name":"COAM 99,999,999 | 金钱 99,999,999","type":"checkbox","memory":[{"offset":"03B4FF05","on":"01","off":"00"}]}
+],"credits":[" Fullcodes"]}

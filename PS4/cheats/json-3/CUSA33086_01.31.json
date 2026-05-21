@@ -1,0 +1,65 @@
+{
+  "name": "SUPER BOMBERMAN R2 超级炸弹人R2",
+  "id": "CUSA33086",
+  "version": "01.31",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Infinite Lives | 无限生命数",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "831A42B0",
+          "on": "B90900000041898E70010000E9600056FE",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "section": "0",
+          "offset": "8170431A",
+          "on": "E991FFA9019090",
+          "off": "41898E70010000"
+        }
+      ]
+    },
+    {
+      "name": "Max EXP | 最大经验值",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "831A42E0",
+          "on": "4885C0B9400D030041894F20E96287F0FD",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "section": "0",
+          "offset": "810ACA4C",
+          "on": "E98F780F029090",
+          "off": "4885C041894F20"
+        }
+      ]
+    },
+    {
+      "name": "Gold 9999999 | 金钱 9999999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "831A4290",
+          "on": "BE7F96980089701831D2E9B71997FD",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "section": "0",
+          "offset": "80B15C51",
+          "on": "E93AE66802",
+          "off": "89701831D2"
+        }
+      ]
+    },
+  ],
+  "credits": [
+    "Dreamcast2"
+  ]
+}

@@ -1,0 +1,15 @@
+{"name":"Star Ocean: The Divine Force 星之海洋：神圣力量","id":"CUSA31855","version":"01.02","process":"eboot.bin","mods":[
+{"name":"Set Text Language to Simple Chinese 文字语言设为简体中文","type":"checkbox","memory":[{"offset":"03023FF0","on":"01","off":"00"}]},
+{"name":"FOL 99999999 on Gain 金钱获得时99999999","type":"checkbox","memory":[{"offset":"006A8CD4","on":"00","off":"0F"}]},
+{"name":"DP 99999999 on Gain Duma点数获得时99999999","type":"checkbox","memory":[{"offset":"003FC602","on":"4E","off":"4F"}]},
+{"name":"DP 99999999 on Use Duma点数使用时99999999","type":"checkbox","memory":[{"offset":"00A95CEF","on":"B9FFE0F505","off":"C4E268F2C9"}]},
+{"name":"Infinite Item Use|无限道具使用","type":"checkbox","memory":[{"offset":"006A8F77","on":"BD","off":"85"}]},
+{"name":"Infinite Health|无限生命值","type":"checkbox","memory":[{"offset":"03023FF1","on":"01","off":"00"}]},
+{"name":"SP 9999999|SP 9999999","type":"checkbox","memory":[{"offset":"03023FF2","on":"01","off":"00"}]},
+{"name":"Infinite AP|无限AP","type":"checkbox","memory":[{"offset":"003BAF7D","on":"5F","off":"5D"}]},
+{"name":"Infinite VA|无限VA","type":"checkbox","memory":[{"offset":"00685BC1","on":"5F","off":"5D"},{"offset":"00685B74","on":"5F","off":"5D"}]},
+{"name":"999 HITS|999 HITS","type":"checkbox","memory":[{"offset":"0038A245","on":"4489EB90","off":"410F4FDD"}]},
+{"name":"One Hit Kill|一击必杀","type":"checkbox","memory":[{"offset":"03023FF3","on":"01","off":"00"}]},
+{"name":"EXP Mulit 10 on Gain|经验值10倍获得","type":"checkbox","memory":[{"offset":"03023FF4","on":"01","off":"00"}]},
+{"name":"Levelup Max|升级直接255级","type":"checkbox","memory":[{"offset":"002E2069","on":"F8","off":"C7"}]}
+],"credits":[" Fullcodes（PLAYSTATION/PC修改讨论群:1167084913）"]}

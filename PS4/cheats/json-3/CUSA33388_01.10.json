@@ -1,0 +1,844 @@
+{
+  "name": "Resident Evil 4 Remake",
+  "id": "CUSA33388",
+  "version": "01.10",
+  "process": "eboot.bin",
+  "mods": [
+
+    {
+      "name": "Invincible Mode | 无敌模式",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "10AAFFE2",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health | 无限生命",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "10AAFFE0",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Armor | 无限护甲",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "10AAFFF1",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Items | 无限物品",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4040CCA",
+          "on": "4D",
+          "off": "4C"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ammo | 无限弹药",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "10AAFFE5",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Grenades | 无限手榴弹",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4046BDA",
+          "on": "3B",
+          "off": "2B"
+        }
+      ]
+    },
+    {
+      "name": "No Reload | 无需装弹",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4046A92",
+          "on": "39",
+          "off": "29"
+        }
+      ]
+    },
+    {
+      "name": "No Recoil | 无后坐力",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6712800",
+          "on": "C3",
+          "off": "55"
+        }
+      ]
+    },
+    {
+      "name": "Rapid Fire | 快速连射",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "ABAFB9B",
+          "on": "2041",
+          "off": "803F"
+        }
+      ]
+    },
+    {
+      "name": "Super Accuracy | 超级精准度",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "99FCAD",
+          "on": "5F",
+          "off": "5D"
+        }
+      ]
+    },
+    {
+      "name": "Evade Automatically | 自动闪避",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "10AAFFEB",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Enemy Can't Move | 敌人无法移动",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "10AAFFE3",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Maximum Health | 最大生命上限",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "10AAFFE1",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Ingore Bear Trap Hits | 无视捕兽夹伤害判定",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2AF46C2",
+          "on": "EB",
+          "off": "75"
+        }
+      ]
+    },
+    {
+      "name": "Knife：Infinite Durability | 匕首：无限耐久度",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4046AEC",
+          "on": "3B",
+          "off": "2B"
+        }
+      ]
+    },
+    {
+      "name": "Knife：Parry Automatically | 匕首：自动招架",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "10AAFFEA",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Damage Multiply 2 | 伤害倍率 2 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "AB9E8A3",
+          "on": "0040",
+          "off": "803F"
+        }
+      ]
+    },
+    {
+      "name": "Damage Multiply 10 | 伤害倍率 10 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "AB9E8A3",
+          "on": "2041",
+          "off": "803F"
+        }
+      ]
+    },
+    {
+      "name": "Damage Multiply 100 | 伤害倍率 100 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "AB9E8A3",
+          "on": "C842",
+          "off": "803F"
+        }
+      ]
+    },
+    {
+      "name": "Defense Multiply 2 | 防御倍率 2 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "AB9E8C0",
+          "on": "BB0000003F",
+          "off": "B80000803F"
+        }
+      ]
+    },
+    {
+      "name": "Defense Multiply 10 | 防御倍率 10 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "AB9E8C0",
+          "on": "BBCCCCCC3D",
+          "off": "B80000803F"
+        }
+      ]
+    },
+    {
+      "name": "Defense Multiply 100 | 防御倍率 100 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "AB9E8C0",
+          "on": "BB0AD7233C",
+          "off": "B80000803F"
+        }
+      ]
+    },
+    {
+      "name": "Times Saved 0 | 存档次数 0",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "673673C",
+          "on": "31",
+          "off": "FF"
+        }
+      ]
+    },
+    {
+      "name": "Freeze Play Time | 锁定游玩时间",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "59A4B90",
+          "on": "C3",
+          "off": "55"
+        }
+      ]
+    },
+    {
+      "name": "Boat：Infinite Durability | 小船：无限耐久度",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6095B7F",
+          "on": "9090909090909090",
+          "off": "41898C2488010000"
+        }
+      ]
+    },
+    {
+      "name": "RailCar：Infinite Durability | 矿车：无限耐久度",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "204A180",
+          "on": "C3",
+          "off": "55"
+        }
+      ]
+    },
+    {
+      "name": "Crane：Infinite Durability | 吊车：无限耐久度",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3C6BB92",
+          "on": "909090909090909090",
+          "off": "C4C17A118694000000"
+        }
+      ]
+    },
+    {
+      "name": "Water Scooter：Infinite Durability | 摩托艇：无限耐久度",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6A18020",
+          "on": "C3",
+          "off": "55"
+        }
+      ]
+    },
+    {
+      "name": "Cannon：No Reload | 大炮：无需装弹",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "10AAFFEF",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Anti-Aircraft Gun：Infinite Ammo | 高射机枪：无限弹药",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "10AAFFEE",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Power Calibration Puzzle：Auto Complete | 电路谜题：自动完成",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5EAA52B",
+          "on": "EB",
+          "off": "77"
+        }
+      ]
+    },
+    {
+      "name": "Rocket Launcher (Special) Can Be Stored | 火箭发射器 (特殊) 可存入物品箱",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3BCD034",
+          "on": "909090909090",
+          "off": "0F84C6040000"
+        }
+      ]
+    },
+    {
+      "name": "Ashley：Frozen Knights Forever When Found It | 阿什莉：看到骑士盔甲就永久定住对方",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4A4FC02",
+          "on": "909090909090",
+          "off": "0F8442FFFFFF"
+        }
+      ]
+    },
+    {
+      "name": "Keep Most Keys After Use | 保留大部分使用后的钥匙",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "ACA1C20",
+          "on": "81782840241C070F852F861EFBE98F861EFB",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "5E8A256",
+          "on": "E9C579E10490",
+          "off": "837834007E65"
+        }
+      ]
+    },
+    {
+      "name": "Unlock All Extra Content Shop Items | 解锁全部奖励商店物品",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "210F604",
+          "on": "0C01",
+          "off": "84C0"
+        }
+      ]
+    },
+    {
+      "name": "ptas. 99,999,999 | 比塞塔币 99,999,999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "10AAFFE4",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Spinels 999 | 尖晶石 999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "10AAFFE6",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Gold & Silver Tokens 999 | 金质和银质代币 999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "10AAFFE8",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Treasures & Small Keys 999 | 宝石和小钥匙 999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "ACA1BF0",
+          "on": "817B2800881B07741C817B2800371C07770B8B43344885C9E907626AF966817B2A400773EDB8F7030000894334EBE6",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "4347E0E",
+          "on": "E9DD9D950690",
+          "off": "8B43344885C9"
+        }
+      ]
+    },
+    {
+      "name": "CP 100,000,000 On Exchange | 兑换后 CP 100,000,000",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "210EA09",
+          "on": "4D",
+          "off": "4C"
+        }
+      ]
+    },
+    {
+      "name": "Player Move Speed Multiply 2 | 玩家移动速度 2 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "10AAFFE7",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Enemy Speed Multiply 0.5 | 敌人速度 0.5 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "ACA1BD0",
+          "on": "0000003F",
+          "off": "0000803F"
+        }
+      ]
+    },
+    {
+      "name": "Enemy Speed Multiply 0.25 | 敌人速度 0.25 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "ACA1BD0",
+          "on": "0000803E",
+          "off": "0000803F"
+        }
+      ]
+    },
+    {
+      "name": "Enemy Speed Multiply 0.1 | 敌人速度 0.1 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "ACA1BD0",
+          "on": "CDCCCC3D",
+          "off": "0000803F"
+        }
+      ]
+    },
+    {
+      "name": "Target Practice - Freeze Timer | 靶场挑战 - 锁定时间",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3CEDAB2",
+          "on": "0F57D290",
+          "off": "C5FA5CC2"
+        }
+      ]
+    },
+    {
+      "name": "Target Practice - All Pirates Killed | 靶场挑战 - 全海盗击杀",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "ACA1B40",
+          "on": "458B98AC010000458998A8010000E9A80A05F9",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "3CF25F4",
+          "on": "E947F5FA069090",
+          "off": "458B98A8010000"
+        }
+      ]
+    },
+    {
+      "name": "Target Practice - All Skulls Killed | 靶场挑战 - 全骷髅击杀",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "ACA1B60",
+          "on": "8BB0DC01000089B0D8010000E9321405F9",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "3CF2F9D",
+          "on": "E9BEEBFA0690",
+          "off": "8BB0D8010000"
+        }
+      ]
+    },
+    {
+      "name": "Target Practice - Score Added by 10,000 | 靶场挑战 - 分数每次增加 10,000",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "10AAFFE9",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Saving：Change Difficulty To <Assisted> | 存档时：变更难度模式为 <辅助>",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "10AAFFF0",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Saving：Change Difficulty To <Standard> | 存档时：变更难度模式为 <标准>",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "10AAFFF0",
+          "on": "01",
+          "off": "00"
+        },
+        {
+          "offset": "ABAFCCA",
+          "on": "14",
+          "off": "0A"
+        }
+      ]
+    },
+    {
+      "name": "Saving：Change Difficulty To <Hardcore> | 存档时：变更难度模式为 <硬核>",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "10AAFFF0",
+          "on": "01",
+          "off": "00"
+        },
+        {
+          "offset": "ABAFCCA",
+          "on": "1E",
+          "off": "0A"
+        }
+      ]
+    },
+    {
+      "name": "Saving：Change Difficulty To <Professional> | 存档时：变更难度模式为 <专家>",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "10AAFFF0",
+          "on": "01",
+          "off": "00"
+        },
+        {
+          "offset": "ABAFCCA",
+          "on": "28",
+          "off": "0A"
+        }
+      ]
+    },
+    {
+      "name": "Main Menu Results - Total Play Time 00:00:00 | 主界面游戏成绩 - 总时长 00:00:00",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "ACA1C40",
+          "on": "48C742180000000080791000E95030D0FA",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "59A4C99",
+          "on": "E9A2CF2F05909090",
+          "off": "4801421880791000"
+        }
+      ]
+    },
+    {
+      "name": "Chapter Results - Chapter Play Time 00:00:00 | 章节成绩 - 章节用时 00:00:00",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "ACA1AE0",
+          "on": "4831C04889C14889421848894618C3",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "128E284",
+          "on": "E95738A1099090",
+          "off": "488B0D8D6C300F"
+        }
+      ]
+    },
+    {
+      "name": "Chapter Results - Enemies Killed 999 | 章节成绩 - 杀敌数 999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "ACA1AF0",
+          "on": "B8E703000089421439C10F4FC8E9BCC95EF6",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "128E4B9",
+          "on": "E93236A109",
+          "off": "39C10F4FC8"
+        }
+      ]
+    },
+    {
+      "name": "Chapter Results - Deaths 0 | 章节成绩 - 死亡次数 0",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "ACA1B10",
+          "on": "4831C04889C14889421448894614C3",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "128E543",
+          "on": "E9C835A10990",
+          "off": "8B0DDB69300F"
+        }
+      ]
+    },
+    {
+      "name": "Chapter Results - Accuracy 100%% | 章节成绩 - 命中率 100%%",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "ACA1B20",
+          "on": "31C089421439C10F4FC8E9CFB8D0F9",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "49AD3F9",
+          "on": "E922472F06",
+          "off": "39C10F4FC8"
+        }
+      ]
+    },
+    {
+      "name": "Chapter Results - Times Damaged 0 | 章节成绩 - 受伤次数 0",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "ACA1B30",
+          "on": "4831C04889C14889421448894614C3",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "128E6B3",
+          "on": "E97834A10990",
+          "off": "8B0D7768300F"
+        }
+      ]
+    },
+    {
+      "name": "Clear Results - Rank S+ / Total Play Time 00:00:00 | 通关总成绩 - 评分 S+ / 总时长 00:00:00",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2ABF098",
+          "on": "EB6F90",
+          "off": "8B4014"
+        },
+        {
+          "offset": "ABAFC80",
+          "on": "C74114060000008B491441894D10E9D670BEFB",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "6796D62",
+          "on": "E9198F41049090",
+          "off": "8B491441894D10"
+        },
+        {
+          "offset": "ABAFCA0",
+          "on": "4831C948894A1848894E184831C0C3",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "128E752",
+          "on": "E949159209",
+          "off": "48894E18C3"
+        }
+      ]
+    },
+    {
+      "name": "Clear Results - Saves 0 | 通关总成绩 - 存档次数 0",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "ABAFCB0",
+          "on": "31FF31C0897E14897A14C3",
+          "off": "0000000000000000000000"
+        },
+        {
+          "offset": "128E7E6",
+          "on": "E9C514920990",
+          "off": "0F4FF9897E14"
+        }
+      ]
+    },
+    {
+      "name": "The Mercenaries - Freeze Timer | 佣兵模式 - 锁定时间",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3D223C5",
+          "on": "10",
+          "off": "11"
+        }
+      ]
+    },
+    {
+      "name": "The Mercenaries - Freeze Combo Timer | 佣兵模式 - 锁定连杀时间",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4D51C7C",
+          "on": "909090909090",
+          "off": "C4C17A114F24"
+        }
+      ]
+    },
+    {
+      "name": "The Mercenaries - Max Mayhem Gauge | 佣兵模式 - 满狂攻槽",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "10AAFFED",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "The Mercenaries - Infinite Mayhem Duration | 佣兵模式 - 无限狂攻持续时间",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "473931E",
+          "on": "F828C2",
+          "off": "EA5CC0"
+        }
+      ]
+    },
+    {
+      "name": "The Mercenaries - Combo 999  | 佣兵模式 - 连杀数 999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "ACA1B80",
+          "on": "81F9E70300000F8338010BFAB9E7030000E92E010BFA",
+          "off": "00000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "4D51CBF",
+          "on": "E9BCFEF405",
+          "off": "39F10F4FCE"
+        }
+      ]
+    },
+    {
+      "name": "Save Current Location | 标记当前位置",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "10AAFAF8",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Teleport To Waypoint | 瞬移到标记位置",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "10AAFB00",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Fullcodes & Dragon Ball"
+  ]
+}

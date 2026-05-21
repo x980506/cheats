@@ -1,0 +1,10 @@
+{"name":"Call of Duty: Modern Warfare III 使命召唤20：现代战争3","id":"CUSA34038","version":"01.33","process":"sp23-cod.elf","mods":[
+{"name":"God Mode/Ignore Hits 无敌模式","type":"checkbox","memory":[{"offset":"0B427FE2","on":"01","off":"00"}]},
+{"name":"Infinite Health 无限生命","type":"checkbox","memory":[{"offset":"0B427FE1","on":"01","off":"00"}]},
+{"name":"Infinite Item 无限道具使用","type":"checkbox","memory":[{"offset":"0B427FE5","on":"01","off":"00"}]},
+{"name":"Infinite Ammo 无限弹药","type":"checkbox","memory":[{"offset":"01BE3C44","on":"4531ED","off":"41F7DD"}]},
+{"name":"Infinite Grenade 无限手雷","type":"checkbox","memory":[{"offset":"01BE6D8D","on":"00","off":"01"}]},
+{"name":"No Reload 无需装弹","type":"checkbox","memory":[{"offset":"01BF74EB","on":"31C990","off":"4489F1"}]},
+{"name":"Super Accuracy 超级精准度","type":"checkbox","memory":[{"offset":"02250DA9","on":"5D","off":"5F"}]},
+{"name":"Stealth Mode 潜行模式","type":"checkbox","memory":[{"offset":"0B427FE3","on":"01","off":"00"}]}
+],"credits":[" Fullcodes（PLAYSTATION/PC修改讨论群:1167084913）"]}

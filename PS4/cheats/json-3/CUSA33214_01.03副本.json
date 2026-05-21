@@ -1,0 +1,13 @@
+{"name":"Valkyrie Elysium 北欧女神：极乐世界","id":"CUSA33214","version":"01.03","process":"eboot.bin","mods":[
+{"name":"God Mode/Ignore Hits 无敌模式","type":"checkbox","memory":[{"offset":"00B80530","on":"C3","off":"55"}]},
+{"name":"Infinite Health 无限生命值","type":"checkbox","memory":[{"offset":"07EF7FF1","on":"01","off":"00"}]},
+{"name":"Max Soul Gauge 无限灵魂槽","type":"checkbox","memory":[{"offset":"01186768","on":"38","off":"34"}]},
+{"name":"Max Arts Gauge 无限战技槽","type":"checkbox","memory":[{"offset":"016C5298","on":"9C","off":"98"}]},
+{"name":"Max Combo Gauge 无限连击槽","type":"checkbox","memory":[{"offset":"0125CA3D","on":"5F","off":"5D"}]},
+{"name":"999 Hits 999连击","type":"checkbox","memory":[{"offset":"0125CA5E","on":"80","off":"3C"}]},
+{"name":"Infinite Jump 无限跳跃","type":"checkbox","memory":[{"offset":"07EF7FF5","on":"01","off":"00"}]},
+{"name":"One Hit Kill 一击必杀","type":"checkbox","memory":[{"offset":"07EF7FF0","on":"01","off":"00"}]},
+{"name":"Max Weapon Proficiency 武器熟练度最大","type":"checkbox","memory":[{"offset":"015029CB","on":"4E","off":"4F"}]},
+{"name":"Infinite Item Use 无限道具使用","type":"checkbox","memory":[{"offset":"07EF7FF2","on":"01","off":"00"}]},
+{"name":"Unlock All Items with Max 解锁全道具且数量最大","type":"checkbox","memory":[{"offset":"07EF7FF3","on":"01","off":"00"}]}
+],"credits":[" Fullcodes"]}

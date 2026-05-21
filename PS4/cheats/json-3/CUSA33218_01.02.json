@@ -1,0 +1,11 @@
+{"name":"River City Saga: Three Kingdoms 热血三国志:全员集合","id":"CUSA33218","version":"01.02","process":"eboot.bin","mods":[
+{"name":"God Mode/Ignore Hits|无敌模式","type":"checkbox","memory":[{"section":"0","offset":"82667FF5","on":"01","off":"00"}]},
+{"name":"Infinite Player Health|无限体力","type":"checkbox","memory":[{"section":"0","offset":"82667FF1","on":"01","off":"00"}]},
+{"name":"Infinite Player Focus|无限气力","type":"checkbox","memory":[{"section":"0","offset":"82667FF2","on":"01","off":"00"}]},
+{"name":"Money 99,999,999 on Use|金钱使用时99,999,999","type":"checkbox","memory":[{"section":"0","offset":"80A6F199","on":"D3","off":"C3"}]},
+{"name":"EXP Multi 10 on Gain|经验值10倍获得","type":"checkbox","memory":[{"section":"0","offset":"82667F00","on":"0A","off":"01"},{"offset":"82667FF0","on":"01","off":"00"}]},
+{"name":"Stat Points Max on Allotment|素质点数无限分配","type":"checkbox","memory":[{"section":"0","offset":"80C60E78","on":"B06390","off":"8B45D4"}]},
+{"name":"One Hit Kill|一击必杀","type":"checkbox","memory":[{"section":"0","offset":"82667FF6","on":"01","off":"00"}]},
+{"name":"Player Speed Multi 2|2倍移动速度","type":"checkbox","memory":[{"section":"0","offset":"82667FF4","on":"01","off":"00"}]},
+{"name":"Max Player Stats|各项状态999（不建议）","type":"checkbox","memory":[{"section":"0","offset":"82667FF4","on":"01","off":"00"}]}
+],"credits":[" Fullcodes（PS4/PC修改群:1167084913,702196858）"]}

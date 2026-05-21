@@ -1,0 +1,10 @@
+{"name":"Call of Duty: Modern Warfare II 使命召唤:现代战争2","id":"CUSA34029","version":"01.08","process":"sp22-cod.elf","mods":[
+{"name":"Infinite Ammo 无限弹药","type":"checkbox","memory":[{"offset":"025E49EB","on":"909090","off":"4429F9"}]},
+{"name":"Infinite Grenade 无限手雷","type":"checkbox","memory":[{"offset":"025EC4D8","on":"31C9909090","off":"B9FFFFFFFF"}]},
+{"name":"Super Accuracy 超级精准度","type":"checkbox","memory":[{"offset":"0220BD5F","on":"5D","off":"5F"}]},
+{"name":"No Reload 无需装弹","type":"checkbox","memory":[{"offset":"025F9805","on":"31C9","off":"89D9"}]},
+{"name":"Infinite Health 无限生命值","type":"checkbox","memory":[{"offset":"0B07BFF0","on":"5F","off":"5D"}]},
+{"name":"God Mode/Ignore Hits 无敌模式","type":"checkbox","memory":[{"offset":"0B07BFF2","on":"01","off":"00"}]},
+{"name":"Stealth Mode 潜行模式","type":"checkbox","memory":[{"offset":"0B07BFF3","on":"01","off":"00"}]},
+{"name":"One Hit Kill 一击必杀","type":"checkbox","memory":[{"offset":"0B07BFF1","on":"01","off":"00"}]}
+],"credits":[" Fullcodes"]}

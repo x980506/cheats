@@ -1,0 +1,365 @@
+{
+  "name": "STORY OF SEASONS Pioneers of Olive Town SPECIAL 牧场物语 橄榄镇与希望的大地 SPECIAL",
+  "id": "CUSA32278",
+  "version": "01.01",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Infinite Stamina | 无限体力",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "8210EE60",
+          "on": "53C5FA104378C5FA11437C5BE9398135FE",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "section": "0",
+          "offset": "80466FA5",
+          "on": "E9B67ECA01",
+          "off": "C5FA11437C"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Watering Can | 洒水壶无限水",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "8210EE90",
+          "on": "508B435C89436058498B0424E997142FFE",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "section": "0",
+          "offset": "80400331",
+          "on": "E95AEBD0019090",
+          "off": "894360498B0424"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Animal Feeds | 无限动物饲料",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "8210EF40",
+          "on": "50418B466041894678580F8F90F44AFEE9EAF44AFE",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "section": "0",
+          "offset": "805BE439",
+          "on": "E9020BB50190",
+          "off": "418946787FA1"
+        }
+      ]
+    },
+    {
+      "name": "Instant Charge Tools | 工具瞬间蓄力",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "8210ED70",
+          "on": "C780540200000100000083B85402000000E9A58D75FE",
+          "off": "00000000000000000000000000000000000000000000"
+        },
+        {
+          "section": "0",
+          "offset": "80867B24",
+          "on": "E947728A019090",
+          "off": "83B85402000000"
+        }
+      ]
+    },
+    {
+      "name": "One Hit Destroy | 一击破坏",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "8210EEF0",
+          "on": "48C7C0000000004989472FE9FF5482FE",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "section": "0",
+          "offset": "809343F8",
+          "on": "E9F3AA7D019090",
+          "off": "492947304889C3"
+        }
+      ]
+    },
+    {
+      "name": "Freeze Daytime | 锁定时间",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "80588F2E",
+          "on": "90909090",
+          "off": "49894638"
+        }
+      ]
+    },
+    {
+      "name": "Max Bag Expansion | 最大背包容量",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "8210EDA0",
+          "on": "0F84888A35FEC74070020000008B4070E9778A35FE",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "section": "0",
+          "offset": "80467827",
+          "on": "E97475CA01",
+          "off": "74058B4070"
+        }
+      ]
+    },
+    {
+      "name": "Max Skill EXP | 最大技能经验值",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "8210EEC0",
+          "on": "0F8E71AE46FEBE204E000001771CE964AE46FE",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "section": "0",
+          "offset": "80579D32",
+          "on": "E98951B901",
+          "off": "7E0301771C"
+        }
+      ]
+    },
+    {
+      "name": "Max House Level | 房屋最高等级",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "8210ED20",
+          "on": "C7403804000000034838446BF964E9FE9763FE",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "section": "0",
+          "offset": "8074852A",
+          "on": "E9F1679C019090",
+          "off": "034838446BF964"
+        }
+      ]
+    },
+    {
+      "name": "Reset Faint Count | 重置晕厥次数",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "8210EF10",
+          "on": "0F84AE6C33FEC7405800000000E9946C33FE",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "section": "0",
+          "offset": "80445BB1",
+          "on": "E9F3AA7D019090",
+          "off": "492947304889C3"
+        }
+      ]
+    },
+    {
+      "name": "Unlock All Residents | 解锁全部居民",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "8210ED50",
+          "on": "C6401D0180781D000F95C0E98A7349FE",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "section": "0",
+          "offset": "805A60E3",
+          "on": "E9688CB6019090",
+          "off": "80781D000F95C0"
+        }
+      ]
+    },
+    {
+      "name": "Sprite Coins 99999 | 可乐硬币 99999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "8210EDD0",
+          "on": "0F84988935FEC740289F8601008B4028E9878935FE",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "section": "0",
+          "offset": "80467767",
+          "on": "E96476CA01",
+          "off": "74058B4028"
+        }
+      ]
+    },
+    {
+      "name": "Sprite Points | 可乐嘭发现点数 99999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "8210EE00",
+          "on": "0F84C88935FEC7402C9F8601008B402CE9B78935FE",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "section": "0",
+          "offset": "804677C7",
+          "on": "E93476CA01",
+          "off": "74058B402C"
+        }
+      ]
+    },
+    {
+      "name": "Current Funds 99999999 | 持有金额 99999999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "8210EE30",
+          "on": "0F84B88635FE48C74024FFE0F505488B4024E9A58635FE",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+        {
+          "section": "0",
+          "offset": "804674E7",
+          "on": "E94479CA01",
+          "off": "74058B4024"
+        }
+      ]
+    },
+    {
+      "name": "Walk Speed Multiply 3 | 行走速度 3 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "8210EC90",
+          "on": "C5FA100DDE857600C4C17A118EB8010000E973FA32FE",
+          "off": "C5FA100D5EB47A00C4C17A118EB8010000E973FA32FE"
+        },
+        {
+          "section": "0",
+          "offset": "8043E710",
+          "on": "E97B05CD0190909090",
+          "off": "E97B05CD0190909090"
+        }
+      ]
+    },
+    {
+      "name": "Walk Speed Multiply 4 | 行走速度 4 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "8210EC90",
+          "on": "C5FA100D26EA7A00C4C17A118EB8010000E973FA32FE",
+          "off": "C5FA100D5EB47A00C4C17A118EB8010000E973FA32FE"
+        },
+        {
+          "section": "0",
+          "offset": "8043E710",
+          "on": "E97B05CD0190909090",
+          "off": "E97B05CD0190909090"
+        }
+      ]
+    },
+    {
+      "name": "Run Speed Multiply 1.5 | 跑步速度 1.5 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "8210ECC0",
+          "on": "C5FA10056E477600C4C17A1186BC010000E9DEF832FE",
+          "off": "C5FA1005B6837200C4C17A1186BC010000E9DEF832FE"
+        },
+        {
+          "section": "0",
+          "offset": "8043E5AB",
+          "on": "E91007CD0190909090",
+          "off": "E91007CD0190909090"
+        }
+      ]
+    },
+    {
+      "name": "Run Speed Multiply 2 | 跑步速度 2 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "8210ECC0",
+          "on": "C5FA1005B6EF7500C4C17A1186BC010000E9DEF832FE",
+          "off": "C5FA1005B6837200C4C17A1186BC010000E9DEF832FE"
+        },
+        {
+          "section": "0",
+          "offset": "8043E5AB",
+          "on": "E91007CD0190909090",
+          "off": "E91007CD0190909090"
+        }
+      ]
+    },
+    {
+      "name": "Ride Speed Multiply 1.5 | 骑乘速度 1.5 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "8210ECF0",
+          "on": "C5FA1005B79C7A00C4C17A1186C0010000E9E9F832FE",
+          "off": "C5FA1005B6607200C4C17A1186C0010000E9E9F832FE"
+        },
+        {
+          "section": "0",
+          "offset": "8043E5E6",
+          "on": "E90507CD0190909090",
+          "off": "E90507CD0190909090"
+        }
+      ]
+    },
+    {
+      "name": "Ride Speed Multiply 2 | 骑乘速度 2 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "8210ECF0",
+          "on": "C5FA100546B77A00C4C17A1186C0010000E9E9F832FE",
+          "off": "C5FA1005B6607200C4C17A1186C0010000E9E9F832FE"
+        },
+        {
+          "section": "0",
+          "offset": "8043E5E6",
+          "on": "E90507CD0190909090",
+          "off": "E90507CD0190909090"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Molly"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Gunbarich",
+  "id": "CUSA32621",
+  "version": "01.03",
+  "process": "Gunbarich.self",
+  "mods": [
+    {
+      "name": "infinite life/无限生命数",
+      "description": "无限生命数",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "80CFD150",
+          "on": "909090",
+          "off": "895750"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "allyzc"
+  ]
+}

@@ -1,0 +1,21 @@
+{"name":"Assassin's Creed Mirage 刺客信条：幻景","id":"CUSA33152_00","version":"01.02","process":"eboot.bin","mods":[
+{"name":"God Mode/Ignore Hits 无敌模式","type":"checkbox","memory":[{"offset":"0903BFE2","on":"01","off":"00"}]},
+{"name":"Infinite Health 无限生命值","type":"checkbox","memory":[{"offset":"0903BFE0","on":"01","off":"00"}]},
+{"name":"Infinite Stamina 无限耐力","type":"checkbox","memory":[{"offset":"02E26DAE","on":"5F","off":"5D"}]},
+{"name":"Infinite Oxygen 无限氧气","type":"checkbox","memory":[{"offset":"01B428CA","on":"B0","off":"B4"}]},
+{"name":"Maximize MaxHealth 生命值上限最大","type":"checkbox","memory":[{"offset":"0903BFE1","on":"01","off":"00"}]},
+{"name":"Stealth Mode 潜行模式","type":"checkbox","memory":[{"offset":"0903BFE5","on":"01","off":"00"}]},
+{"name":"Zero Notoriety 清空恶名度","type":"checkbox","memory":[{"offset":"0903BFE8","on":"01","off":"00"}]},
+{"name":"One Hit Stun 一击眩晕","type":"checkbox","memory":[{"offset":"0903BFE4","on":"01","off":"00"}]},
+{"name":"One Hit Kill 一击必杀","type":"checkbox","memory":[{"offset":"0903BFE3","on":"01","off":"00"}]},
+{"name":"Infinite Elixir Use 无限灵药使用","type":"checkbox","memory":[{"offset":"0379FA7D","on":"00","off":"01"}]},
+{"name":"Infinite Throwing Item 无限投掷物品","type":"checkbox","memory":[{"offset":"0189D38A","on":"EB","off":"74"}]},
+{"name":"Resources 999999 资源 999999","type":"checkbox","memory":[{"offset":"0903BFE9","on":"01","off":"00"}]},
+{"name":"Upgrade Materials 99999 升级材料 99999","type":"checkbox","memory":[{"offset":"0903BFEA","on":"01","off":"00"}]},
+{"name":"Quest Items 999 任务物品 999","type":"checkbox","memory":[{"offset":"0903BFEE","on":"01","off":"00"}]},
+{"name":"Infinite Skill Point Use 技能点数使用不减","type":"checkbox","memory":[{"offset":"0903BFE7","on":"01","off":"00"}]},
+{"name":"Skill Point 99 技能点数99","type":"checkbox","memory":[{"offset":"0903BFE6","on":"01","off":"00"}]},
+{"name":"Ignore Update Required 无视升级需求","type":"checkbox","memory":[{"offset":"0903BFED","on":"01","off":"00"}]},
+{"name":"Press <L1+L2> Teleport to 1st Waypoint 按 <L1+L2> 瞬移到第1个标志位","type":"checkbox","memory":[{"offset":"0903BFEB","on":"01","off":"00"}]},
+{"name":"Super Speed 超级速度","type":"checkbox","memory":[{"offset":"0903BFEC","on":"01","off":"00"}]}
+],"credits":["Fullcodes "]}

@@ -1,0 +1,372 @@
+{
+  "name": "Like a Dragon: Ishin! 人中之龙 维新! 极",
+  "id": "CUSA32174",
+  "version": "01.04",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Invincible Mode | 无敌模式",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "082B7FEB",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health | 无限体力",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "082B7FE5",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Max Heat Gauge | 满热血量表",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4597915",
+          "on": "5F",
+          "off": "5D"
+        }
+      ]
+    },
+    {
+      "name": "Max Trooper Gauge | 满队士量表",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "082B7FF3",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "One Hit Kill | 一击必杀",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "082B7FEC",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Stamina | 无限耐力",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "459439F",
+          "on": "10",
+          "off": "58"
+        }
+      ]
+    },
+    {
+      "name": "Combo 99 | 连击数 99",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "470F106",
+          "on": "89D9",
+          "off": "01F1"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Items | 无限物品",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "47F1AA5",
+          "on": "9090",
+          "off": "FFC8"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Items (Storage) | 无限物品 (仓库)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4393B22",
+          "on": "90909090",
+          "off": "6683E801"
+        }
+      ]
+    },
+    {
+      "name": "Max Items (Storage) | 最大物品数量 (仓库)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "47EF750",
+          "on": "909090",
+          "off": "0F4FDA"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ammo | 无限弹药",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4FE7990",
+          "on": "89C190",
+          "off": "4401E9"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Orbs | 无限魂珠",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4ADF8B5",
+          "on": "EB06",
+          "off": "41FE"
+        }
+      ]
+    },
+    {
+      "name": "All Orbs 99 | 全魂珠 99",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "082B7FEA",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Money 99999999 | 金钱 9999两9999文",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "082B7FE1",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Virtue 99999999 | 德 99999999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "082B7FE2",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Prize Tickets 999 | 抽奖券 999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "082B7FE3",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Wodden Tags 9,999,999 | 木牌 9,999,999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "082B7FF4",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Mahjong Sticks & Shogi Points 9,999,999 | 点棒和将棋点数 9,999,999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "082B7FF5",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "EXP Multiply 5 | 经验值倍率 5 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "082B7FED",
+          "on": "01",
+          "off": "00"
+        },
+        {
+          "offset": "5B92F69",
+          "on": "05",
+          "off": "01"
+        }
+      ]
+    },
+    {
+      "name": "EXP Multiply 10 | 经验值倍率 10 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "082B7FED",
+          "on": "01",
+          "off": "00"
+        },
+        {
+          "offset": "5B92F69",
+          "on": "0A",
+          "off": "01"
+        }
+      ]
+    },
+    {
+      "name": "Max EXP | 最大经验值",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "082B7FEE",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Never Drunk | 不会醉酒",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "082B7FE8",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Always Drunk | 醉酒状态",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "082B7FE9",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Max Smithing Level | 最高打铁铺等级",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "082B7FE4",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Reset Play Time | 重置游戏时间",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "082B7FE0",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Obtain All Produce & Seafood & Materials 99 | 获得全部农作物、鱼类、装备材料 99",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "082B7FF0",
+          "on": "01",
+          "off": "00"
+        },
+        {
+          "offset": "082B7FF1",
+          "on": "01",
+          "off": "00"
+        },
+        {
+          "offset": "082B7FF2",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Rock Paper Scissors - Infinite Third Eyes | 猜拳 - 无限心眼",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "082B7FF6",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Sensual Healing - Infinite Lives | 照顾 - 无限生命数",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "082B7FF8",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Cannon Coaching - Max Score | 扫除炮弹 - 最高分数",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "082B7FFA",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Wood Chooping - Max Score | 劈柴 - 最高劈柴数量",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "082B7FF7",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Dancing - Best Score | 跳舞 - 最高分数",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "082B7FF9",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Fullcodes & Reddevil82"
+  ]
+}

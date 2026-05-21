@@ -1,0 +1,81 @@
+{
+  "name": "SONIC FRONTIERS 索尼克：未知边境",
+  "id": "CUSA32054",
+  "version": "01.20",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Infinite Boost | 无限冲刺",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1EC8512",
+          "on": "C780AC0200000000803FE9E84438FF",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "124CA01",
+          "on": "E90CBBC700909090",
+          "off": "C5FA1190AC020000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Oxygen | 无限氧气",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "125F8D2",
+          "on": "C5F857C0909090",
+          "off": "C4C17A5844241C"
+        }
+      ]
+    },
+    {
+      "name": "Rings 999 | 金环 999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1EC8531",
+          "on": "448B6024C74028E7030000448B7828E9D92838FF",
+          "off": "0000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "124AE16",
+          "on": "E916D7C700909090",
+          "off": "448B6024448B7828"
+        }
+      ]
+    },
+    {
+      "name": "Skill Points 99 | 技能点数 99",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1EC8560",
+          "on": "488B0A66C7416463000FBF4964E92CC651FF",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "13E4B97",
+          "on": "E9C439AE009090",
+          "off": "488B0A0FBF4964"
+        }
+      ]
+    },
+    {
+      "name": "Reset Misson Time 00:00.00 | 重置关卡时间 00:00.00",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3AD91E",
+          "on": "C5F857C090",
+          "off": "C5FA584728"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "炸片饭"
+  ]
+}

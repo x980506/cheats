@@ -1,0 +1,503 @@
+{
+  "name": "星之海",
+  "id": "CUSA31579",
+  "version": "01.04",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "HP不减",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "80F6F54A",
+          "on": "C5F25CC1",
+          "off": "C5F259C0"
+        },
+        {
+          "section": "0",
+          "offset": "80F6F6F6",
+          "on": "C5F25CC1",
+          "off": "C5F055C0"
+        }
+      ]
+    },
+    {
+      "name": "伤害主码",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "80F70CCD",
+          "on": "E82F0B0D02",
+          "off": "C5FA5845C4"
+        },
+        {
+          "section": "0",
+          "offset": "83041801",
+          "on": "C5FA5845C42EC5FA100DA1000000C5FA59C1C3",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "section": "0",
+          "offset": "80F6FFEB",
+          "on": "E824180D02909090",
+          "off": "C5F259C04883C418"
+        },
+        {
+          "section": "0",
+          "offset": "83041814",
+          "on": "C5F259C02EC5FA100D8F000000C5FA59C14883C418C3",
+          "off": "00000000000000000000000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "name": "2倍伤害",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "830418B0",
+          "on": "00000040",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "4倍伤害",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "830418B0",
+          "on": "00008040",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "8倍伤害",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "830418B0",
+          "on": "00000041",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "MP不减",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "80D8AF57",
+          "on": "4531E4",
+          "off": "4189C4"
+        },
+        {
+          "section": "0",
+          "offset": "80ACC334",
+          "on": "4531FF",
+          "off": "4189F7"
+        }
+      ]
+    },
+    {
+      "name": "免费购物",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "80AEA08B",
+          "on": "31D2",
+          "off": "89C2"
+        }
+      ]
+    },
+    {
+      "name": "道具不减",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "80DC7858",
+          "on": "BA00",
+          "off": "BA01"
+        },
+        {
+          "section": "0",
+          "offset": "8071400A",
+          "on": "31D290",
+          "off": "4489EA"
+        }
+      ]
+    },
+    {
+      "name": "技能快速蓄力",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "80E5AACA",
+          "on": "C5F25CC1",
+          "off": "C5F25CC0"
+        },
+        {
+          "section": "0",
+          "offset": "80E5AD6F",
+          "on": "EB47",
+          "off": "7547"
+        },
+        {
+          "section": "0",
+          "offset": "80E5AD4E",
+          "on": "9090",
+          "off": "7412"
+        },
+        {
+          "section": "0",
+          "offset": "81547EEE",
+          "on": "E83799AF01909090",
+          "off": "0000000000000000"
+        },
+        {
+          "section": "0",
+          "offset": "8304182A",
+          "on": "8B9FC400000083C303C3",
+          "off": "00000000000000000000"
+        }
+      ]
+    },
+    {
+      "name": "组合技能量Max",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "80BB5D5A",
+          "on": "B8E8030000",
+          "off": "E8617AB5FF"
+        },
+        {
+          "section": "0",
+          "offset": "8070E389",
+          "on": "6B4DD400909090",
+          "off": "694DD418FCFFFF"
+        }
+      ]
+    },
+    {
+      "name": "终极技能量Max",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "8070DE16",
+          "on": "0F4CF6",
+          "off": "0F4CF3"
+        },
+        {
+          "section": "0",
+          "offset": "8070E366",
+          "on": "0F4CF6",
+          "off": "0F4CF3"
+        }
+      ]
+    },
+    {
+      "name": "经验值主码",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "80C883CC",
+          "on": "E863943B02",
+          "off": "0F4ED889D8"
+        },
+        {
+          "section": "0",
+          "offset": "83041834",
+          "on": "0F4ED889D82E8B1D780000000FAFC3C3",
+          "off": "00000000000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "name": "经验值2倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "830418B8",
+          "on": "02000000",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "经验值4倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "830418B8",
+          "on": "04008000",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "经验值8倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "830418B8",
+          "on": "08000000",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "经验值16倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "830418B8",
+          "on": "10000000",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "技能全解锁",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "8210366F",
+          "on": "B001",
+          "off": "89D8"
+        }
+      ]
+    },
+    {
+      "name": "垂钓自动化",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "81EC7DB2",
+          "on": "E9D700000090",
+          "off": "0F84E4000000"
+        }
+      ]
+    },
+    {
+      "name": "自动精准格挡",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "80ACD10D",
+          "on": "9090",
+          "off": "7408"
+        },
+        {
+          "section": "0",
+          "offset": "80ACD159",
+          "on": "9090",
+          "off": "7408"
+        }
+      ]
+    },
+    {
+      "name": "移动速度提升",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "819FA758",
+          "on": "2EC5FA59051F1BBB00C3",
+          "off": "C5FA598600020000C366"
+        },
+        {
+          "section": "0",
+          "offset": "819FA778",
+          "on": "2EC5FA5905FF1ABB00C3",
+          "off": "C5FA598600020000C366"
+        }
+      ]
+    },
+    {
+      "name": "游泳速度提升",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "819E0923",
+          "on": "E81C0F6601909090",
+          "off": "C5FA1090B8010000"
+        },
+        {
+          "section": "0",
+          "offset": "83041844",
+          "on": "C5FA1090B8010000C5EA58D2C3",
+          "off": "00000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "name": "敌人无法移动",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "810CF0DA",
+          "on": "B800000000",
+          "off": "E861854201"
+        }
+      ]
+    },
+    {
+      "name": "烹饪时食谱全开",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "80B5A187",
+          "on": "9090",
+          "off": "74DC"
+        }
+      ]
+    },
+    {
+      "name": "普攻回蓝效果翻倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "80E7D984",
+          "on": "416BF702B9010000004189C8",
+          "off": "4489FEB90100000041B80100"
+        }
+      ]
+    },
+    {
+      "name": "显示敌人血量（含头目）",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "80A22E43",
+          "on": "EB39",
+          "off": "7439"
+        }
+      ]
+    },
+    {
+      "name": "显示敌人弱点（含头目）",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "80A22F35",
+          "on": "909090909090",
+          "off": "0F8461010000"
+        }
+      ]
+    },
+    {
+      "name": "攻击后不清空活力强化",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "80ACAC4E",
+          "on": "EB67",
+          "off": "7E67"
+        },
+        {
+          "section": "0",
+          "offset": "80C8010D",
+          "on": "EB7B",
+          "off": "747B"
+        }
+      ]
+    },
+    {
+      "name": "交换所可兑换全部奖品",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "8084FC69",
+          "on": "B83C000000",
+          "off": "E8E2B3F2FF"
+        },
+        {
+          "section": "0",
+          "offset": "8080E8F5",
+          "on": "B83C000000",
+          "off": "E856C7F6FF"
+        }
+      ]
+    },
+    {
+      "name": "阳炎球溅射必造成全额伤害",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "80F70247",
+          "on": "C5FA5EC090",
+          "off": "C5FA1045D4"
+        }
+      ]
+    },
+    {
+      "name": "月旋镖收尾时发动全体攻击",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "80E7C78D",
+          "on": "909090909090",
+          "off": "0F8401020000"
+        }
+      ]
+    },
+    {
+      "name": "轮盘游戏我方转盘次数无限",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "81A2C160",
+          "on": "90909090",
+          "off": "41FF4610"
+        }
+      ]
+    },
+    {
+      "name": "轮盘游戏敌人无法获得能量",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "81AAB767",
+          "on": "31C09090",
+          "off": "8B448820"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "怪盗B"
+  ]
+}

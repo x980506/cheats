@@ -1,0 +1,52 @@
+{
+  "name": "1945_II",
+  "id": "CUSA32618",
+  "version": "01.04",
+  "process": "s1945-2.elf",
+  "mods": [
+    {
+      "name": "infinite boom/无限炸弹",
+      "description": "无限炸弹",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1EC54",
+          "on": "9090909090",
+          "off": "41FE4C241E"
+        }
+      ]
+    },
+    {
+      "name": "infinite life/无限生命数",
+      "description": "无限生命数",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1E861",
+          "on": "909090909090",
+          "off": "6641FF4C241C"
+        }
+      ]
+    },
+    {
+      "name": "max power/最大火力",
+      "description": "最大火力",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1EFA00",
+          "on": "6642C7442A4A04004E0FBF642A4AE98AA8E3FF",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "2A297",
+          "on": "E964571C0090",
+          "off": "4E0FBF642A4A"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "allyzc"
+  ]
+}

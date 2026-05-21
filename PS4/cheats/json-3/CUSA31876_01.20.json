@@ -1,0 +1,55 @@
+{
+  "name": "FIFA23",
+  "id": "CUSA31876",
+  "version": "01.20",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Career Manage Fund 999,999,999 | 经理职业生涯预算 999,999,999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "A187D78",
+          "on": "00",
+          "off": "06"
+        } 
+      ]
+    },
+    {
+      "name": "Career Player Money 999,999,999 | 球员职业生涯金钱 999,999,999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "A187D99",
+          "on": "00",
+          "off": "05"
+        }
+      ]
+    },
+    {
+      "name": "Career Training Points 99,999 | 职业生涯训练积分 99,999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "A187DB9",
+          "on": "00",
+          "off": "05"
+        }
+      ]
+    },
+    {
+      "name": "Sharpness Training Points 100 | 球员训练后敏锐度 100",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "A187DE3",
+          "on": "00",
+          "off": "06"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Ogd38 & Veronika1"
+  ]
+}

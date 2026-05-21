@@ -1,0 +1,47 @@
+{
+  "name": "Fate/Samurai Remnant",
+  "id": "CUSA33395",
+  "version": "01.12",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "infinite money/无限金钱",
+      "description": "金钱使用不减",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "41B9FB",
+          "on": "909090909090",
+          "off": "8990542F0000"
+        }
+      ]
+    },
+    {
+      "name": "max money/金钱最大",
+      "description": "当金钱增加时变为9999999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "41BAA7",
+          "on": "BB3F420F0090",
+          "off": "0398542F0000"
+        }
+      ]
+    },
+	{
+      "name": "infinite hp/无限HP",
+      "description": "受到攻击时HP不减,但是被秒杀时还是会挂",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "20733F",
+          "on": "909090909090",
+          "off": "C4C17A114F3C"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "allyzc"
+  ]
+}

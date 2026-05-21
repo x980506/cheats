@@ -1,0 +1,52 @@
+{
+  "name": "SengokuAces",
+  "id": "CUSA32621",
+  "version": "01.03",
+  "process": "SengokuAces.elf",
+  "mods": [
+    {
+      "name": "infinite boom/无限炸弹",
+      "description": "无限炸弹",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "32FDE",
+          "on": "90909090909090",
+          "off": "66FF8B22010000"
+        }
+      ]
+    },
+    {
+      "name": "infinite life/无限生命数",
+      "description": "无限生命数",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "31C05",
+          "on": "9090909090",
+          "off": "6641FF4F0A"
+        }
+      ]
+    },
+    {
+      "name": "max power/最大火力",
+      "description": "最大火力",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1C3000",
+          "on": "41C7420C03000000418B520C31C0E97A0AE7FF",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "33A87",
+          "on": "E974F5180090",
+          "off": "418B520C31C0"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "allyzc"
+  ]
+}
