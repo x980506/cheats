@@ -1,0 +1,203 @@
+{
+  "name": "Nights of Azure 2: Bride of the New Moon 無夜國度２ ～新月的新娘～",
+  "id": "CUSA09479",
+  "version": "01.01",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Infinite Health | 无限生命",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B6D476",
+          "on": "E81D000000",
+          "off": "438B44BD10"
+        }
+      ]
+    },
+    {
+      "name": "Infinite MP | 无限魔力",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B6D4C6",
+          "on": "75",
+          "off": "EB"
+        }
+      ]
+    },
+    {
+      "name": "Skills No Cooldown | 技能无需冷却",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B6D4F5",
+          "on": "00",
+          "off": "08"
+        }
+      ]
+    },
+    {
+      "name": "Max Tension Gauge | 满斗志量表",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B6D544",
+          "on": "00",
+          "off": "0A"
+        }
+      ]
+    },
+    {
+      "name": "Max Double Chase Gauge | 满双人追击量表",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B6D51A",
+          "on": "00",
+          "off": "0E"
+        }
+      ]
+    },
+    {
+      "name": "One Hit Kill | 一击必杀",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B6D489",
+          "on": "E818000000",
+          "off": "438B44BD10"
+        }
+      ]
+    },
+    {
+      "name": "Chain 9999 | 连击数 9999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B6D688",
+          "on": "00",
+          "off": "07"
+        }
+      ]
+    },
+    {
+      "name": "Blood 999999 | 血液 999999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B6D569",
+          "on": "00",
+          "off": "0B"
+        }
+      ]
+    },
+    {
+      "name": "Libra 9999999 | 金钱 9999999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B6D5A0",
+          "on": "00",
+          "off": "0B"
+        }
+      ]
+    },
+    {
+      "name": "Ability Points 9999 | 能力点数 9999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B6D5C7",
+          "on": "00",
+          "off": "0A"
+        }
+      ]
+    },
+    {
+      "name": "Servan Points 999999 | 从魔点数 999999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B6D5F5",
+          "on": "00",
+          "off": "07"
+        }
+      ]
+    },
+    {
+      "name": "Max Level (Aluche) | 最高等级 (雅而洁)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B6D614",
+          "on": "00",
+          "off": "08"
+        }
+      ]
+    },
+    {
+      "name": "Max EXP (Lily) | 最大经验值 (莉莉雅娜)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B6D63D",
+          "on": "00",
+          "off": "08"
+        }
+      ]
+    },
+    {
+      "name": "Max Affinity Level | 最高亲密度等级",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B6D65D",
+          "on": "0F84FC1A82FF41C7461858020000E9BE1982FF",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "38F028",
+          "on": "E930E67D0090",
+          "off": "0F8437010000"
+        }
+      ]
+    },
+    {
+      "name": "Freeze Moon Phase | 锁定月相推移",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B6D6A4",
+          "on": "00",
+          "off": "09"
+        }
+      ]
+    },
+    {
+      "name": "Freeze Mission Timer | 锁定任务时间",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2722C0",
+          "on": "9090909090",
+          "off": "C5FA5C45EC"
+        }
+      ]
+    },
+    {
+      "name": "Set Mission Timer to 60 Minutes | 设定任务时间为 60 分钟",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B6D6C7",
+          "on": "00",
+          "off": "0B"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Reddevil82"
+  ]
+}

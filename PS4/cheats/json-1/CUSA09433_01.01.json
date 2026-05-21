@@ -1,0 +1,14 @@
+{"name":"Shining Resonance Refrain 光明之响：龙奏回音","id":"CUSA09433","version":"01.00","process":"eboot.bin","mods":[
+{"name":"Infinite HP | 无限 HP","type":"checkbox","memory":[{"offset":"01063FF0","on":"01","off":"00"}]},
+{"name":"Infinite MP | 无限 MP","type":"checkbox","memory":[{"offset":"01063FF2","on":"01","off":"00"}]},
+{"name":"Infinite AP | 无限 AP","type":"checkbox","memory":[{"offset":"47C21D","on":"9090909090","off":"C5FA115304"}]},
+{"name":"Max BPM Meter | 满 BPM 量表","type":"checkbox","memory":[{"offset":"01063FF3","on":"01","off":"00"}]},
+{"name":"One Hit Kill | 一击必杀","type":"checkbox","memory":[{"offset":"01063FF1","on":"01","off":"00"}]},
+{"name":"Infinite Items | 无限道具","type":"checkbox","memory":[{"offset":"226269","on":"9090909090909090","off":"4189848894000000"},{"offset":"4E15DA","on":"9090909090909090","off":"4189B4B994000000"}]},
+{"name":"Infinite Materials | 无限素材","type":"checkbox","memory":[{"offset":"226288","on":"9090909090909090","off":"4189848834100000"},{"offset":"1DB47A","on":"90909090909090","off":"89B48234100000"}]},
+{"name":"Infinite Aspects | 无限技能","type":"checkbox","memory":[{"offset":"2262A7","on":"9090909090909090","off":"41898488D41F0000"}]},
+{"name":"Max Skill Tuning Rank | 最高音律位阶等级","type":"checkbox","memory":[{"offset":"01063FF7","on":"01","off":"00"}]},
+{"name":"Max EXP | 最大经验值","type":"checkbox","memory":[{"offset":"01063FF6","on":"01","off":"00"}]},
+{"name":"Gold 9,999,999 | 金钱 9,999,999","type":"checkbox","memory":[{"offset":"01063FF4","on":"01","off":"00"}]},
+{"name":"Reset Play Time 000:00:00 | 重置游戏时间 000:00:00","type":"checkbox","memory":[{"offset":"01063FF5","on":"01","off":"00"}]}
+],"credits":["Dreamcast2"]}
