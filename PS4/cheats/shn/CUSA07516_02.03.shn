@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="加速世界ＶＳ刀劍神域 －千年的黃昏－" Moder="越狱兔电玩" Cusa="CUSA07516" Version="02.03" Process="eboot.bin">
+  <Genres Name="Action" />
+  <Items />
+  <Cheat Text="🔥金手指主代码 (必须开启)🔥">
+    <Cheatline>
+      <Offset>17C59F</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-4C-CD-CA-7F-90-90-90</ValueOn>
+      <ValueOff>C5-F8-2E-87-50-04-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>4FBAFC</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-0F-D8-92-7F-90-90-90</ValueOn>
+      <ValueOff>C5-FA-10-87-50-04-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="🔝钱 9999999">
+    <Cheatline>
+      <Offset>6A50D0</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-9B-41-78-7F-90</ValueOn>
+      <ValueOff>8B-87-40-01-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="BP 9999999">
+    <Cheatline>
+      <Offset>6A5110</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-1B-42-78-7F-90</ValueOn>
+      <ValueOff>8B-87-44-01-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="道具使用 99">
+    <Cheatline>
+      <Offset>69FA3D</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-7E-9A-78-7F</ValueOn>
+      <ValueOff>43-89-44-2E-10</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="1200 级">
+    <Cheatline>
+      <Offset>105AC7</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-A4-39-D2-7F</ValueOn>
+      <ValueOff>66-83-7E-04-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="❤️无限生命">
+    <Cheatline>
+      <Offset>11F559</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-32-9D-D0-7F-90-90-90</ValueOn>
+      <ValueOff>C5-F8-2E-87-50-04-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="😤无限魔法">
+    <Cheatline>
+      <Offset>16508E</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-1D-42-CC-7F-90-90-90</ValueOn>
+      <ValueOff>C5-FA-10-8B-84-04-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="🍖无限耐力">
+    <Cheatline>
+      <Offset>1E8F2B</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-A0-03-C4-7F-90-90-90</ValueOn>
+      <ValueOff>C5-FA-10-80-E0-1E-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="无限必杀技">
+    <Cheatline>
+      <Offset>4FBC62</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-39-D8-92-7F-90-90-90</ValueOn>
+      <ValueOff>C5-FA-10-83-8C-04-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="两倍攻击速度">
+    <Cheatline>
+      <Offset>7FE292FE</Offset>
+      <Section>0</Section>
+      <ValueOn>00-00-00-40</ValueOn>
+      <ValueOff>00-00-80-3F</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="四倍攻击速度">
+    <Cheatline>
+      <Offset>7FE292FE</Offset>
+      <Section>0</Section>
+      <ValueOn>00-00-80-40</ValueOn>
+      <ValueOff>00-00-80-3F</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="子弹时间">
+    <Cheatline>
+      <Offset>7FE2931E</Offset>
+      <Section>0</Section>
+      <ValueOn>CD-CC-CC-3D</ValueOn>
+      <ValueOff>00-00-80-3F</ValueOff>
+    </Cheatline>
+  </Cheat>
+</Trainer>  
+ 
+ 
+ 
+
+  
+   
+   
+  
+
