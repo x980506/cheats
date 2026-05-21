@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="使命召唤16：现代战争" Moder="Test" Cusa="CUSA15556" Version="01.09" Process="default.elf">
+  <Genres Name="Action" />
+  <Items />
+  <Cheat Text="无敌模式">
+    <Cheatline>
+      <Offset>FE7CB1</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-BA-65-21-7F-90</ValueOn>
+      <ValueOff>45-31-FF-45-85-E4</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="无需装弹">
+    <Cheatline>
+      <Offset>7B7520</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-1B-6D-A4-7F-90-90-90-90-90-90</ValueOn>
+      <ValueOff>48-8B-95-A0-FD-FF-FF-89-4C-90-50</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="无限弹药">
+    <Cheatline>
+      <Offset>7E2C84</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-D7-B5-A1-7F-90</ValueOn>
+      <ValueOff>8B-49-40-44-01-F1</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="无限手雷">
+    <Cheatline>
+      <Offset>7B1B99</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90</ValueOn>
+      <ValueOff>FF-C9</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="一击必杀">
+    <Cheatline>
+      <Offset>FE7CFC</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-8F-65-21-7F-90-90</ValueOn>
+      <ValueOff>41-89-86-B8-01-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+</Trainer>  
+ 
+   
+   
+ 
+  
+   
+
+
+  
