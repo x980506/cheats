@@ -1,0 +1,9 @@
+{"name":"MediEvil/骷髅骑士","id":"CUSA12982","version":"01.02","process":"eboot.bin","mods":[
+{"name":"Infinte Gold|无限金钱","type":"checkbox","memory":[{"offset":"05C6FFF4","on":"01","off":"00"}]},
+{"name":"Infinite Health|无限生命","type":"checkbox","memory":[{"offset":"05C6FFF3","on":"01","off":"00"}]},
+{"name":"Infinite Shield|无限护盾","type":"checkbox","memory":[{"offset":"05C6FFF0","on":"01","off":"00"}]},
+{"name":"Infinite Weapon Durability|无限武器耐久度","type":"checkbox","memory":[{"offset":"05C6FFF1","on":"01","off":"00"}]},
+{"name":"Infinite Ranged Weapon|无限远程武器使用","type":"checkbox","memory":[{"offset":"05C6FFF2","on":"01","off":"00"}]},
+{"name":"One Hit Kill|一击必杀","type":"checkbox","memory":[{"offset":"05C6FFF7","on":"01","off":"00"}]},
+{"name":"Hold <X> to Fly|按住 <X> 飞天","type":"checkbox","memory":[{"offset":"05C6FFF5","on":"01","off":"00"}]}
+],"credits":[" Fullcodes（PS4/PC修改群: 1167084913,702196858）"]}

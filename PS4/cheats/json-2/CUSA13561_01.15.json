@@ -1,0 +1,99 @@
+{
+  "name": "Dragon Quest Builders 2 勇者斗恶龙 创世小玩家2：破坏神席德与空荡岛",
+  "id": "CUSA13561",
+  "version": "01.15",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Infinite Health | 无限生命",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "11760D",
+          "on": "9090",
+          "off": "29D7"
+        }
+      ]
+    },
+    {
+      "name": "100%% Fullness | 100%% 饱腹度",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "117761",
+          "on": "CA",
+          "off": "CC"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Stamina | 无限体力",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2ADEE5",
+          "on": "5F",
+          "off": "5C"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Items | 无限持有物品",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1197AC",
+          "on": "9090",
+          "off": "FFC8"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ingredients | 无限制作材料",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2622C5",
+          "on": "9090",
+          "off": "29D1"
+        }
+      ]
+    },
+    {
+      "name": "Super Jump | 超级跳",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "00FE7FF0",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "One Hit Kill | 一击必杀",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "10E030",
+          "on": "6631F66689B76A0E0000C390909090",
+          "off": "80BF820C000000740F8B8788150000"
+        }
+      ]
+    },
+    {
+      "name": "Enemy Can't Move | 敌人不能移动",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "10D28F",
+          "on": "9090909090909090",
+          "off": "C5F81193500E0000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Fullcodes"
+  ]
+}

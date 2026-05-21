@@ -1,0 +1,147 @@
+{
+  "name": "战锤：混沌祸根",
+  "id": "CUSA12718",
+  "version": "01.05",
+  "process": "eboot.bin",
+  "mods": [
+	{
+      "name": "exp x100/百倍经验",
+      "description": "百倍经验",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "E83000",
+          "on": "6BC06441018628020000E963437FFF",
+          "off": "000000000000000000000000000000"
+        },
+		{
+          "offset": "67736B",
+          "on": "E990BC80009090",
+          "off": "41018628020000"
+        }
+      ]
+    },
+	{
+      "name": "money=2000000000/金钱=2000000000",
+      "description": "进入菜单后生效",
+      "type": "checkbox",
+      "memory": [
+		{
+          "offset": "E83020",
+          "on": "BF00943577897808BA00010000E910CBB9FF",
+          "off": "000000000000000000000000000000000000"
+        },
+		{
+          "offset": "A1FB3D",
+          "on": "E9DE344600",
+          "off": "BA00010000"
+        }
+      ]
+    },
+	{
+      "name": "all fragment=9999/所有碎片=9999",
+      "description": "进入菜单后生效",
+      "type": "checkbox",
+      "memory": [
+		{
+          "offset": "E83040",
+          "on": "B80F270000438944EF10438944EF18438944EF20438944EF28438944EF30E97B6CB7FF",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+		{
+          "offset": "9F9CD9",
+          "on": "E962934800",
+          "off": "438B44EF10"
+        }
+      ]
+    },
+	{
+      "name": "infinite HP/无限HP",
+      "description": "可能不完美",
+      "type": "checkbox",
+      "memory": [
+		{
+          "offset": "E83070",
+          "on": "C5FA118D0CFCFFFF4883F8007409C5EA5CC9E9FEFCA7FFF30F10CAE9F5FCA7FF",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+		{
+          "offset": "902D79",
+          "on": "E9F2025800909090",
+          "off": "C5FA118D0CFCFFFF"
+        }
+      ]
+    },
+	{
+      "name": "infinite MP（monk）/无限MP（法师）",
+      "description": "无限MP",
+      "type": "checkbox",
+      "memory": [
+		{
+          "offset": "E830A0",
+          "on": "C7832C02000000007A44E910BC7FFF",
+          "off": "000000000000000000000000000000"
+        },
+		{
+          "offset": "67ECB7",
+          "on": "E9E4438000909090",
+          "off": "C5FA118B2C020000"
+        }
+      ]
+    },
+	{
+      "name": "infinite MP（elf）/无限MP（精灵）",
+      "description": "无限MP",
+      "type": "checkbox",
+      "memory": [
+		{
+          "offset": "E830C0",
+          "on": "C7832C02000000007A44C5FA10832C020000E934B47FFF",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+		{
+          "offset": "67E503",
+          "on": "E9B84B8000909090",
+          "off": "C5FA11832C020000"
+        }
+      ]
+    },
+	{
+      "name": "infinite MP（soldier）/无限MP（士兵）",
+      "description": "无限MP",
+      "type": "checkbox",
+      "memory": [
+		{
+          "offset": "E830E0",
+          "on": "C7832C02000000007A44C5FA10832C020000E913B57FFF",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+		{
+          "offset": "67E602",
+          "on": "E9D94A8000909090",
+          "off": "C5FA11832C020000"
+        }
+      ]
+    },
+	{
+      "name": "infinite MP（butcher）/无限MP（屠夫）",
+      "description": "无限MP",
+      "type": "checkbox",
+      "memory": [
+		{
+          "offset": "E83100",
+          "on": "C7832C02000000007A44C5FA108B2C020000E9A8BB7FFF",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+		{
+          "offset": "67ECB7",
+          "on": "E944448000909090",
+          "off": "C5FA118B2C020000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "allyzc"
+  ]
+}

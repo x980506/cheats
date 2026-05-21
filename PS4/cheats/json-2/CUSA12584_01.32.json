@@ -1,0 +1,146 @@
+{
+  "name": "Dying Light 2 Stay Human",
+  "id": "CUSA12584",
+  "version": "01.32",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "无限生命值（不对抗火焰）Infinite Health (Not Against Fire)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2F5FE36",
+          "on": "9090909090",
+          "off": "E885B54AFF"
+        }
+      ]
+    },
+    {
+      "name": "无限耐力/呼吸Infinite Stamina/Breath",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "614F3F0",
+          "on": "C4C17A10442408C4C17A11442410E96934E4FC",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "2F92865",
+          "on": "E986CB1B039090",
+          "off": "C4C17A11442410"
+        }
+      ]
+    },
+    {
+      "name": "无限物品/箭头/使用中的工艺品（需要2个才能使用）Infinite Items/Arrows/Craft On Use (Need 2 To work)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2F09748",
+          "on": "9090909090",
+          "off": "E863B8D3FF"
+        }
+      ]
+    },
+    {
+      "name": "无限的投掷物Infinite Throwables",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2F09A50",
+          "on": "9090909090",
+          "off": "E85BB5D3FF"
+        }
+      ]
+    },
+    {
+      "name": "无限武器耐久性Infinite Weapon Durability",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2C3BA60",
+          "on": "9090909090",
+          "off": "E8ABB1F7FF"
+        }
+      ]
+    },
+    {
+      "name": "无限抗扰度/化学区域Infinite Immunity/Chemical Area",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2F6835D",
+          "on": "909090909090",
+          "off": "C4C17A11472C"
+        }
+      ]
+    },
+    {
+      "name": "无限紫外线手电筒Infinite UV Flashlight",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "614F120",
+          "on": "41C784248001000000006041E93DD538FC",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "24DC664",
+          "on": "E9B72AC7039090909090",
+          "off": "C4C17A11842480010000"
+        }
+      ]
+    },
+    {
+      "name": "-最大/无限货币Max/Infinite Money",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "614F160",
+          "on": "0F4CD1C74734FFC99A3BE94B81DBFC",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "2F072B4",
+          "on": "E9A77E240390",
+          "off": "0F4CD1895734"
+        },
+        {
+          "offset": "614F190",
+          "on": "29D8C74734FFC99A3BE92F83DBFC",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "2F074C8",
+          "on": "E9C37C2403",
+          "off": "29D8894734"
+        }
+      ]
+    },
+    {
+      "name": "无限时间挑战（禁用B4完成）Infinite Time challenge (Disable B4 Finishing)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3575068",
+          "on": "9090909090",
+          "off": "C5FA114370"
+        }
+      ]
+    },
+    {
+      "name": "最大经验值（逃离华尔兹后使用）Max XP (Use After Escaping Waltz)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3161DDD",
+          "on": "41897E18",
+          "off": "49894618"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "月凌风"
+  ]
+}

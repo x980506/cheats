@@ -1,0 +1,7 @@
+{"name":"Watch Dogs®: Legion 看门狗：军团","id":"CUSA13034","version":"01.25","process":"eboot.bin","mods":[
+{"name":"Infinite Health | 无限生命","type":"checkbox","memory":[{"offset":"0AACBFF1","on":"01","off":"00"}]},
+{"name":"Infinite Ammo | 无限弹药","type":"checkbox","memory":[{"offset":"0AACBFF3","on":"01","off":"00"}]},
+{"name":"One Hit Kill | 一击必杀","type":"checkbox","memory":[{"offset":"0AACBFF2","on":"01","off":"00"}]},
+{"name":"Tech Points 999 | 科技点数 999","type":"checkbox","memory":[{"offset":"0AACBFF5","on":"01","off":"00"}]},
+{"name":"Money 99999999 | 金钱 99999999","type":"checkbox","memory":[{"offset":"0AACBFF4","on":"01","off":"00"}]}
+],"credits":["Wander"]}

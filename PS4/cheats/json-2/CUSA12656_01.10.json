@@ -1,0 +1,190 @@
+﻿{
+	"name": "无双大蛇3 豪华版",
+	"id": "CUSA12656",
+	"version": "02.98",
+	"process": "eboot.bin",
+	"mods": [
+		{
+			"name": "敌兵直接秒杀",
+			"type": "checkbox",
+			"memory": [
+				{
+					"offset": "80807913",
+					"on": "C5E855D2",
+					"off": "C5E855D0"
+				}
+			]
+		},
+		{
+			"name": "神术无需冷却",
+			"type": "checkbox",
+			"memory": [
+				{
+					"offset": "805668A8",
+					"on": "C5FA115DC4",
+					"off": "C5FA1145C4"
+				}
+			]
+		},
+		{
+			"name": "合体神术常满",
+			"type": "checkbox",
+			"memory": [
+				{
+					"offset": "807D5038",
+					"on": "C5EA5DC2",
+					"off": "C5EA5DC0"
+				}
+			]
+		},
+		{
+			"name": "无双奥义常满",
+			"type": "checkbox",
+			"memory": [
+				{
+					"offset": "807FF016",
+					"on": "885F08",
+					"off": "884F08"
+				}
+			]
+		},
+		{
+			"name": "连击数量最大",
+			"type": "checkbox",
+			"memory": [
+				{
+					"offset": "807FD369",
+					"on": "909090",
+					"off": "0F42C1"
+				}
+			]
+		},
+		{
+			"name": "击杀数量倍增",
+			"type": "checkbox",
+			"memory": [
+				{
+					"offset": "809D5731",
+					"on": "03809C010000",
+					"off": "8B809C010000"
+				}
+			]
+		},
+		{
+			"name": "游戏时间清零",
+			"type": "checkbox",
+			"memory": [
+				{
+					"offset": "808633D6",
+					"on": "897B30",
+					"off": "894B30"
+				}
+			]
+		},
+		{
+			"name": "经验增加满级",
+			"type": "checkbox",
+			"memory": [
+				{
+					"offset": "8070F81B",
+					"on": "45897E64",
+					"off": "41894664"
+				}
+			]
+		},
+		{
+			"name": "技点使用最大",
+			"type": "checkbox",
+			"memory": [
+				{
+					"offset": "807115FE",
+					"on": "66895078",
+					"off": "66894878"
+				}
+			]
+		},
+		{
+			"name": "经验使用最大",
+			"type": "checkbox",
+			"memory": [
+				{
+					"offset": "80718129",
+					"on": "8990D8000000",
+					"off": "8988D8000000"
+				}
+			]
+		},
+		{
+			"name": "累计击破最大",
+			"type": "checkbox",
+			"memory": [
+				{
+					"offset": "8070FDA0",
+					"on": "894F18",
+					"off": "8B4F18"
+				}
+			]
+		},
+		{
+			"name": "累计出击最大",
+			"type": "checkbox",
+			"memory": [
+				{
+					"offset": "8071096F",
+					"on": "909090",
+					"off": "0F42C1"
+				}
+			]
+		},
+		{
+			"name": "贵石使用最大",
+			"type": "checkbox",
+			"memory": [
+				{
+					"offset": "80717F6B",
+					"on": "8990CC000000",
+					"off": "8988CC000000"
+				},
+				{
+					"offset": "8071F53F",
+					"on": "898FCC000000",
+					"off": "899FCC000000"
+				}
+			]
+		},
+		{
+			"name": "稀石最大维持",
+			"type": "checkbox",
+			"memory": [
+				{
+					"offset": "807181F2",
+					"on": "909090",
+					"off": "0F42C1"
+				}
+			]
+		},
+		{
+			"name": "材料使用最大",
+			"type": "checkbox",
+			"memory": [
+				{
+					"offset": "8072FF2A",
+					"on": "6689BC4AE6000000",
+					"off": "6689B44AE6000000"
+				}
+			]
+		}
+	],
+	"credits": [
+		"越狱兔电玩"
+	]
+}
+   
+ 
+
+
+ 
+ 
+  
+  
+  

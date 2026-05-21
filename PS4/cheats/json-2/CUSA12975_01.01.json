@@ -1,0 +1,88 @@
+{
+  "name": "GOD WARS THE COMPLETE LEGEND 神之战：日本神话大战",
+  "id": "CUSA12975",
+  "version": "01.01",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Infinite HP | 无限 HP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "01563FF0",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Infinite MP | 无限 MP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "01563FF2",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "One Hit Kill | 一击必杀",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "01563FF1",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "EXP Multiply 10 | 经验值 10 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "01563FF4",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "EXP Multiply 100 | 经验值 100 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "01563FF5",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Skill Points 99999 | 技能点数 99999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "01563FF6",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Cash 9999999 | 金钱 9999999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "01563FF3",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Dreamcast2"
+  ]
+}

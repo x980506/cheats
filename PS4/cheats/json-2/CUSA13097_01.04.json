@@ -1,0 +1,77 @@
+{
+  "name": "DIGIMON SURVIVE 数码宝贝 绝境求生",
+  "id": "CUSA13097",
+  "version": "01.04",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Infinite SP (In Battle) | 无限 SP (战斗中)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "821B9580",
+          "on": "C780FC00000020030000E9555490FE",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "section": "0",
+          "offset": "80ABE9DE",
+          "on": "E99DAB6F0190",
+          "off": "8988FC000000"
+        }
+      ]
+    },
+    {
+      "name": "Max Items (In Battle) | 最大物品数量 (战斗中)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "821B9550",
+          "on": "66C74014E403498B87B0060000E9735590FE",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "section": "0",
+          "offset": "80ABEACB",
+          "on": "E980AA6F019090909090",
+          "off": "894814498B87B0060000"
+        }
+      ]
+    },
+    {
+      "name": "Items Multiplier | 物品使用后增加",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "80C1D1DC",
+          "on": "014814",
+          "off": "894814"
+        }
+      ]
+    },
+    {
+      "name": "Max Exp | 最大经验值",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "821B95A0",
+          "on": "41C746287F969800418B7624E9411F34FE",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "section": "0",
+          "offset": "804FB4EA",
+          "on": "E9B1E0CB01909090",
+          "off": "41894628418B7624"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Wander"
+  ]
+}

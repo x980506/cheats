@@ -1,0 +1,126 @@
+{
+  "name": "Super Neptunia RPG 勇者战机少女 世界啊,宇宙啊,刮目相看吧!!终极RPG宣言!!",
+  "id": "CUSA13057",
+  "version": "01.00",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Infinite HP | 无限 HP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "01953FFA",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Infinite AP | 无限 AP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "01953FF5",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Jumps | 无限跳跃",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "01953FF3",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Fast Dash | 快速冲刺",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "01953FF2",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Max EXP | 最大经验值",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "81933557",
+          "on": "00",
+          "off": "05"
+        },
+        {
+          "offset": "81933562",
+          "on": "00",
+          "off": "09"
+        }
+      ]
+    },
+    {
+      "name": "Max Items | 最大道具数量",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "01953FF6",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Quickly Finish Challenges | 快速完成任务",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "01953FF8",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Unlock Goddess Gauge | 解锁女神槽",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "01953FF9",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Money 99999999 | 金钱 99999999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "01953FF0",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Gems 99999999 | 魔石 99999999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "01953FF1",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Molly"
+  ]
+}

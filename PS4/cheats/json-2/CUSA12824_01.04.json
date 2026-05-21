@@ -1,0 +1,298 @@
+{
+  "name": "Hogwarts Legacy 霍格沃茨之遗",
+  "id": "CUSA12824",
+  "version": "01.04",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Invincible Mode | 无敌模式",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "09F4BFE0",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health | 无限生命",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "09F4BFE1",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ancient Magic Energy | 无限古代魔法能量",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "273B2D4",
+          "on": "5F",
+          "off": "5D"
+        }
+      ]
+    },
+    {
+      "name": "Spells Instant Cooldown | 法术瞬间冷却",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "09F4BFE3",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "One Hit Kill | 一击必杀",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "09F4BFE8",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Stealth Mode | 隐身模式",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "09F4BFE7",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Items | 无限物品",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "09F4BFE4",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Shop Items Cost 0 Money | 商店物品免费",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "09F4BFEA",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Talent Points 99 | 天赋点数 99",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "09F4BFEE",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "EXP Multiply 5 | 经验值 5 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "09F4BFE9",
+          "on": "01",
+          "off": "00"
+        },
+        {
+          "offset": "71C99D3",
+          "on": "A040",
+          "off": "803F"
+        }
+      ]
+    },
+    {
+      "name": "EXP Multiply 10 | 经验值 10 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "09F4BFE9",
+          "on": "01",
+          "off": "00"
+        },
+        {
+          "offset": "71C99D3",
+          "on": "2041",
+          "off": "803F"
+        }
+      ]
+    },
+    {
+      "name": "Max EXP | 最大经验值",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "09F4BFED",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Max Health 10000000 | 最大生命值 10000000",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "09F4BFE2",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Ignore Upgrades Requirements | 无视强化装备需求",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "09F4BFEC",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Unlock All Fast Travel Locations | 解锁全部穿梭地点",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "09F4BFEF",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Movement Speed Multiply 1.5 | 移动速度 1.5 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "09F4BFE6",
+          "on": "01",
+          "off": "00"
+        },
+        {
+          "offset": "71C96FC",
+          "on": "C03F",
+          "off": "803F"
+        }
+      ]
+    },
+    {
+      "name": "Movement Speed Multiply 2 | 移动速度 2 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "09F4BFE6",
+          "on": "01",
+          "off": "00"
+        },
+        {
+          "offset": "71C96FC",
+          "on": "0040",
+          "off": "803F"
+        }
+      ]
+    },
+    {
+      "name": "Player Speed Multiply 1.5 | 玩家速度 1.5 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "09F4BFE5",
+          "on": "01",
+          "off": "00"
+        },
+        {
+          "offset": "71C99B6",
+          "on": "C03F",
+          "off": "803F"
+        }
+      ]
+    },
+    {
+      "name": "Player Speed Multiply 2 | 玩家速度 2 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "09F4BFE5",
+          "on": "01",
+          "off": "00"
+        },
+        {
+          "offset": "71C99B6",
+          "on": "0040",
+          "off": "803F"
+        }
+      ]
+    },
+    {
+      "name": "Jump Height Multiply 2 | 跳跃高度 2 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "09F4BFEB",
+          "on": "01",
+          "off": "00"
+        },
+        {
+          "offset": "71C96B5",
+          "on": "003F",
+          "off": "803F"
+        }
+      ]
+    },
+    {
+      "name": "Jump Height Multiply 4 | 跳跃高度 4 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "09F4BFEB",
+          "on": "01",
+          "off": "00"
+        },
+        {
+          "offset": "71C96B5",
+          "on": "803E",
+          "off": "803F"
+        }
+      ]
+    },
+    {
+      "name": "Jump Height Multiply 8 | 跳跃高度 8 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "09F4BFEB",
+          "on": "01",
+          "off": "00"
+        },
+        {
+          "offset": "71C96B5",
+          "on": "003E",
+          "off": "803F"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    " Fullcodes"
+  ]
+}
