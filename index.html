@@ -2262,10 +2262,12 @@
             box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
         }
         .float-btn svg {
-            color: #ffffff;
+            color: #333;
             fill: none;
-            stroke: #ffffff;
+            stroke: #333;
             stroke-width: 4;
+            width: 24px;
+            height: 24px;
         }
 
         .float-btn:active {
@@ -2280,12 +2282,6 @@
         .float-btn.top-btn {
             right: 30px;
             bottom: 30px;
-        }
-
-        .float-btn svg {
-            width: 24px;
-            height: 24px;
-            color: #666;
         }
 
         .float-btn.refresh-btn:hover svg {
@@ -2305,7 +2301,7 @@
             
             .float-btn.refresh-btn {
                 right: 20px;
-                bottom: 88px;
+                bottom: 82px;
             }
             
             .float-btn.top-btn {
@@ -2450,7 +2446,6 @@
             margin: 0 auto;
             border-radius: 10px;
             display: block;
-        }
         }
     </style>
 </head>
@@ -2718,9 +2713,9 @@
         // API 配置
         const CONFIG = {
             PS5_BASE_URL: "./PS5/cheats/shn/",
-            PS4_BASE_URL: "./ps4/cheats/shn/",
-            PS5_LIST_URL: "./ps5/PS5list.txt",
-            PS4_LIST_URL: "./ps4/PS4list.txt",
+            PS4_BASE_URL: "./PS4/cheats/shn/",
+            PS5_LIST_URL: "./PS5/PS5list.txt",
+            PS4_LIST_URL: "./PS4/PS4list.txt",
             PS5_IMAGE_BASE: "./images/PPSA/",
             PS4_IMAGE_BASE: "./images/CUSA/",
             DEFAULT_IMAGE: "./images/0x000.jpg",
