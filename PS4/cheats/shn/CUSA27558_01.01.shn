@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Blasphemous" Moder="fqzx123" Cusa="CUSA27558" Version="01.01" Process="eboot.bin">
+  <Genres Name="Action" />
+  <Items />
+  <Cheat Text="Infinite Bottle & Confess">
+    <Cheatline>
+      <Offset>157F800</Offset>
+      <Section>0</Section>
+      <ValueOn>40-80-FC-20-75-0A-C5-FA-11-4F-48-E9-80-97-67-7F-40-80-FC-00-75-0A-C5-FA-11-4F-48-E9-70-97-67-7F-C5-FA-11-47-48-E9-66-97-67-7F</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>80BF8F8B</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-70-68-98-80</ValueOn>
+      <ValueOff>C5-FA-11-47-48</ValueOff>
+    </Cheatline>
+  </Cheat>
+</Trainer>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="Skul: The Hero Slayer" Moder="fbin" Cusa="CUSA27428" Version="01.16" Process="eboot.bin">
+  <Genres Name="Action" />
+  <Genres Name="Adventure" />
+  <Genres Name="Arcade" />
+  <Items />
+  <Cheat Text="Moedas e Diamantes Infinitos">
+    <Cheatline>
+      <Offset>7FC5FFF0</Offset>
+      <Section>0</Section>
+      <ValueOn>41-C7-44-24-1C-FF-E0-F5-05-E9-FE-4C-12-01</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>80D84CF7</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-F4-B2-ED-FE</ValueOn>
+      <ValueOff>45-89-74-24-1C</ValueOff>
+    </Cheatline>
+  </Cheat>
+</Trainer>

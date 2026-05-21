@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="DemonSlaye" Moder="fqzx123" Cusa="CUSA27306" Version="01.51" Process="eboot.bin">
+  <Genres Name="Adventure" />
+  <Genres Name="Fighting" />
+  <Items />
+  <Cheat Text="角色无敌">
+    <Cheatline>
+      <Offset>8177D00</Offset>
+      <Section>0</Section>
+      <ValueOn>41-83-BE-B8-01-00-00-01-75-05-E9-45-C0-C3-FA-FF-90-B0-0B-00-00-E9-3A-C0-C3-FA</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>2DB3D4E</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-AD-3F-3C-05-90</ValueOn>
+      <ValueOff>FF-90-B0-0B-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="共门量表无限">
+    <Cheatline>
+      <Offset>8177C00</Offset>
+      <Section>0</Section>
+      <ValueOn>81-7D-78-FB-4B-64-02-75-05-E9-FC-4C-CC-F9-FF-90-78-03-00-00-E9-F1-4C-CC-F9</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>1E3C904</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-F7-B2-33-06-90</ValueOn>
+      <ValueOff>FF-90-78-03-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="觉醒量表高速积累">
+    <Cheatline>
+      <Offset>8177B00</Offset>
+      <Section>0</Section>
+      <ValueOn>83-7B-58-01-74-0D-C5-FA-5F-8B-6C-02-00-00-E9-10-8A-EF-F9-C5-FA-5D-8B-6C-02-00-00-E9-03-8A-EF-F9</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>207051B</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-E0-75-10-06-90-90-90</ValueOn>
+      <ValueOff>C5-FA-5D-8B-6C-02-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="鬼灭点数不减">
+    <Cheatline>
+      <Offset>2ADA1AD</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90-90-90</ValueOn>
+      <ValueOff>41-2B-96-78-03-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+</Trainer>
