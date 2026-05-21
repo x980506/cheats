@@ -1,0 +1,96 @@
+{
+  "name": "DEAD OR ALIVE 6",
+  "id": "CUSA12153",
+  "version": "01.30",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "01 双方无限崩解槽",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1A5F6B0",
+          "on": "410F45D841C64720C8E91F81A8FF",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "14E77D5",
+          "on": "E9D67E5700909090",
+          "off": "410F45D841894F20"
+        }
+      ]
+    },
+    {
+      "name": "02 玩家1无限生命",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1440B38",
+          "on": "9090",
+          "off": "29C1"
+        }
+      ]
+    },
+    {
+      "name": "03 玩家2无限崩解槽",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1A5F6B0",
+          "on": "410F45D84180BF94000000017509B9C800000041894F20E91181A8FF",
+          "off": "00000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "14E77D5",
+          "on": "E9D67E5700909090",
+          "off": "410F45D841894F20"
+        }
+      ]
+    },
+    {
+      "name": "04 玩家1无限崩解槽",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1A5F6B0",
+          "on": "410F45D84180BF94000000007509B9C800000041894F20E91181A8FF",
+          "off": "00000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "14E77D5",
+          "on": "E9D67E5700909090",
+          "off": "410F45D841894F20"
+        }
+      ]
+    },
+	{
+		"name":"Max Break Gauge | 满崩解槽",
+		"type":"checkbox",
+		"memory":[
+			{
+			"offset":"15F0A10",
+			"on":"410F45D84180BF94000000007509B9C800000041894F20E9B16DEFFF",
+			"off":"00000000000000000000000000000000000000000000000000000000"
+			},
+			{
+			"offset":"14E77D5",
+			"on":"E936921000909090",
+			"off":"410F45D841894F20"
+			}
+		]
+	},
+	{
+		"name":"Unlock All Costumes | 解锁全部服装",
+		"type":"checkbox",
+		"memory":[{"offset":"704583","on":"EB08","off":"7508"}]
+	},
+	{
+		"name":"Unlock All Hairstyles | 解锁全部发型",
+		"type":"checkbox",
+		"memory":[{"offset":"5F3A49","on":"EB08","off":"7508"
+	}
+  ],
+  "credits": [
+    "cml, Aran & eisky, PIC1024"
+  ]
+}
