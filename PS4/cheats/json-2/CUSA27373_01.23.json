@@ -1,0 +1,267 @@
+{
+  "name": "The Callisto Protocol 木卫四协议",
+  "id": "CUSA27373",
+  "version": "01.23",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Invincible / Ignore Hits | 无敌模式 / 无视伤害判定",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "08CE3FE0",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health | 无限生命",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "08CE3FE1",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "One Hit Kill | 一击必杀",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "08CE3FE3",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ammo | 无限弹药",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "262B16A",
+          "on": "89C09090",
+          "off": "410F4CC7"
+        }
+      ]
+    },
+    {
+      "name": "No Reload | 无需装弹",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2673029",
+          "on": "909090",
+          "off": "2B7044"
+        }
+      ]
+    },
+    {
+      "name": "Infinite GRP | 无限 GRP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2618830",
+          "on": "A7",
+          "off": "9F"
+        }
+      ]
+    },
+    {
+      "name": "Save Current Location | 标记当前位置",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "08CE3F10",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Teleport To Waypoint | 瞬移到标记位置",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "08CE3F12",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Credits & Items | 信用点和物品使用不减",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2623A46",
+          "on": "9090909090",
+          "off": "4229542610"
+        }
+      ]
+    },
+    {
+      "name": "Credits 9,999,999 | 信用点 9,999,999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "58B73F0",
+          "on": "BE7F9698008971F8E9653FD7FC",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "262B35D",
+          "on": "E98EC02803",
+          "off": "7FD18971F8"
+        }
+      ]
+    },
+    {
+      "name": "Ignore Bloodworm Attack | 无视飞头蛮攻击",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5EC1A30",
+          "on": "4181BFB000000000004040740A4889E54157E90FB8B7FC5DC3",
+          "off": "00000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "2A3D251",
+          "on": "E9DA474803",
+          "off": "4889E54157"
+        }
+      ]
+    },
+    {
+      "name": "Big Mouth & Sentinel Don't Shoot | 大嘴怪和哨兵无法射击",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2B12BE0",
+          "on": "C3",
+          "off": "55"
+        }
+      ]
+    },
+    {
+      "name": "Player Speed Multiply 1.5 | 玩家速度 1.5 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8CE3FE2",
+          "on": "01",
+          "off": "00"
+        },
+        {
+          "offset": "59B2542",
+          "on": "0000C03F",
+          "off": "0000803F"
+        }
+      ]
+    },
+    {
+      "name": "Player Speed Multiply 2 | 玩家速度 2 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8CE3FE2",
+          "on": "01",
+          "off": "00"
+        },
+        {
+          "offset": "59B2542",
+          "on": "00000040",
+          "off": "0000803F"
+        }
+      ]
+    },
+    {
+      "name": "Player Speed Multiply 3 | 玩家速度 3 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8CE3FE2",
+          "on": "01",
+          "off": "00"
+        },
+        {
+          "offset": "59B2542",
+          "on": "00004040",
+          "off": "0000803F"
+        }
+      ]
+    },
+    {
+      "name": "Enemy Speed Multiply 0.5 | 敌人速度 0.5 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5EC1A7C",
+          "on": "0000003F",
+          "off": "0000803F"
+        }
+      ]
+    },
+    {
+      "name": "Enemy Speed Multiply 0.25 | 敌人速度 0.25 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5EC1A7C",
+          "on": "0000803E",
+          "off": "0000803F"
+        }
+      ]
+    },
+    {
+      "name": "Enemy Speed Multiply 0.1 | 敌人速度 0.1 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5EC1A7C",
+          "on": "CDCCCC3D",
+          "off": "0000803F"
+        }
+      ]
+    },
+    {
+      "name": "Game Speed Multiply 2 | 游戏速度 2 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5EC1AA6",
+          "on": "00000040",
+          "off": "0000803F"
+        }
+      ]
+    },
+    {
+      "name": "Game Speed Multiply 4 | 游戏速度 4 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5EC1AA6",
+          "on": "00008040",
+          "off": "0000803F"
+        }
+      ]
+    },
+    {
+      "name": "Game Speed Multiply 8 | 游戏速度 8 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5EC1AA6",
+          "on": "00000041",
+          "off": "0000803F"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Fullcodes & Dioniso & hejran7 & Rizla"
+  ]
+}

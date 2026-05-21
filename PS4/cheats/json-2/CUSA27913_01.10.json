@@ -1,0 +1,75 @@
+{
+  "name": "Gungrave G.O.R.E 铳墓 G.O.R.E",
+  "id": "CUSA27913",
+  "version": "01.10",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Infinite Health | 无限生命值",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4A32180",
+          "on": "80BB9801000000750CC7839805000010270000EB06898398050000E9618826FC",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "C9A9FB",
+          "on": "E98077D90390",
+          "off": "898398050000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Shield | 无限护盾",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4A321C0",
+          "on": "C783140A000000409C45E9AE1832FC",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "D53A75",
+          "on": "E946E7CD03909090",
+          "off": "C5FA1183140A0000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Demolition Shot Gauge | 无限毁灭技槽",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4A321F0",
+          "on": "C783A805000000401C46E9119326FC",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "C9B508",
+          "on": "E9E36CD903909090",
+          "off": "C5FA1183A8050000"
+        }
+      ]
+    },
+    {
+      "name": "Laboratory Development Points | 实验室成长点数 9999999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4A32220",
+          "on": "41C74424647F969800E9365345FC",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "E8755F",
+          "on": "E9BCACBA03",
+          "off": "4129442464"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Wander"
+  ]
+}

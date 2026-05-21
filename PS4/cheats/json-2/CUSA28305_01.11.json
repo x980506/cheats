@@ -1,0 +1,8 @@
+{"name":"Diablo II: Resurrected 暗黑破坏神II：狱火重生","id":"CUSA28305","version":"01.11","process":"eboot.bin","mods":[
+{"name":"Gold 999999990 金币 999999990","type":"checkbox","memory":[{"offset":"0313FF10","on":"01","off":"00"}]},
+{"name":"Player XP Max 经验值最大","type":"checkbox","memory":[{"offset":"0313FF0E","on":"01","off":"00"}]},
+{"name":"Player Life 9999 角色生命9999","type":"checkbox","memory":[{"offset":"0313FF08","on":"01","off":"00"}]},
+{"name":"Player Mana 9999 角色法力9999","type":"checkbox","memory":[{"offset":"0313FF0A","on":"01","off":"00"}]},
+{"name":"Player Stamina Max 角色耐力9999","type":"checkbox","memory":[{"offset":"0313FF0C","on":"01","off":"00"}]},
+{"name":"Stats Max on Assign 分配属性点数时 力量/敏捷/活力/能量9999","type":"checkbox","memory":[{"offset":"0313FF00","on":"01","off":"00"}]}
+],"credits":[" Fullcodes（PLAYSTATION/PC修改讨论群:1167084913）"]}

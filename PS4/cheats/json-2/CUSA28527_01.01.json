@@ -1,0 +1,6 @@
+{"name":"艾尔登法环®","id":"CUSA28527","version":"01.01","process":"eboot.bin","master":{"challenged":"yes","memory":[{"offset":"38F3B00","on":"53EB0C8B9864010000899860010000EB0C8B9850010000899854010000EB0C8B984C0100008998480100005BC5FA2A8048010000C3"},{"offset":"129DF34","on":"909090E8C45B6502"},{"offset":"38F3B50","on":"4C893DA9C4C000498B074C89FFC3"},{"offset":"134CD71","on":"90E8D96D5A02"},{"offset":"38F3B60","on":"48393D99C4C0007400554889E54157E9B2977DFDC3"},{"offset":"10CD320","on":"E93B688202"}]},"mods":[
+{"name":"无限生命","type":"checkbox","memory":[{"offset":"38F3B1E","on":"00","off":"0C"}]},
+{"name":"无限体力","type":"checkbox","memory":[{"offset":"38F3B02","on":"00","off":"0C"}]},
+{"name":"无限法力","type":"checkbox","memory":[{"offset":"38F3B10","on":"00","off":"0C"}]},
+{"name":"无敌模式","type":"checkbox","memory":[{"offset":"38F3B68","on":"0B","off":"00"}]}
+],"credits":["Hank"]}

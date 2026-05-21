@@ -1,0 +1,16 @@
+{
+  "name": "Grid Legends",
+  "id": "CUSA28260",
+  "version": "06.01",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Max Money",
+      "type": "checkbox",
+      "memory": []
+    }
+  ],
+  "credits": [
+    "Reddevil82 - FW 9.00"
+  ]
+}

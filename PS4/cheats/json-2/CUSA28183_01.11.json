@@ -1,0 +1,563 @@
+{
+  "name": "Lost Judgment 审判之逝：湮灭的记忆",
+  "id": "CUSA28183",
+  "version": "01.11",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Invincible Mode | 无敌模式",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1CA2C16",
+          "on": "75",
+          "off": "EB"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health | 无限体力",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2F9809",
+          "on": "90909090",
+          "off": "480F4FC6"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Partner Health | 同伴无限体力",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "03757FF2",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Max EX Gauge | 满 EX 量表",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2F9942",
+          "on": "5F",
+          "off": "5D"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Grip Gauge | 无限握力量表",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1277041",
+          "on": "5F",
+          "off": "5C"
+        }
+      ]
+    },
+    {
+      "name": "One Hit Kill | 一击必杀",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "03757FF3",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Stealth Mode | 隐身模式",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "15F6200",
+          "on": "C3",
+          "off": "55"
+        }
+      ]
+    },
+    {
+      "name": "Empty Caution Gauge | 清空警戒量表",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "16106BE",
+          "on": "EA",
+          "off": "F2"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Acting Casual | 无限伪装量表",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "03757FF4",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Freeze Tail Timer | 锁定跟踪倒计时",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1610419",
+          "on": "9090909090",
+          "off": "C5FA114330"
+        }
+      ]
+    },
+    {
+      "name": "Enemy Stamina Zero | 敌人耐力为零",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "03757FF5",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Instant Think | 思考瞬间完成",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "03757FF6",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Weapon Durability | 无限武器耐久度",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "115BB5F",
+          "on": "90909090909090",
+          "off": "412B87D4000000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Extract Duration | 无限仙药有效时间",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "03757FF7",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Lucky Effects | 无限幸运效果",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "03757FF8",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Remove Lucky Effects | 移除幸运效果",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "03757FF9",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Max Money & SP | 最大金钱和 SP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "03757FFA",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Max Items | 最大道具数量",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2F333A",
+          "on": "C7",
+          "off": "D7"
+        }
+      ]
+    },
+    {
+      "name": "Never Drunk | 不会醉酒",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "223494",
+          "on": "5D",
+          "off": "5F"
+        }
+      ]
+    },
+    {
+      "name": "Always Drunk | 总是醉酒",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2234A8",
+          "on": "5F",
+          "off": "5D"
+        }
+      ]
+    },
+    {
+      "name": "Lock Picking - Instant Pick | 开锁 - 瞬间打开",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "13DD33F",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Feline Encounters - Infinite Timer | 与猫咪沟通 - 无限倒计时",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "03757FE0",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Robotics - Infinite Timer | 机器人 - 无限倒计时",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "03757FE1",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Dance - High Score 999999 | 跳舞 - 高分 999999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1CA2D71",
+          "on": "00",
+          "off": "06"
+        },
+        {
+          "offset": "1CA2D79",
+          "on": "89",
+          "off": "8B"
+        }
+      ]
+    },
+    {
+      "name": "Dance - Max Combo 999 | 跳舞 - 连击数 999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1CA2D91",
+          "on": "00",
+          "off": "06"
+        },
+        {
+          "offset": "1CA2D99",
+          "on": "89",
+          "off": "8B"
+        }
+      ]
+    },
+    {
+      "name": "Dance - Rank S | 跳舞 - 等级 S",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1CA2DB1",
+          "on": "00",
+          "off": "06"
+        },
+        {
+          "offset": "1CA2DB9",
+          "on": "89",
+          "off": "8B"
+        } 
+      ]
+    },
+    {
+      "name": "Shogi - Freeze Time Limit | 将棋 - 锁定思考时间",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1A6FCF3",
+          "on": "9090909090",
+          "off": "C5FA5C4004"
+        }
+      ]
+    },
+    {
+      "name": "Shogi - Infinite Super Take Back | 将棋 - 无限超悔棋",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "19C97E5",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Shogi - Infinite Take Back | 将棋 - 无限悔棋",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "19C8E00",
+          "on": "90909090",
+          "off": "41FF4D60"
+        }
+      ]
+    },
+    {
+      "name": "Drone Race - Turbo No Cooldown | 无人机 - 推进器无需冷却",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "394D29",
+          "on": "C6",
+          "off": "C0"
+        }
+      ]
+    },
+    {
+      "name": "Drone Race - Infinite Turbo Gauge | 无人机 - 推进器量表不减",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "394C7C",
+          "on": "90909090",
+          "off": "29C87658"
+        }
+      ]
+    },
+    {
+      "name": "Drone Race - Freeze Total Time | 无人机 - 锁定总时间",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "397B3E",
+          "on": "EB",
+          "off": "77"
+        }
+      ]
+    },
+    {
+      "name": "Drone Race - Finish Line Crossable in Both Directions | 无人机 - 双向跨越终点线完成比赛",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "39891E",
+          "on": "EB",
+          "off": "76"
+        }
+      ]
+    },
+    {
+      "name": "Baseball：Challenge Course - Max Score (1 Hit) | 棒球：挑战赛程 - 最高分数 (击中一球)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1CA2D01",
+          "on": "00",
+          "off": "05"
+        }
+      ]
+    },
+    {
+      "name": "Baseball：Challenge Course - Max Score (No Hit) | 棒球：挑战赛程 - 最高分数 (无需击球)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1CA2D21",
+          "on": "00",
+          "off": "06"
+        },
+        {
+          "offset": "1CA2D29",
+          "on": "89",
+          "off": "8B"
+        }
+      ]
+    },
+    {
+      "name": "Baseball：Home Run Course - Max Score (1 Hit) | 棒球：全垒打赛程 - 最高分数 (击中一球)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1CA2D40",
+          "on": "C780EC0200000A000000E998F7C8FF",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "19324E1",
+          "on": "E95A08370090",
+          "off": "FF80EC020000"
+        }
+      ]
+    },
+    {
+      "name": "Baseball：Home Run Course - Max Score (No Hit) | 棒球：全垒打赛程 - 最高分数 (无需击球)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1CA2D51",
+          "on": "00",
+          "off": "06"
+        },
+        {
+          "offset": "1CA2D59",
+          "on": "89",
+          "off": "8B"
+        }
+      ]
+    },
+    {
+      "name": "Baseball：Home Run Competition - Max Sets | 棒球：全垒打对决 - 最大组数",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1930088",
+          "on": "C9",
+          "off": "C8"
+        }
+      ]
+    },
+    {
+      "name": "Baseball：Home Run Competition - Max Pts | 棒球：全垒打对决 - 最大点数",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "193015D",
+          "on": "C9",
+          "off": "C8"
+        }
+      ]
+    },
+    {
+      "name": "Paradise VR: Dice & Cube - Infinite Stars | VR 双六: DiQ - 无限星数",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "165752C",
+          "on": "9090",
+          "off": "29C1"
+        }
+      ]
+    },
+    {
+      "name": "Paradise VR: Dice & Cube - Infinite Timer | VR 双六: DiQ - 无限倒计时",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1CA2E11",
+          "on": "00",
+          "off": "08"
+        }
+      ]
+    },
+    {
+      "name": "Paradise VR: Dice & Cube - Ignore Events | VR 双六: DiQ - 无视事件",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "166D16B",
+          "on": "9090",
+          "off": "FFC9"
+        }
+      ]
+    },
+    {
+      "name": "Paradise VR: Dice & Cube - Opponent No Spaces | VR 双六: DiQ - 对手无剩余格数",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1CA2E34",
+          "on": "74",
+          "off": "EB"
+        }
+      ]
+    },
+    {
+      "name": "Paradise VR: Dice & Cube - Empty Opponent's Main Rival Health | VR 双六: DiQ - 清空对手本体体力",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1CA2DF1",
+          "on": "00",
+          "off": "07"
+        },
+        {
+          "offset": "1CA2DFA",
+          "on": "89",
+          "off": "8B"
+        }
+      ]
+    },
+    {
+      "name": "Paradise VR: Dice & Cube Drones - Infinite Health | VR 双六: DiQ 无人机 - 无限生命",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "03757FF0",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Paradise VR: Dice & Cube Drones - One Hit Kill | VR 双六: DiQ 无人机 - 一击必杀",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "03757FF1",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Paradise VR: Dice & Cube Climb - Infinite Keep Speed Up | VR 双六: DiQ 爬墙 - 无限维持提升速度",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "10F4933",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Fullcodes & Rizla"
+  ]
+}

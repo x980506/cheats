@@ -1,0 +1,20 @@
+{"name":"Saints Row 黑道圣徒 重启版","id":"CUSA26458","version":"01.02","process":"eboot.bin","mods":[
+{"name":"Cash 9,999,999 on Gain 金钱获得时9,999,999","type":"checkbox","memory":[{"offset":"01E918CE","on":"75","off":"EB"}]},
+{"name":"Cash Wont Decrease on Buy 购物时金钱不减","type":"checkbox","memory":[{"offset":"01E918FE","on":"75","off":"EB"}]},
+{"name":"Unlimited Total Ammo 总弹药数无限大","type":"checkbox","memory":[{"offset":"04CFFA08","on":"01","off":"00"}]},
+{"name":"Max Flow Instant 技能槽迅速集满","type":"checkbox","memory":[{"offset":"008C79A2","on":"8E","off":"86"}]},
+{"name":"Infinite Flow Use 无限技能使用","type":"checkbox","memory":[{"offset":"0070A87D","on":"9090909090","off":"E8BE66F1FF"},{"offset":"0070A8A1","on":"9090909090","off":"E8AA010000"}]},
+{"name":"Finisher No Cooldown 终结技无需冷却","type":"checkbox","memory":[{"offset":"04CFFA18","on":"01","off":"00"}]},
+{"name":"Finisher Works for All Enemies 所有敌人都可使用终结技","type":"checkbox","memory":[{"offset":"006C7645","on":"EB","off":"74"}]},
+{"name":"Infinite Player Health 角色生命值最大","type":"checkbox","memory":[{"offset":"04CFFA0E","on":"01","off":"00"}]},
+{"name":"Player Invincible 角色无敌状态","type":"checkbox","memory":[{"offset":"04CFFA10","on":"01","off":"00"}]},
+{"name":"Player Stealth Mode 角色隐身模式","type":"checkbox","memory":[{"offset":"04CFFA00","on":"01","off":"00"}]},
+{"name":"Infinite Vehicle Health 载具生命值最大","type":"checkbox","memory":[{"offset":"04CFFA04","on":"01","off":"00"}]},
+{"name":"Infinite Vehicle Nitro 载具氮气最大","type":"checkbox","memory":[{"offset":"00A7B9F5","on":"60","off":"AC"}]},
+{"name":"EXP Multi 1-100 on Gain 经验值1-100倍获得 (default 默认 5)","type":"checkbox","memory":[{"offset":"01E918B2","on":"05","off":"01"}]},
+{"name":"No Reload 无需装弹","type":"checkbox","memory":[{"offset":"04CFFA06","on":"01","off":"00"}]},
+{"name":"One Hit Kill 一击必杀","type":"checkbox","memory":[{"offset":"04CFFA02","on":"01","off":"00"}]},
+{"name":"One Hit Kill Vehicle 载具一击必杀","type":"checkbox","memory":[{"offset":"04CFFA12","on":"01","off":"00"}]},
+{"name":"No Notoriety 恶名等级0","type":"checkbox","memory":[{"offset":"007993B4","on":"4531","off":"4189"}]},
+{"name":"Complete All Challenges and Unlock All Perks 完全全挑战和解锁全福利","type":"checkbox","memory":[{"offset":"050FFA14","on":"01","off":"00"}]}
+],"credits":[" Fullcodes（PLAYSTATION/PC修改讨论群:1167084913）"]}

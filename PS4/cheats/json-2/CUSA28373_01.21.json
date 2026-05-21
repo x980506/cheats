@@ -1,0 +1,172 @@
+{
+  "name": "F.I.S.T. 暗影火炬城",
+  "id": "CUSA28373",
+  "version": "01.21",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Invincible Mode | 无敌模式",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "35D4F90",
+          "on": "C3",
+          "off": "55"
+        },
+        {
+          "offset": "3655BA0",
+          "on": "C3",
+          "off": "55"
+        },
+        {
+          "offset": "376F0D0",
+          "on": "C3",
+          "off": "55"
+        },
+        {
+          "offset": "37B2D10",
+          "on": "C3",
+          "off": "55"
+        },
+        {
+          "offset": "5994D60",
+          "on": "C3",
+          "off": "55"
+        },
+        {
+          "offset": "5BD6BC0",
+          "on": "C3",
+          "off": "55"
+        },
+        {
+          "offset": "3774723",
+          "on": "909090909090",
+          "off": "FF90080A0000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health | 无限生命",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "78DCFE8",
+          "on": "EB00",
+          "off": "EB0C"
+        }
+      ]
+    },
+    {
+      "name": "Infinite SP | 无限元气",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "78DD00B",
+          "on": "E900",
+          "off": "E90E"
+        }
+      ]
+    },
+    {
+      "name": "Infinite EP | 无限能量",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "78DD035",
+          "on": "E900",
+          "off": "E90E"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Dash | 无限冲刺",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "78DCFCC",
+          "on": "EB00",
+          "off": "EB07"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Jumps | 无限跳跃",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "78DCFD5",
+          "on": "EB00",
+          "off": "EB11"
+        }
+      ]
+    },
+    {
+      "name": "Damage Multiplier 5 | 伤害倍率 5 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "78DCFCA",
+          "on": "A040",
+          "off": "803F"
+        }
+      ]
+    },
+    {
+      "name": "Damage Multiplier 10 | 伤害倍率 10 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "78DCFCA",
+          "on": "2041",
+          "off": "803F"
+        }
+      ]
+    },
+    {
+      "name": "Damage Multiplier 20 | 伤害倍率 20 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "78DCFCA",
+          "on": "A041",
+          "off": "803F"
+        }
+      ]
+    },
+    {
+      "name": "Ignore Money When Buy Shop Items | 无视金钱购买商店物品",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "36B138F",
+          "on": "909039C0",
+          "off": "413B4640"
+        }
+      ]
+    },
+    {
+      "name": "Ignore Money & Data Disk When Unlock Skills | 无视金钱和数据磁盘解锁技能",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2B96A61",
+          "on": "909090909039C0",
+          "off": "413B8738030000"
+        },
+        {
+          "offset": "2B9A4E9",
+          "on": "90909090904539FF",
+          "off": "453BBC2438030000"
+        },
+        {
+          "offset": "3759434",
+          "on": "9090909039F6",
+          "off": "39B7CC000000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Hank"
+  ]
+}

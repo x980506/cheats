@@ -1,0 +1,27 @@
+{
+  "name": "Rabbids Party of Legends 疯狂兔子：奇遇派对",
+  "id": "CUSA27237",
+  "version": "01.01",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Max Level | 最高等级",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1FEEDE0",
+          "on": "C7077F96980048634704E9135256FF",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "1553FFC",
+          "on": "E9DFADA90090",
+          "off": "010748634704"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Dreamcast2"
+  ]
+}
