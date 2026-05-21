@@ -1,0 +1,166 @@
+{
+  "name": "Aliens: Dark Descent",
+  "id": "CUSA34370",
+  "version": "01.08",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Infinite Ammo (squad and turret)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "83A7B60",
+          "on": "41C786D803000064000000E950D49EFA",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "2D94FB9",
+          "on": "E9A22B61059090",
+          "off": "418986D8030000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite item use (on the mission)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "83A7A50",
+          "on": "C744F008040000000F84AB3021FAE97F3021FA",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "25BAADC",
+          "on": "E96FCFDE0590",
+          "off": "8954F0087427"
+        }
+      ]
+    },
+    {
+      "name": "Max Materials (on spend)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "83A76C0",
+          "on": "C74483089F860100E981FFF5F9",
+          "off": "00000000000000000000000000"
+        },
+        {
+          "offset": "2307649",
+          "on": "E972000A06",
+          "off": "4489448308"
+        }
+      ]
+    },
+    {
+      "name": "Stock Tools x99 (Mission)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "83A7601",
+          "on": "66C744F20863008B44F208418906E96B6D85FA90",
+          "off": "0000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "2BFE378",
+          "on": "E984927A059090",
+          "off": "8B44F208418906"
+        }
+      ]
+    },
+    {
+      "name": "Max Armor (Mission)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "83A75B1",
+          "on": "813B4830D608740EC5FA118340010000E984861AFA90C783400100000000C842C5FA108340010000C5FA118340010000E964861AFA90",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "254FC42",
+          "on": "E96A79E505909090",
+          "off": "C5FA118340010000"
+        }
+      ]
+    },
+    {
+      "name": "Freeze Stress Meter (Mission)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2708156",
+          "on": "90909090",
+          "off": "C5FA1107"
+        }
+      ]
+    },
+    {
+      "name": "Infinite and Max Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "83A7621",
+          "on": "488B95B8FEFFFF813F4830D6087524C787080100000000C842C7870C0100000000C842C787100100000000C842E909910EFB90E903910EFB",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "3490755",
+          "on": "E9C76EF1049090",
+          "off": "488B95B8FEFFFF"
+        }
+      ]
+    },
+    {
+      "name": "Med Bay Patient Recovery 0 Days ",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "83A7661",
+          "on": "48C746F800000000488B46F839C7E9A21C8FFA90",
+          "off": "0000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "2C99310",
+          "on": "E94CE3700590",
+          "off": "488B46F839C7"
+        }
+      ]
+    },
+    {
+      "name": "Max Stock Tools from Otago",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "83A7681",
+          "on": "4883FE007411C744B2080F270000418906E9F81C86FA90C744B2080F270000418906E9E71C86FA90",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "2C09388",
+          "on": "E9F4E279059090",
+          "off": "8B44B208418906"
+        }
+      ]
+    },
+    {
+      "name": "Max Bravery and Accuracy (Otago)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "83A76B1",
+          "on": "C747280000C842C5FA104728C5FA11472CC5FA114730E96D58CAF990",
+          "off": "00000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "204CF34",
+          "on": "E978A73506",
+          "off": "C5FA104728"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Wander FW9.00, d01v (cheat merge by Chronoss)"
+  ]
+}

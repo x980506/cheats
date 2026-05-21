@@ -1,0 +1,17 @@
+{"name":"Unicorn Overlord 圣兽之王","id":"CUSA36381","version":"01.04","process":"eboot.bin","mods":[
+{"name":"Infinite Brave | 无限勇气","type":"checkbox","memory":[{"offset":"7F126A","on":"01","off":"FF"}]},
+{"name":"Infinite Stamina | 无限精力","type":"checkbox","memory":[{"offset":"0234FFE7","on":"01","off":"00"}]},
+{"name":"Freeze Time Limit | 锁定时间限制","type":"checkbox","memory":[{"offset":"4CCEE6","on":"31","off":"89"}]},
+{"name":"Gold 9999999 | 持有金额 9999999","type":"checkbox","memory":[{"offset":"4C1246","on":"909090","off":"0F4CD1"}]},
+{"name":"Infinite Items & Honors | 无限道具和勋章数","type":"checkbox","memory":[{"offset":"51794B","on":"9090","off":"29D1"}]},
+{"name":"Max Renown | 最高声望","type":"checkbox","memory":[{"offset":"59FC75","on":"909090","off":"0F4CD1"}]},
+{"name":"Max HP | 最大 HP","type":"checkbox","memory":[{"offset":"0234FFE9","on":"01","off":"00"}]},
+{"name":"Max ATK | 最高攻击","type":"checkbox","memory":[{"offset":"0234FFE0","on":"01","off":"00"}]},
+{"name":"Max DEF | 最高防御","type":"checkbox","memory":[{"offset":"0234FFE1","on":"01","off":"00"}]},
+{"name":"Max Accuracy | 最高命中","type":"checkbox","memory":[{"offset":"0234FFE2","on":"01","off":"00"}]},
+{"name":"Max Evasion | 最高闪避","type":"checkbox","memory":[{"offset":"0234FFE3","on":"01","off":"00"}]},
+{"name":"Max Crit. Rate | 最高暴击率","type":"checkbox","memory":[{"offset":"0234FFE4","on":"01","off":"00"}]},
+{"name":"Max Guard Rate | 最高格挡率","type":"checkbox","memory":[{"offset":"0234FFE5","on":"01","off":"00"}]},
+{"name":"Max Initiative | 最高行动速度","type":"checkbox","memory":[{"offset":"0234FFE6","on":"01","off":"00"}]},
+{"name":"Max EXP | 最大经验值","type":"checkbox","memory":[{"offset":"0234FFE8","on":"01","off":"00"}]}
+],"credits":["Fullcodes"]}

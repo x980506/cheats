@@ -1,0 +1,20 @@
+{"name":"Atelier Ryza 3 ~Alchemist of the End & the Secret Key~ 莱莎的炼金工房３ ～终结之炼金术士与秘密钥匙～","id":"CUSA34609","version":"01.07","process":"eboot.bin","mods":[
+{"name":"Invincible Mode | 无敌模式","type":"checkbox","memory":[{"offset":"0279FFD6","on":"01","off":"00"}]},
+{"name":"Infinite Health | 无限生命","type":"checkbox","memory":[{"offset":"0279FFD0","on":"01","off":"00"}]},
+{"name":"Max Break Guard | 满防御槽","type":"checkbox","memory":[{"offset":"0279FFD1","on":"01","off":"00"}]},
+{"name":"Infinite AP | 无限 AP","type":"checkbox","memory":[{"offset":"0279FFD3","on":"01","off":"00"}]},
+{"name":"Infinite CC | 无限 CC","type":"checkbox","memory":[{"offset":"0279FFDF","on":"01","off":"00"}]},
+{"name":"Max T-Lv | 最高 T-Lv","type":"checkbox","memory":[{"offset":"0279FFD4","on":"01","off":"00"}]},
+{"name":"Instant Action | 瞬间行动","type":"checkbox","memory":[{"offset":"0279FFD5","on":"01","off":"00"}]},
+{"name":"One Hit Break | 一击破防","type":"checkbox","memory":[{"offset":"0279FFD2","on":"01","off":"00"}]},
+{"name":"One Hit Kill | 一击必杀","type":"checkbox","memory":[{"offset":"0279FFD7","on":"01","off":"00"}]},
+{"name":"Stealth Mode | 隐身模式","type":"checkbox","memory":[{"offset":"0279FFE1","on":"01","off":"00"}]},
+{"name":"Max Item Quality | 最高物品品质","type":"checkbox","memory":[{"offset":"0279FFD8","on":"01","off":"00"}]},
+{"name":"Max Item Level | 最高物品等级","type":"checkbox","memory":[{"offset":"0279FFD9","on":"01","off":"00"}]},
+{"name":"Infinite Secret Keys | 无限秘密钥匙","type":"checkbox","memory":[{"offset":"0279FFE0","on":"01","off":"00"}]},
+{"name":"EXP Multiply 10 | 经验值 10 倍","type":"checkbox","memory":[{"offset":"0279FFDC","on":"01","off":"00"}]},
+{"name":"Max EXP | 最大经验值","type":"checkbox","memory":[{"offset":"0279FFDD","on":"01","off":"00"}]},
+{"name":"SP 99999 | SP 99999","type":"checkbox","memory":[{"offset":"0279FFDA","on":"01","off":"00"}]},
+{"name":"Cole 999999 | 银币 999999","type":"checkbox","memory":[{"offset":"0279FFDB","on":"01","off":"00"}]},
+{"name":"Gold Coins 999999 | 金币 999999","type":"checkbox","memory":[{"offset":"0279FFDE","on":"01","off":"00"}]}
+],"credits":["Fullcodes"]}

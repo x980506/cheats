@@ -1,0 +1,21 @@
+{"name":"OCTOPATH TRAVELER II 歧路旅人II","id":"CUSA36274","version":"01.11","process":"eboot.bin","mods":[
+{"name":"Infinite BP | 无限 BP","type":"checkbox","memory":[{"offset":"06D07FE0","on":"01","off":"00"}]},
+{"name":"Infinite SP | 无限 SP","type":"checkbox","memory":[{"offset":"06D07FE1","on":"01","off":"00"}]},
+{"name":"Infinite BP | 无限 BP","type":"checkbox","memory":[{"offset":"06D07FE2","on":"01","off":"00"}]},
+{"name":"Max ATK | 最大攻击力","type":"checkbox","memory":[{"offset":"06D07FE3","on":"01","off":"00"}]},
+{"name":"Max DEF | 最大防御力","type":"checkbox","memory":[{"offset":"06D07FE4","on":"01","off":"00"}]},
+{"name":"Max Accuracy | 最大命中","type":"checkbox","memory":[{"offset":"06D07FE5","on":"01","off":"00"}]},
+{"name":"Max Evasion | 最大回避","type":"checkbox","memory":[{"offset":"06D07FE6","on":"01","off":"00"}]},
+{"name":"Max Critical | 最大暴击","type":"checkbox","memory":[{"offset":"06D07FE7","on":"01","off":"00"}]},
+{"name":"Max Speed | 最大行动速度","type":"checkbox","memory":[{"offset":"06D07FE8","on":"01","off":"00"}]},
+{"name":"One Hit Kill | 一击必杀","type":"checkbox","memory":[{"offset":"06D07FE9","on":"01","off":"00"}]},
+{"name":"No Encounters | 不遇敌","type":"checkbox","memory":[{"offset":"06D07FEC","on":"01","off":"00"}]},
+{"name":"Infinite Items | 无限道具","type":"checkbox","memory":[{"offset":"A75881","on":"4531FF","off":"4189D7"}]},
+{"name":"Reset Play Time | 重置游戏时间","type":"checkbox","memory":[{"offset":"B07C05","on":"31C090909090","off":"03832C020000"}]},
+{"name":"EXP Multiply 10 | 经验值 10 倍","type":"checkbox","memory":[{"offset":"06D07FEA","on":"01","off":"00"}]},
+{"name":"Max EXP | 最大经验值","type":"checkbox","memory":[{"offset":"06D07FEB","on":"01","off":"00"}]},
+{"name":"Movement Speed Multiply 2 | 移动速度 2 倍","type":"checkbox","memory":[{"offset":"06D07FED","on":"01","off":"00"},{"offset":"4D45A87","on":"0040","off":"803F"}]},
+{"name":"Movement Speed Multiply 3 | 移动速度 3 倍","type":"checkbox","memory":[{"offset":"06D07FED","on":"01","off":"00"},{"offset":"4D45A87","on":"4040","off":"803F"}]},
+{"name":"Money 99999999 | 金钱 99999999","type":"checkbox","memory":[{"offset":"06D07FEE","on":"01","off":"00"}]},
+{"name":"JP 99999999 | JP 99999999","type":"checkbox","memory":[{"offset":"06D07FEF","on":"01","off":"00"}]}
+],"credits":["Fullcodes"]}

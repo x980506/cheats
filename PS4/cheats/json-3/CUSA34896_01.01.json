@@ -1,0 +1,9 @@
+{"name":"Beyond Good & Evil - 20th Anniversary Edition 超越善恶 20周年纪念版","id":"CUSA34896","version":"01.01","process":"eboot.bin","mods":[
+{"name":"Infinite Energy | 无限体力","type":"checkbox","memory":[{"offset":"01DE3FF0","on":"01","off":"00"}]},
+{"name":"Infinite Companion Energy | 同伴无限体力","type":"checkbox","memory":[{"offset":"01DE3FF2","on":"01","off":"00"}]},
+{"name":"Infinite Starkos & Box of K-Bups | 无限星多柯和 K-Bup 盒","type":"checkbox","memory":[{"offset":"819426","on":"9090","off":"FF08"},{"offset":"D02D00","on":"9090","off":"FF08"},{"offset":"EA84D6","on":"9090","off":"FF08"}]},
+{"name":"Vehicle: Infinite Energy | 载具：无限能量","type":"checkbox","memory":[{"offset":"01DE3FF1","on":"01","off":"00"}]},
+{"name":"Vehicle: Infinite Boost | 载具：无限加速胶囊","type":"checkbox","memory":[{"offset":"C4EA57","on":"9090","off":"FF08"}]},
+{"name":"Vehicle: Infinite P-O-D | 载具：无限便携式修复机","type":"checkbox","memory":[{"offset":"C4D612","on":"9090","off":"FF08"}]},
+{"name":"Easy-Units Added by 10000 | 安心点数每次增加 10000","type":"checkbox","memory":[{"offset":"01DE3FF3","on":"01","off":"00"}]}
+],"credits":["Dreamcast2"]}

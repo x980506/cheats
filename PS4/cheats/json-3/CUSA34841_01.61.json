@@ -1,0 +1,10 @@
+{"name":"SAMURAI MAIDEN 武士少女","id":"CUSA34841","version":"01.61","process":"eboot.bin","mods":[
+{"name":"Infinite Health | 无限生命","type":"checkbox","memory":[{"section":"0","offset":"836BFF00","on":"01","off":"00"}]},
+{"name":"Ninja Skill Always Available | 忍技始终可用","type":"checkbox","memory":[{"section":"0","offset":"836BFF01","on":"01","off":"00"}]},
+{"name":"Infinite Ninja Tool Use | 忍术无限使用","type":"checkbox","memory":[{"section":"0","offset":"80EBCD2F","on":"66BB6300","off":"8B5C8820"}]},
+{"name":"Infinite Double Jumps | 无限二段跳跃","type":"checkbox","memory":[{"section":"0","offset":"81126116","on":"01","off":"00"}]},
+{"name":"Infinite Air Combo | 无限空中连击","type":"checkbox","memory":[{"section":"0","offset":"81126136","on":"01","off":"00"}]},
+{"name":"One Hit Kill | 一击必杀","type":"checkbox","memory":[{"section":"0","offset":"80E78BF3","on":"05F4FF7F01","off":"87A0000000"}]},
+{"name":"Max Affection | 最高亲密度","type":"checkbox","memory":[{"section":"0","offset":"80E7D67B","on":"4589DE","off":"4189C6"}]},
+{"name":"Max Inga | 最大因货","type":"checkbox","memory":[{"section":"0","offset":"80EBD74A","on":"909090","off":"0F4CF3"},{"section":"0","offset":"80E7B92B","on":"909090","off":"0F4CC6"}]}
+],"credits":["Fullcodes"]}

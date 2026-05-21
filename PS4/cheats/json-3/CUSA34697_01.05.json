@@ -1,0 +1,19 @@
+{"name":"SAND LAND 沙漠大冒险","id":"CUSA34697","version":"01.07","process":"eboot.bin","mods":[
+{"name":"Invincible Mode | 无敌模式","type":"checkbox","memory":[{"offset":"0A1BFFE5","on":"01","off":"00"}]},
+{"name":"Infinite HP | 无限 HP","type":"checkbox","memory":[{"offset":"0A1BFFE0","on":"01","off":"00"}]},
+{"name":"Infinite Power of Darkness | 无限黑夜能源","type":"checkbox","memory":[{"offset":"0A1BFFE2","on":"01","off":"00"}]},
+{"name":"Infinite Shortcut Items | 无限快捷道具","type":"checkbox","memory":[{"offset":"1FA28C6","on":"00","off":"01"}]},
+{"name":"Infinite Water | 无限水量","type":"checkbox","memory":[{"offset":"1FA3640","on":"5F","off":"5D"}]},
+{"name":"Stealth Mode | 隐身模式","type":"checkbox","memory":[{"offset":"0A1BFFEA","on":"01","off":"00"}]},
+{"name":"One Hit Kill | 一击必杀","type":"checkbox","memory":[{"offset":"0A1BFFE1","on":"01","off":"00"}]},
+{"name":"Infinite Double Jumps | 无限二段跳","type":"checkbox","memory":[{"offset":"0A1BFFE4","on":"01","off":"00"}]},
+{"name":"Infinite Skill Points | 无限技能点数","type":"checkbox","memory":[{"offset":"0A1BFFE9","on":"01","off":"00"}]},
+{"name":"Vehicle: Infinite Ammo | 载具：无限弹药","type":"checkbox","memory":[{"offset":"2B2E7D5","on":"C1","off":"C9"}]},
+{"name":"Vehicle: Infinite Nitro | 载具：无限氮气","type":"checkbox","memory":[{"offset":"202C8CF","on":"5F","off":"5D"}]},
+{"name":"Movement Speed Multiply 2 | 移动速度 2 倍","type":"checkbox","memory":[{"offset":"0A1BFFEB","on":"01","off":"00"}]},
+{"name":"Movement Speed Multiply 5 | 移动速度 5 倍","type":"checkbox","memory":[{"offset":"0A1BFFEC","on":"01","off":"00"}]},
+{"name":"Movement Speed Multiply 10 | 移动速度 10 倍","type":"checkbox","memory":[{"offset":"0A1BFFED","on":"01","off":"00"}]},
+{"name":"XP Multiply 10 | 经验值 10 倍","type":"checkbox","memory":[{"offset":"0A1BFFE6","on":"01","off":"00"}]},
+{"name":"XP Multiply 100 | 经验值 100 倍","type":"checkbox","memory":[{"offset":"0A1BFFE7","on":"01","off":"00"}]},
+{"name":"Zeni 99,999,999 | 金钱 99,999,999","type":"checkbox","memory":[{"offset":"23C467B","on":"C0","off":"C8"}]}
+],"credits":["Fullcodes"]}

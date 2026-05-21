@@ -1,0 +1,22 @@
+{"name":"Resident Evil 4 Deluxe Edition","id":"CUSA35714","version":"01.02","process":"eboot.bin","mods":[
+{"name":"God Mode/Ignore Hist 无敌模式","type":"checkbox","memory":[{"offset":"1043FFE2","on":"01","off":"00"}]},
+{"name":"Infinite Health 无限生命","type":"checkbox","memory":[{"offset":"1043FFE0","on":"01","off":"00"}]},
+{"name":"Infinite Items 无限物品","type":"checkbox","memory":[{"offset":"1043FFE5","on":"01","off":"00"}]},
+{"name":"Infinite Ammo 无限弹药","type":"checkbox","memory":[{"offset":"0321F15A","on":"4D","off":"4C"}]},
+{"name":"Infinite Grenades 无限手榴弹","type":"checkbox","memory":[{"offset":"032250A9","on":"01","off":"29"}]},
+{"name":"Max Knife Durability 最大小刀耐久度","type":"checkbox","memory":[{"offset":"03224FC0","on":"89F2","off":"29DA"}]},
+{"name":"No Reload 无需装弹","type":"checkbox","memory":[{"offset":"03225246","on":"9090","off":"29DA"}]},
+{"name":"Super Accuracy 超级精准度","type":"checkbox","memory":[{"offset":"00A7453D","on":"5F","off":"5D"}]},
+{"name":"No Recoil 无后坐力","type":"checkbox","memory":[{"offset":"05977BD0","on":"C3","off":"55"}]},
+{"name":"Move Speed Multi 2 移动速度2倍","type":"checkbox","memory":[{"offset":"1043FFE7","on":"01","off":"00"}]},
+{"name":"ptas. 99,999,999 比塞塔币 99,999,999","type":"checkbox","memory":[{"offset":"1043FFE4","on":"01","off":"00"}]},
+{"name":"Spinels 999 尖晶石999","type":"checkbox","memory":[{"offset":"1043FFE6","on":"01","off":"00"}]},
+{"name":"Shooting Score Added by 10,000 靶场挑战分数每次增加10,000","type":"checkbox","memory":[{"offset":"1043FFE9","on":"01","off":"00"}]},
+{"name":"Gold and Silver Tokens 999 金质和银质代币 999","type":"checkbox","memory":[{"offset":"1043FFE8","on":"01","off":"00"}]},
+{"name":"CP 100,000,000 on Exchange 兑换后用完点100,000,000","type":"checkbox","memory":[{"offset":"028DD371","on":"4D","off":"4C"}]},
+{"name":"Unlock All Extra Content Shop Items 解锁全部奖励商店物品","type":"checkbox","memory":[{"offset":"028DDF40","on":"0C01","off":"84C0"}]},
+{"name":"Save Times 0 存档次数0","type":"checkbox","memory":[{"offset":"0599AB5C","on":"31","off":"FF"}]},
+{"name":"Freeze Play Time 锁定游戏时间","type":"checkbox","memory":[{"offset":"04B81C30","on":"C3","off":"55"}]},
+{"name":"One Hit Kill 一击必杀","type":"checkbox","memory":[{"offset":"1043FFE3","on":"01","off":"00"}]},
+{"name":"Maximum Leon Health 里昂生命上限最大","type":"checkbox","memory":[{"offset":"1043FFE1","on":"01","off":"00"}]}
+],"credits":[" Fullcodes"]}

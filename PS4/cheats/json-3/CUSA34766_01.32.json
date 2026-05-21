@@ -1,0 +1,187 @@
+{
+  "name": "Granblue Fantasy: Relink 碧蓝幻想 Relink",
+  "id": "CUSA34766",
+  "version": "01.32",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Infinite HP | 无限 HP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "05937FF0",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "No Skills Cooldown | 技能无需冷却",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "813234",
+          "on": "F2",
+          "off": "EA"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Skybound Art Gauge | 无限奥义槽",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "05937FF1",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Max Link | 最高 Link",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "05937FF2",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Freeze Link Attack Timer | 锁定 Link 攻击倒计时",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "05937FF3",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "All Treasures 900 | 全物品 900",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "05937FF4",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Freeze Event Timer | 锁定任务时间",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "05937FF5",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Quickly Level Up | 快速升级",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "05937FF6",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Max EXP | 最大经验值",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "05937FF7",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Max HP | 最大 HP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "05937FF8",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Max ATK | 最大攻击力",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "05937FF9",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Max Stun Power | 最大眩晕值",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "05937FFA",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Max Crit. Hit Rate | 最大暴击率",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "05937FFB",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "MSP 99999 | 历练点数 99999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "05937FFC",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Rupies 999999999 | 卢比 999999999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "05937FFD",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Unlock All Treasures And Key Items | 解锁全物品和贵重之物",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "05937FFE",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "d01v"
+  ]
+}

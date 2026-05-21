@@ -1,0 +1,19 @@
+{"name":"Octopath Traveler II 八方旅人","id":"CUSA36274","version":"01.02","process":"eboot.bin","mods":[
+{"name":"Infinite HP 无限HP","type":"checkbox","memory":[{"offset":"06D07FE0","on":"01","off":"00"}]},
+{"name":"Infinite SP 无限SP","type":"checkbox","memory":[{"offset":"06D07FE1","on":"01","off":"00"}]},
+{"name":"Infinite BP 无限BP","type":"checkbox","memory":[{"offset":"06D07FE2","on":"01","off":"00"}]},
+{"name":"Max ATK 最大攻击力","type":"checkbox","memory":[{"offset":"06D07FE3","on":"01","off":"00"}]},
+{"name":"Max DEF 最大防御力","type":"checkbox","memory":[{"offset":"06D07FE4","on":"01","off":"00"}]},
+{"name":"Max Accuracy 最大命中","type":"checkbox","memory":[{"offset":"06D07FE5","on":"01","off":"00"}]},
+{"name":"Max Evasion 最大回避","type":"checkbox","memory":[{"offset":"06D07FE6","on":"01","off":"00"}]},
+{"name":"Max Critical 最大暴击","type":"checkbox","memory":[{"offset":"06D07FE7","on":"01","off":"00"}]},
+{"name":"Max Speed 最大行动速度","type":"checkbox","memory":[{"offset":"06D07FE8","on":"01","off":"00"}]},
+{"name":"Move Speed Multi 3 移动速度3倍","type":"checkbox","memory":[{"offset":"06D07FED","on":"01","off":"00"}]},
+{"name":"No Encounters 不遇敌","type":"checkbox","memory":[{"offset":"06D07FEC","on":"01","off":"00"}]},
+{"name":"One Hit Kill 一击必杀","type":"checkbox","memory":[{"offset":"06D07FE9","on":"01","off":"00"}]},
+{"name":"Infinite Item Use 无限道具使用","type":"checkbox","memory":[{"offset":"00A70F71","on":"4531FF","off":"4189D7"}]},
+{"name":"Money 99999999 所持金 99999999","type":"checkbox","memory":[{"offset":"06D07FEE","on":"01","off":"00"}]},
+{"name":"Reset Play Time 重置游戏时间","type":"checkbox","memory":[{"offset":"00B02545","on":"31C090909090","off":"03832C020000"}]},
+{"name":"EXP Multi 5 on Obtain 经验值获得5倍","type":"checkbox","memory":[{"offset":"06D07FEA","on":"01","off":"00"}]},
+{"name":"Obtained JP 99999999 已获得的JP 99999999","type":"checkbox","memory":[{"offset":"06D07FE9","on":"01","off":"00"}]}
+],"credits":[" Fullcodes（PLAYSTATION/PC修改讨论群:1167084913）"]}

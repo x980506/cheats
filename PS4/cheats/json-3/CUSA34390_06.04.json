@@ -1,0 +1,198 @@
+{
+  "name": "God of War Ragnarök 战神：诸神黄昏",
+  "id": "CUSA34390",
+  "version": "06.04",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Invincible Mode | 无敌模式",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "054D3FE8",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health | 无限生命值",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "054D3FE0",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Rage of Sparta | 无限斯巴达之怒",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "054D3FE4",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Runic No Cool Down | 符文无需冷却",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "054D3FE9",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "No Status Effects | 异常状态不增加",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "054D3FEC",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "One Hit Stun | 一击眩晕",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "054D3FE5",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "One Hit Kill | 一击必杀",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "054D3FE1",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Arrow | 无限弓矢",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "054D3FED",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Companion Arrow | 同伴无限弓矢",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "054D3FE6",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Ignore Upgrade Requirments | 无视升级需求",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "054D3FEA",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Hacksilver 9999999 | 银片 9999999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "054D3FE3",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Kratos XP 9999999 | 奎托斯经验值 9999999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "054D3FE2",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Atreus XP 9999999 | 阿特柔斯经验值 9999999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "054D3FE7",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Freyja XP 9999999 | 芙蕾雅经验值 9999999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "054D3FEE",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Hold L3 Sprint Speed Multiply 2 | 按住 L3 冲刺速度 2 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "054D3FF2",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Hold R1+R2 Game Speed Multiply 5 | 按住 R1+R2 游戏速度 5 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "054D3FF1",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Throw The Axe And Press L2+X To Teleport | 抛出斧头后按 L2+X 瞬移至斧头位置",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "054D3FF0",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Fullcodes"
+  ]
+}

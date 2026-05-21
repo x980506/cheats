@@ -1,0 +1,20 @@
+{"name":"Atelier Ryza 3 莱莎的炼金工房３","id":"CUSA34609","version":"01.06","process":"eboot.bin","mods":[
+{"name":"God Mod/Ignore Hits 无敌模式","type":"checkbox","memory":[{"offset":"0279FFD6","on":"01","off":"00"}]},
+{"name":"Infinite HP 无限生命","type":"checkbox","memory":[{"offset":"0279FFD0","on":"01","off":"00"}]},
+{"name":"Max Break Gauge 满防御槽","type":"checkbox","memory":[{"offset":"0279FFD1","on":"01","off":"00"}]},
+{"name":"Max AP 无限行动值","type":"checkbox","memory":[{"offset":"0279FFD3","on":"01","off":"00"}]},
+{"name":"No WaitTime 即刻行动","type":"checkbox","memory":[{"offset":"0279FFD5","on":"01","off":"00"}]},
+{"name":"Max T-LV 最高T-LV","type":"checkbox","memory":[{"offset":"0279FFD4","on":"01","off":"00"}]},
+{"name":"Max CC 最大CC维持","type":"checkbox","memory":[{"offset":"0279FFDF","on":"01","off":"00"}]},
+{"name":"Stealth Mode 隐身模式","type":"checkbox","memory":[{"offset":"0279FFE1","on":"01","off":"00"}]},
+{"name":"Cole 999999 银币 999999","type":"checkbox","memory":[{"offset":"0279FFDB","on":"01","off":"00"}]},
+{"name":"Gold Coins 999999 金币 999999","type":"checkbox","memory":[{"offset":"0279FFDE","on":"01","off":"00"}]},
+{"name":"SP 99999 技能点数99999","type":"checkbox","memory":[{"offset":"0279FFDA","on":"01","off":"00"}]},
+{"name":"Infinite Secret Keys 无限秘密钥匙","type":"checkbox","memory":[{"offset":"0279FFE0","on":"01","off":"00"}]},
+{"name":"Max Item Quality 最高物品品质","type":"checkbox","memory":[{"offset":"0279FFD8","on":"01","off":"00"}]},
+{"name":"Max Item Lv 最高物品等级","type":"checkbox","memory":[{"offset":"0279FFD9","on":"01","off":"00"}]},
+{"name":"One Hit Break 一击破防","type":"checkbox","memory":[{"offset":"0279FFD2","on":"01","off":"00"}]},
+{"name":"One Hit Kill 一击必杀","type":"checkbox","memory":[{"offset":"0279FFD7","on":"01","off":"00"}]},
+{"name":"EXP Multi 10 on Gain 经验值10倍获得","type":"checkbox","memory":[{"offset":"0279FFDC","on":"01","off":"00"}]},
+{"name":"EXP Max on Gain 经验值最大获得","type":"checkbox","memory":[{"offset":"0279FFDD","on":"01","off":"00"}]}
+],"credits":["Fullcodes  PC/PS游戏修改交流: 一群 1167084913  二群 702196858"]}

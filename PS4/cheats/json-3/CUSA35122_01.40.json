@@ -1,0 +1,11 @@
+{"name":"Samurai Maiden Deluxs Edition 武士少女 豪华版","id":"CUSA35122","version":"01.40","process":"eboot.bin","mods":[
+{"name":"Inga Acquired Max|金钱获得时最大","type":"checkbox","memory":[{"section":"0","offset":"80EA8AEA","on":"909090","off":"0F4CF3"}]},
+{"name":"Inga Max on Spend|金钱消费时最大","type":"checkbox","memory":[{"section":"0","offset":"80E66A8B","on":"909090","off":"0F4CC6"}]},
+{"name":"Infinite Health|无限生命","type":"checkbox","memory":[{"section":"0","offset":"836BFF00","on":"01","off":"00"}]},
+{"name":"Ninja Skill Always Available|忍技一直可使用","type":"checkbox","memory":[{"section":"0","offset":"836BFF01","on":"01","off":"00"}]},
+{"name":"Infinite Ninja Tool Use|忍术无限使用","type":"checkbox","memory":[{"section":"0","offset":"80EA80CF","on":"66BB6300","off":"8B5C8820"}]},
+{"name":"Infinite Air Jump|无限空中连跳","type":"checkbox","memory":[{"section":"0","offset":"8114E466","on":"01","off":"00"}]},
+{"name":"Infinite Air Combo|无限空中连击","type":"checkbox","memory":[{"section":"0","offset":"8114E486","on":"01","off":"00"}]},
+{"name":"Affection Acquired Max|亲密度获得最大","type":"checkbox","memory":[{"section":"0","offset":"80E687DB","on":"4589DE","off":"4189C6"}]},
+{"name":"One Hit Kill|一击必杀","type":"checkbox","memory":[{"section":"0","offset":"80E63DF3","on":"052CCF7E01","off":"87A0000000"}]}
+],"credits":[" Fullcodes（PS/PC修改群:1167084913,702196858）"]}

@@ -1,0 +1,293 @@
+{
+  "name": "最后的信仰 The Last Faith",
+  "id": "CUSA35638",
+  "version": "01.03",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "无敌",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "81088EE5",
+          "on": "E9CC49D701",
+          "off": "E826040000"
+        },
+        {
+          "section": "0",
+          "offset": "82DFD8B6",
+          "on": "E855BA28FE488B7DA84885FF7417488BBF900000004885FF740B488B7F304885FF740231C0E90AB628FE",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "name": "2倍伤害",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "811253FB",
+          "on": "E9A084CD01",
+          "off": "C5FA5945D4"
+        },
+        {
+          "section": "0",
+          "offset": "82DFD8A0",
+          "on": "C5FA5945D4C745D400000040C5FA5945D4E94A7B32FE",
+          "off": "00000000000000000000000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "name": "4倍伤害",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "811253FB",
+          "on": "E9A084CD01",
+          "off": "C5FA5945D4"
+        },
+        {
+          "section": "0",
+          "offset": "82DFD8A0",
+          "on": "C5FA5945D4C745D400008040C5FA5945D4E94A7B32FE",
+          "off": "00000000000000000000000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "name": "必定暴击",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "810B6805",
+          "on": "C5FA5EC090909090",
+          "off": "C5FA5E05AA895001"
+        }
+      ]
+    },
+    {
+      "name": "子弹无限",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "81126EBC",
+          "on": "31F69090",
+          "off": "418B7718"
+        }
+      ]
+    },
+    {
+      "name": "无限跳跃",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "815836C4",
+          "on": "9090",
+          "off": "740D"
+        },
+        {
+          "section": "0",
+          "offset": "81583879",
+          "on": "EB0A",
+          "off": "750A"
+        }
+      ]
+    },
+    {
+      "name": "能量无限",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "8116BBC8",
+          "on": "C5F25CC1",
+          "off": "C5F259C0"
+        },
+        {
+          "section": "0",
+          "offset": "8117F7A1",
+          "on": "9090",
+          "off": "29C3"
+        }
+      ]
+    },
+    {
+      "name": "专注力不减",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "81126DE8",
+          "on": "909090",
+          "off": "2B7B18"
+        }
+      ]
+    },
+    {
+      "name": "消耗品不减",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "81082860",
+          "on": "BE00000000",
+          "off": "BE01000000"
+        }
+      ]
+    },
+    {
+      "name": "移动速度提升",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "8155E1D5",
+          "on": "C5FA58C090",
+          "off": "C5FA59473C"
+        }
+      ]
+    },
+    {
+      "name": "攀爬速度提升",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "8155E215",
+          "on": "C5FA58C090",
+          "off": "C5FA59473C"
+        },
+        {
+          "section": "0",
+          "offset": "8155E235",
+          "on": "C5FA58C090",
+          "off": "C5FA59473C"
+        }
+      ]
+    },
+    {
+      "name": "跳跃高度提升",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "8155E1B5",
+          "on": "C5FA58C090",
+          "off": "C5FA594740"
+        }
+      ]
+    },
+    {
+      "name": "翻滚无冷却时间",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "815822D8",
+          "on": "C5F25CC190",
+          "off": "C5FA104034"
+        }
+      ]
+    },
+    {
+      "name": "即死陷阱无效化",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "81E2B36E",
+          "on": "9090",
+          "off": "7439"
+        }
+      ]
+    },
+    {
+      "name": "升级武器免材料",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "80F62273",
+          "on": "B80000000090",
+          "off": "FF9088010000"
+        },
+        {
+          "section": "0",
+          "offset": "80F62335",
+          "on": "B80000000090",
+          "off": "FF9088010000"
+        },
+        {
+          "section": "0",
+          "offset": "80F624BD",
+          "on": "B00190",
+          "off": "0F9CC0"
+        }
+      ]
+    },
+    {
+      "name": "升级只需花费1冥核",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "810A4DC5",
+          "on": "EB0E",
+          "off": "5DC3"
+        },
+        {
+          "section": "0",
+          "offset": "810A4DD5",
+          "on": "5DB801000000C3",
+          "off": "66662E0F1F8400"
+        }
+      ]
+    },
+    {
+      "name": "购物只需花费1冥核",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "81390A09",
+          "on": "9090B8010000009090",
+          "off": "EB044983C618418B06"
+        }
+      ]
+    },
+    {
+      "name": "道具数量不足也可使用",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "8135D605",
+          "on": "9090",
+          "off": "7418"
+        }
+      ]
+    },
+    {
+      "name": "频死时必进入处决状态",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "80966009",
+          "on": "C5F82EC9",
+          "off": "C5F82EC8"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "怪盗B"
+  ]
+}                                     retn

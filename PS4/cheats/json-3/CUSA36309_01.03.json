@@ -1,0 +1,66 @@
+{
+  "name": "Jitsu Squad 柔术小队",
+  "id": "CUSA36309",
+  "version": "01.03",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Maximum & Infinite Health | 最大 + 无限生命值",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "00D93F80",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Energy | 无限能量",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "00D93F84",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Weapon Durability | 无限武器耐久度",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "00D93F81",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Lives 99 | 生命数 99",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "00D93F83",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Score 999999999 | 分数 999999999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "00D93F85",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+  ],
+  "credits": [
+    "iKun"
+  ]
+}
