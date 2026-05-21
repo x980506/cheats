@@ -3171,7 +3171,18 @@
                 const card = document.createElement("div");
                 card.className = "game-card";
                 card.onclick = () => openFile(item);
-                card.style.backgroundImage = `url(${getGameImageUrl(item)})`;
+                
+                // 设置背景图片，支持加载失败回退
+                const imageUrl = getGameImageUrl(item);
+                const img = new Image();
+                img.onload = () => {
+                    card.style.backgroundImage = `url(${imageUrl})`;
+                };
+                img.onerror = () => {
+                    card.style.backgroundImage = `url(images/0x000.jpg)`;
+                };
+                img.src = imageUrl;
+                
                 const platformBadge = item.platform === "PS5" ? '<div class="ps5-badge"></div>' : '<div class="ps4-badge"></div>';
                 const formatBadge = `<div class="format-badge ${item.format}">${item.format}</div>`;
                 card.innerHTML = `
@@ -3285,7 +3296,26 @@
                 
                 // 如果是JSON文件，从json目录读取
                 if (fileExt === 'json') {
-                    baseUrl = item.platform === "PS5" ? "./PS5/cheats/json/" : "./PS4/cheats/json/";
+                    // PS5继续使用原有的json目录
+                    if (item.platform === "PS5") {
+                        baseUrl = "./PS5/cheats/json/";
+                    } else {
+                        // PS4从json-1、json-2、json-3目录依次尝试
+                        const jsonDirs = ["./PS4/cheats/json-1/", "./PS4/cheats/json-2/", "./PS4/cheats/json-3/"];
+                        let found = false;
+                        for (const dir of jsonDirs) {
+                            const testResponse = await fetch(dir + item.file);
+                            if (testResponse.ok) {
+                                baseUrl = dir;
+                                found = true;
+                                break;
+                            }
+                        }
+                        // 如果都没找到，使用默认目录
+                        if (!found) {
+                            baseUrl = "./PS4/cheats/json/";
+                        }
+                    }
                 } else if (fileExt === 'mc4') {
                     baseUrl = item.platform === "PS5" ? "./PS5/cheats/mc4/" : "./PS4/cheats/mc4/";
                 }
