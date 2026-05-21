@@ -1,0 +1,71 @@
+{
+  "name": "Tekken 7 铁拳7",
+  "id": "CUSA05898",
+  "version": "05.10",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Player 1 Max Health | 玩家 1 最大生命",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5E57FF0",
+          "on": "01",
+          "off": "00"
+        } 
+      ]
+    },
+    {
+      "name": "Player 1 Min Health | 玩家 1 最小生命",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5E57FF0",
+          "on": "02",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Player 2 Max Health | 玩家 2 最大生命",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5E57FF1",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Player 2 Min Health | 玩家 2 最小生命",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5E57FF1",
+          "on": "02",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Money 999,000,000 | 金钱 999,000,000",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "48C7680",
+          "on": "483DC0878B3B7D0748C7C0C0878B3B4839037D03488903E9D62554FC",
+          "off": "00000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "E09C66",
+          "on": "E915DAAB0390909090909090",
+          "off": "488903EB0748C70300000000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "TLH"
+  ]
+}
