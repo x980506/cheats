@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="原子之心-湮灭本能" Moder="Test" Cusa="CUSA37321" Version="01.16" Process="eboot.bin">
+  <Genres Name="Action" />
+  <Items />
+  <Cheat Text="金手指主代码(必须开启)">
+    <Cheatline>
+      <Offset>3ACEE84</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-97-D4-38-7C-90-90-90</ValueOn>
+      <ValueOff>C5-FA-10-83-A4-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="获得材料后 999">
+    <Cheatline>
+      <Offset>156A73E</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-6D-1A-8F-7E-90-90</ValueOn>
+      <ValueOff>4D-8D-24-1E-0F-4C-C7</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="近战武器免蓄力">
+    <Cheatline>
+      <Offset>187143F</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-1C-AD-5E-7E-90-90-90</ValueOn>
+      <ValueOff>C5-FA-11-80-68-08-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="无限技能">
+    <Cheatline>
+      <Offset>AA104</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-37-20-DB-7F</ValueOn>
+      <ValueOff>C5-FA-11-47-08</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="武器无需装弹">
+    <Cheatline>
+      <Offset>49DDF74</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-47-E2-47-7B-90-90-90</ValueOn>
+      <ValueOff>44-8B-B4-C7-48-05-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="无限生命">
+    <Cheatline>
+      <Offset>AA0D4</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-07-21-DB-7F</ValueOn>
+      <ValueOff>C5-FA-10-47-0C</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="两倍移速攻速">
+    <Cheatline>
+      <Offset>7FE5C335</Offset>
+      <Section>0</Section>
+      <ValueOn>00-00-00-40</ValueOn>
+      <ValueOff>00-00-80-3F</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="四倍移速攻速">
+    <Cheatline>
+      <Offset>7FE5C335</Offset>
+      <Section>0</Section>
+      <ValueOn>00-00-80-40</ValueOn>
+      <ValueOff>00-00-80-3F</ValueOff>
+    </Cheatline>
+  </Cheat>
+</Trainer>  
+ 
+   
+   
+ 
+  
+   
+
+
+  

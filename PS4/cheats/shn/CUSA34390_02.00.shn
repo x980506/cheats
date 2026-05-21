@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="GODOFWARR" Moder="fqzx123" Cusa="CUSA34390" Version="2.00" Process="eboot.bin">
+  <Genres Name="Action" />
+  <Genres Name="Adventure" />
+  <Items />
+  <Cheat Text="角色无敌">
+    <Cheatline>
+      <Offset>172B671</Offset>
+      <Section>0</Section>
+      <ValueOn>48-A1-18-36-8B-05-00-00-00-00-4C-3B-70-08-75-05-E9-F1-7B-FB-FE-E8-55-F0-FA-FE-E9-E7-7B-FB-FE</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>6E3272</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-FA-83-04-01</ValueOn>
+      <ValueOff>E8-69-74-FF-FF</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="技能冷却加速">
+    <Cheatline>
+      <Offset>172B6BF</Offset>
+      <Section>0</Section>
+      <ValueOn>68-00-00-F0-41-C5-FA-59-04-24-48-83-C4-08-C5-FA-59-45-80-E9-2B-BA-31-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>A470FD</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-BD-45-CE-00</ValueOn>
+      <ValueOff>C5-FA-59-45-80</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="弓箭无需充能">
+    <Cheatline>
+      <Offset>63D8A3</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90</ValueOn>
+      <ValueOff>E8-78-AE-3A-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="怒气值不减">
+    <Cheatline>
+      <Offset>172B6DB</Offset>
+      <Section>0</Section>
+      <ValueOn>49-83-FA-01-75-0A-C5-FA-10-43-28-E9-47-D9-51-FF-C5-FA-58-43-28-E9-3D-D9-51-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>172B6F9</Offset>
+      <Section>0</Section>
+      <ValueOn>50-66-48-0F-7E-D0-48-C1-E8-1F-48-83-F8-01-75-0B-58-C5-FA-10-43-28-E9-80-12-3E-FF-58-C5-EA-58-43-28-E9-75-12-3E-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>C4902D</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-A9-26-AE-00</ValueOn>
+      <ValueOff>C5-FA-58-43-28</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>B0C98F</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-65-ED-C1-00</ValueOn>
+      <ValueOff>C5-EA-58-43-28</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="金钱与经验倍率获取">
+    <Cheatline>
+      <Offset>172B62D</Offset>
+      <Section>0</Section>
+      <ValueOn>45-84-DB-75-1E-41-83-FE-00-74-0E-41-83-FE-20-74-08-41-83-FE-40-74-02-EB-0A-45-85-C0-74-05-C1-E2-04-EB-00-45-84-DB-0F-84-D1-06-4F-FF-E9-C5-06-4F-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>C1BD1E</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-0A-F9-B0-00</ValueOn>
+      <ValueOff>45-84-DB-74-07</ValueOff>
+    </Cheatline>
+  </Cheat>
+</Trainer>
