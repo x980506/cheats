@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Trainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Game="最终幻想10 X" Moder="越狱兔电玩" Cusa="CUSA01189" Version="01.01" Process="ffx_phyreApp.elf">
+  <Genres Name="Action" />
+  <Items />
+  <Cheat Text="🔝无限基尔">
+    <Cheatline>
+      <Offset>801AD0</Offset>
+      <Section>0</Section>
+      <ValueOn>C7-80-48-3D-00-00-7F-96-98-00-EB-00-8B-80-48-3D-00-00-E9-16-5F-A9-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>2979F7</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-D4-A0-56-00-90</ValueOn>
+      <ValueOff>8B-80-48-3D-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="🔝快速满级">
+    <Cheatline>
+      <Offset>801AF0</Offset>
+      <Section>0</Section>
+      <ValueOn>42-C7-84-29-E4-55-00-00-FF-C9-9A-3B-E9-CD-60-A9-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>297BC6</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-25-9F-56-00-90-90-90</ValueOn>
+      <ValueOff>42-89-84-29-E4-55-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="➡️无限道具">
+    <Cheatline>
+      <Offset>801B10</Offset>
+      <Section>0</Section>
+      <ValueOn>0F-B6-84-0A-CC-40-00-00-C6-84-0A-CC-40-00-00-63-E9-1F-AB-A9-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>29C63C</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-CF-54-56-00-90-90-90</ValueOn>
+      <ValueOff>0F-B6-84-0A-CC-40-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="❤️无限生命 HP">
+    <Cheatline>
+      <Offset>801B30</Offset>
+      <Section>0</Section>
+      <ValueOn>83-B8-DC-05-00-00-00-C7-80-DC-05-00-00-0F-27-00-00-E9-FB-A9-A8-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>28C53A</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-F1-55-57-00-90-90</ValueOn>
+      <ValueOff>83-B8-DC-05-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>801B50</Offset>
+      <Section>0</Section>
+      <ValueOn>83-B8-DC-05-00-00-00-C7-80-DC-05-00-00-0F-27-00-00-E9-A9-D3-A8-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>28EF08</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-43-2C-57-00-90-90</ValueOn>
+      <ValueOff>83-B8-DC-05-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="🍖无限魔法 MP">
+    <Cheatline>
+      <Offset>801B70</Offset>
+      <Section>0</Section>
+      <ValueOn>66-C7-83-E0-05-00-00-0F-27-E9-35-D7-A6-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>26F2AD</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-BE-28-59-00-90</ValueOn>
+      <ValueOff>89-83-E0-05-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="🔥一击必杀">
+    <Cheatline>
+      <Offset>801C20</Offset>
+      <Section>0</Section>
+      <ValueOn>8B-BB-DC-05-00-00-48-83-F8-01-75-0B-81-EF-7F-96-98-00-E9-2F-07-A7-FF-44-29-F7-E9-27-07-A7-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>27235D</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-BE-F8-58-00-90-90-90-90</ValueOn>
+      <ValueOff>8B-BB-DC-05-00-00-44-29-F7</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="无限过载">
+    <Cheatline>
+      <Offset>26F2D1</Offset>
+      <Section>0</Section>
+      <ValueOn>88-93-C8-05-00-00</ValueOn>
+      <ValueOff>88-83-C8-05-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="最高敏捷">
+    <Cheatline>
+      <Offset>801BA0</Offset>
+      <Section>0</Section>
+      <ValueOn>C6-84-37-DC-55-00-00-63-EB-00-44-0F-B6-9C-37-DC-55-00-00-E9-E5-62-A9-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>297E94</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-07-9D-56-00-90-90-90-90</ValueOn>
+      <ValueOff>44-0F-B6-9C-37-DC-55-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="最高运气">
+    <Cheatline>
+      <Offset>801BC0</Offset>
+      <Section>0</Section>
+      <ValueOn>C6-84-37-DD-55-00-00-63-EB-00-44-0F-B6-94-37-DD-55-00-00-E9-D2-62-A9-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>297EA1</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-1A-9D-56-00-90-90-90-90</ValueOn>
+      <ValueOff>44-0F-B6-94-37-DD-55-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="最高闪避率">
+    <Cheatline>
+      <Offset>801BE0</Offset>
+      <Section>0</Section>
+      <ValueOn>C6-84-37-DE-55-00-00-63-EB-00-44-0F-B6-8C-37-DE-55-00-00-E9-BF-62-A9-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>297EAE</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-2D-9D-56-00-90-90-90-90</ValueOn>
+      <ValueOff>44-0F-B6-8C-37-DE-55-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="最高命中率">
+    <Cheatline>
+      <Offset>801C00</Offset>
+      <Section>0</Section>
+      <ValueOn>C6-84-37-DF-55-00-00-63-EB-00-44-0F-B6-84-37-DF-55-00-00-E9-AC-62-A9-FF</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>297EBB</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-40-9D-56-00-90-90-90-90</ValueOn>
+      <ValueOff>44-0F-B6-84-37-DF-55-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+</Trainer>
+   
+ 
+
+
+ 
+ 
+  
+  
+  
