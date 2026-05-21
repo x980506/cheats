@@ -1,0 +1,322 @@
+{
+  "name": "伊蘇X -北境歷險-",
+  "id": "CUSA44008",
+  "version": "01.03",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "SP 不减",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "40DE5E",
+          "on": "0F57D29090",
+          "off": "C5FA5955B0"
+        }
+      ]
+    },
+    {
+      "name": "必定暴击",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "45D539",
+          "on": "E90101000090",
+          "off": "0F8700010000"
+        }
+      ]
+    },
+    {
+      "name": "自动回复",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1D34A6",
+          "on": "EB06",
+          "off": "7506"
+        },
+        {
+          "offset": "1D34E6",
+          "on": "90909090",
+          "off": "C5F857C0"
+        },
+        {
+          "offset": "1D351F",
+          "on": "EB1B",
+          "off": "751B"
+        }
+      ]
+    },
+    {
+      "name": "道具掉率提升",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "36A763",
+          "on": "B83C000000",
+          "off": "428B44E004"
+        }
+      ]
+    },
+    {
+      "name": "乘风无冷却",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "19B8C1",
+          "on": "C5EA5CCA",
+          "off": "C5F25CCA"
+        }
+      ]
+    },
+    {
+      "name": "炮击无冷却",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "19B51D",
+          "on": "EB21",
+          "off": "7621"
+        },
+        {
+          "offset": "19B5FB",
+          "on": "F30F10C1",
+          "off": "C5F25DC0"
+        },
+        {
+          "offset": "19B685",
+          "on": "0F8755FEFFFF",
+          "off": "0F8655FEFFFF"
+        }
+      ]
+    },
+    {
+      "name": "特殊弹无限",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "19501E",
+          "on": "9090",
+          "off": "FFC8"
+        }
+      ]
+    },
+    {
+      "name": "经验值2倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "39FD1C",
+          "on": "E88D4B840090",
+          "off": "C4C17A58473C"
+        },
+        {
+          "offset": "BE48AE",
+          "on": "2EC5FA100DA9000000C5FA59C1C4C17A58473CC3",
+          "off": "0000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "BE4960",
+          "on": "00000040",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "经验值4倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "39FD1C",
+          "on": "E88D4B840090",
+          "off": "C4C17A58473C"
+        },
+        {
+          "offset": "BE48AE",
+          "on": "2EC5FA100DA9000000C5FA59C1C4C17A58473CC3",
+          "off": "0000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "BE4960",
+          "on": "00008040",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "经验值8倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "39FD1C",
+          "on": "E88D4B840090",
+          "off": "C4C17A58473C"
+        },
+        {
+          "offset": "BE48AE",
+          "on": "2EC5FA100DA9000000C5FA59C1C4C17A58473CC3",
+          "off": "0000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "BE4960",
+          "on": "00000041",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "经验值16倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "39FD1C",
+          "on": "E88D4B840090",
+          "off": "C4C17A58473C"
+        },
+        {
+          "offset": "BE48AE",
+          "on": "2EC5FA100DA9000000C5FA59C1C4C17A58473CC3",
+          "off": "0000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "BE4960",
+          "on": "00008041",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "移动速度2倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "279E84",
+          "on": "E812AA9600",
+          "off": "C5FA1145CC"
+        },
+        {
+          "offset": "BE489B",
+          "on": "C5FA58C0C5FA1145CCC3",
+          "off": "00000000000000000000"
+        }
+      ]
+    },
+    {
+      "name": "技能连段数5倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "40E8B2",
+          "on": "E8EE5F7D009090",
+          "off": "448934B848FFC7"
+        },
+        {
+          "offset": "BE48A5",
+          "on": "448934B84883C705C3",
+          "off": "000000000000000000"
+        }
+      ]
+    },
+    {
+      "name": "自动回复效率4倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "99ECB4",
+          "on": "0AD7233D",
+          "off": "0AD7233C"
+        }
+      ]
+    },
+    {
+      "name": "防护罩能量无限",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "19BA72",
+          "on": "F30F10D1",
+          "off": "C5F25CD2"
+        }
+      ]
+    },
+    {
+      "name": "钓鱼支援量表最大",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "473D1B",
+          "on": "909090909090",
+          "off": "0F84AD020000"
+        },
+        {
+          "offset": "473EE5",
+          "on": "9090909090909090",
+          "off": "C5FA5983081D0000"
+        },
+        {
+          "offset": "47401D",
+          "on": "C5FA108B081D0000",
+          "off": "C5F2588B041D0000"
+        }
+      ]
+    },
+    {
+      "name": "金钱晶石道具不减",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "36A477",
+          "on": "4531FF",
+          "off": "41F7DF"
+        }
+      ]
+    },
+    {
+      "name": "地图上显示宝箱（含隐藏）",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "736B9F",
+          "on": "E9CB00000090",
+          "off": "741B488B4358"
+        }
+      ]
+    },
+    {
+      "name": "夺还战士气等级最大",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "775544",
+          "on": "909090909090",
+          "off": "0F84A6010000"
+        }
+      ]
+    },
+    {
+      "name": "技能熟练度快速增加",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3B5445",
+          "on": "458D6748448962209090",
+          "off": "453967480F872EFEFFFF"
+        }
+      ]
+    },
+    {
+      "name": "船只改装训练无视材料需求",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6BD42D",
+          "on": "9090",
+          "off": "7451"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "怪盗B"
+  ]
+}

@@ -1,0 +1,359 @@
+{
+  "name": "伊蘇X -北境歷險-",
+  "id": "CUSA44008",
+  "version": "01.05",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "HP不减",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "36DE92",
+          "on": "E969AD6B00",
+          "off": "C5FA104B14"
+        },
+        {
+          "offset": "A28C00",
+          "on": "C5FA114B14C5FA104B14E9885294FF",
+          "off": "000000000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "name": "SP不减",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "410C3E",
+          "on": "0F57D29090",
+          "off": "C5FA5955B0"
+        }
+      ]
+    },
+    {
+      "name": "必定暴击",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "460547",
+          "on": "90E90A010000",
+          "off": "0F870A010000"
+        }
+      ]
+    },
+    {
+      "name": "乘风无冷却",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "19C591",
+          "on": "C5EA5CCA",
+          "off": "C5F25CCA"
+        }
+      ]
+    },
+    {
+      "name": "炮击无冷却",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "19C1ED",
+          "on": "EB21",
+          "off": "7621"
+        },
+        {
+          "offset": "19C2CB",
+          "on": "F30F10C1",
+          "off": "C5F25DC0"
+        },
+        {
+          "offset": "19C355",
+          "on": "0F8755FEFFFF",
+          "off": "0F8655FEFFFF"
+        }
+      ]
+    },
+    {
+      "name": "特殊弹无限",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "195BFE",
+          "on": "9090",
+          "off": "FFC8"
+        }
+      ]
+    },
+    {
+      "name": "道具掉率提升",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "36C453",
+          "on": "B83C000000",
+          "off": "428B44E004"
+        }
+      ]
+    },
+    {
+      "name": "防护罩能量无限",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "19C742",
+          "on": "F30F10D1",
+          "off": "C5F25CD2"
+        }
+      ]
+    },
+    {
+      "name": "金钱晶石道具不减",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "36C167",
+          "on": "4531FF",
+          "off": "41F7DF"
+        }
+      ]
+    },
+    {
+      "name": "技能熟练度快速增加",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3B7BA5",
+          "on": "458D6748448962209090",
+          "off": "453967480F872EFEFFFF"
+        }
+      ]
+    },
+    {
+      "name": "夺还战士气等级最大",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "7799C4",
+          "on": "909090909090",
+          "off": "0F84A6010000"
+        }
+      ]
+    },
+    {
+      "name": "钓鱼支援量表最大",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "47707B",
+          "on": "909090909090",
+          "off": "0F84AD020000"
+        },
+        {
+          "offset": "477245",
+          "on": "9090909090909090",
+          "off": "C5FA5983081D0000"
+        },
+        {
+          "offset": "47737D",
+          "on": "C5FA108B081D0000",
+          "off": "C5F2588B041D0000"
+        }
+      ]
+    },
+    {
+      "name": "地图上显示宝箱(含隐藏)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "73AFCF",
+          "on": "E9CB00000090",
+          "off": "741B488B4358"
+        }
+      ]
+    },
+    {
+      "name": "船只改装训练无视材料需求",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6C185D",
+          "on": "9090",
+          "off": "7451"
+        }
+      ]
+    },
+    {
+      "name": "技能连段数5倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "411692",
+          "on": "E82E7561009090",
+          "off": "448934B848FFC7"
+        },
+        {
+          "offset": "A28BC5",
+          "on": "448934B84883C705C3",
+          "off": "000000000000000000"
+        }
+      ]
+    },
+    {
+      "name": "移动速度2倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "27B534",
+          "on": "E882D67A00",
+          "off": "C5FA1145CC"
+        },
+        {
+          "offset": "A28BBB",
+          "on": "C5FA58C0C5FA1145CCC3",
+          "off": "00000000000000000000"
+        }
+      ]
+    },
+    {
+      "name": "经验值2倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3A2484",
+          "on": "E84567680090",
+          "off": "C4C17A58473C"
+        },
+        {
+          "offset": "A28BCE",
+          "on": "C5FA59058ABD1B00C4C17A58473CC3",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "BE4960",
+          "on": "00000040",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "经验值4倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3A2484",
+          "on": "E84567680090",
+          "off": "C4C17A58473C"
+        },
+        {
+          "offset": "A28BCE",
+          "on": "C5FA59058ABD1B00C4C17A58473CC3",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "BE4960",
+          "on": "00008040",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "经验值8倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3A2484",
+          "on": "E84567680090",
+          "off": "C4C17A58473C"
+        },
+        {
+          "offset": "A28BCE",
+          "on": "C5FA59058ABD1B00C4C17A58473CC3",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "BE4960",
+          "on": "00000041",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "经验值16倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3A2484",
+          "on": "E84567680090",
+          "off": "C4C17A58473C"
+        },
+        {
+          "offset": "A28BCE",
+          "on": "C5FA59058ABD1B00C4C17A58473CC3",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "BE4960",
+          "on": "00008041",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "经验值32倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "3A2484",
+          "on": "E84567680090",
+          "off": "C4C17A58473C"
+        },
+        {
+          "offset": "A28BCE",
+          "on": "C5FA59058ABD1B00C4C17A58473CC3",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "BE4960",
+          "on": "00000042",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "HP自动回复",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1D4376",
+          "on": "EB06",
+          "off": "7506"
+        },
+        {
+          "offset": "1D4437",
+          "on": "90909090",
+          "off": "C5F857C0"
+        },
+        {
+          "offset": "1D4470",
+          "on": "EB1B",
+          "off": "751B"
+        }
+      ]
+    },
+    {
+      "name": "HP自动回复效率4倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "9A3F88",
+          "on": "0AD7233D",
+          "off": "0AD7233C"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "怪盗B"
+  ]
+}

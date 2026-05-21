@@ -1,0 +1,22 @@
+{"name":"圣剑传说 Visions of Mana","id":"CUSA43003","version":"01.03","process":"eboot.bin","mods":[
+{"name":"Invincible Mode | 无敌模式","type":"checkbox","memory":[{"offset":"095C7FF0","on":"01","off":"00"}]},
+{"name":"Infinite HP | 无限 HP","type":"checkbox","memory":[{"offset":"095C7FF1","on":"01","off":"00"}]},
+{"name":"Infinite MP | 无限 MP","type":"checkbox","memory":[{"offset":"095C7FF2","on":"01","off":"00"}]},
+{"name":"Infinite SP | 无限 SP","type":"checkbox","memory":[{"offset":"095C7FF3","on":"01","off":"00"}]},
+{"name":"Pervent Stun | 不会眩晕","type":"checkbox","memory":[{"offset":"095C7FF4","on":"01","off":"00"}]},
+{"name":"Max Defense | 最高防御力","type":"checkbox","memory":[{"offset":"095C7FFE","on":"01","off":"00"}]},
+{"name":"Max Attack Range | 最高攻击范围","type":"checkbox","memory":[{"offset":"095C7FF5","on":"01","off":"00"}]},
+{"name":"100%% Critical Chance | 100%% 会心一击","type":"checkbox","memory":[{"offset":"095C7FF7","on":"01","off":"00"}]},
+{"name":"One Hit Stun | 一击眩晕","type":"checkbox","memory":[{"offset":"095C7FF6","on":"01","off":"00"}]},
+{"name":"One Hit Kill | 一击必杀","type":"checkbox","memory":[{"offset":"095C7FFD","on":"01","off":"00"}]},
+{"name":"Infinite Jumps | 无限跳跃","type":"checkbox","memory":[{"offset":"095C7FF9","on":"01","off":"00"}]},
+{"name":"Consumable Items 900 | 消耗道具 900","type":"checkbox","memory":[{"offset":"095C7FFA","on":"01","off":"00"}]},
+{"name":"Enhancement Items 900 | 强化道具 900","type":"checkbox","memory":[{"offset":"095C7FFB","on":"01","off":"00"}]},
+{"name":"Materials 900 | 素材道具 900","type":"checkbox","memory":[{"offset":"095C7FFC","on":"01","off":"00"}]},
+{"name":"Max EXP | 最大经验值","type":"checkbox","memory":[{"offset":"095C7FFF","on":"01","off":"00"}]},
+{"name":"EP 9999 | EP 9999","type":"checkbox","memory":[{"offset":"095C7FF8","on":"01","off":"00"}]},
+{"name":"Lucre、Clover、Coin、Syrup 99999 | 卢克、黄金三叶草、尼基塔硬币、熊蜜 99999","type":"checkbox","memory":[{"offset":"095C7FE1","on":"01","off":"00"}]},
+{"name":"Movement Speed Multiply 2 | 移动速度 2 倍","type":"checkbox","memory":[{"offset":"095C7FE0","on":"01","off":"00"},{"offset":"61B35AC","on":"B08C3603","off":"B0323B03"}]},
+{"name":"Movement Speed Multiply 3 | 移动速度 3 倍","type":"checkbox","memory":[{"offset":"095C7FE0","on":"01","off":"00"},{"offset":"61B35AC","on":"7CF07300","off":"B0323B03"}]},
+{"name":"Movement Speed Multiply 4 | 移动速度 4 倍","type":"checkbox","memory":[{"offset":"095C7FE0","on":"01","off":"00"},{"offset":"61B35AC","on":"78DF1900","off":"B0323B03"}]}
+],"credits":["炸片饭"]}

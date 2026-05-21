@@ -1,0 +1,89 @@
+{
+  "name": "Blasphemous 2 神之亵渎2",
+  "id": "CUSA44317",
+  "version": "01.03",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Master Code | 必须码",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "86B4C0B0",
+          "on": "837810067524803D34FF4A01017510B95E0100008988A0000000E9617EB9FC8988A0000000E9567EB9FC8378100475EF803D0BFF4A010175E6B90F2700008988A0000000E9377EB9FC",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "section": "0",
+          "offset": "836E3F2A",
+          "on": "E98181460390",
+          "off": "8988A0000000"
+        },
+        {
+          "section": "0",
+          "offset": "86B4C110",
+          "on": "803DDCFE4A01017505B93F420F00894838488D7DD8E9C18DB9FC",
+          "off": "0000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "section": "0",
+          "offset": "836E4EE4",
+          "on": "E9277246039090",
+          "off": "894838488D7DD8"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health、Fervor | 无限生命、热情",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "87FFBFF1",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Bile Flasks | 无限圣水瓶",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "87FFBFF2",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Jumps | 无限跳跃",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "82B35B1A",
+          "on": "9090909090909090",
+          "off": "C5FA1080D0000000"
+        }
+      ]
+    },
+    {
+      "name": "Tears、Marks 999999 | 赎罪之泪、殉道印记 999999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "87FFBFF3",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+  ],
+  "credits": [
+    "Celogamez"
+  ]
+}

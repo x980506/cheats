@@ -1,0 +1,43 @@
+{
+  "name": "Have a Nice Death",
+  "id": "CUSA43438",
+  "version": "01.02",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Infinite-Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8409B800",
+          "on": "837B5C02750AC5FA10430CE941D15CFDC5FA114330E937D15CFD",
+          "off": "0000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "8166894C",
+          "on": "E9AF2EA302",
+          "off": "C5FA114330"
+        }
+      ]
+    },
+    {
+      "name": "Max-Souls+Max-GOLD+PRISMIUM",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8409B81C",
+          "on": "49C7C6FFE0F50544017010E9F0CEEDFC",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "80F78715",
+          "on": "E9023112039090",
+          "off": "44017010488B3B"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Ali-mk"
+  ]
+}

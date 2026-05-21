@@ -1,0 +1,59 @@
+{
+  "name": "EA SPORTS FC 24",
+  "id": "CUSA40327",
+  "version": "01.17",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Career Manage Fund 999,999,999 | 经理职业生涯预算 999,999,999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B555770",
+          "on": "49010241C702FFC99A3B498B00E9E22752FF",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "AA77F5E",
+          "on": "E90DD8AD0090",
+          "off": "490102498B00"
+        }
+      ]
+    },
+    {
+      "name": "Career Player Money 999,999,999 | 球员职业生涯金钱 999,999,999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B555790",
+          "on": "BAFFC99A3B8991C4010000E904091AFF",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "A6F609E",
+          "on": "E9EDF6E50090",
+          "off": "8991C4010000"
+        }
+      ]
+    },
+    {
+      "name": "Career Training Points 99,999 | 职业生涯训练积分 99,999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B5557B0",
+          "on": "B99F860100894E304C8B6620E9F67B2DFC",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "offset": "782D3B0",
+          "on": "E9FB83D2039090",
+          "off": "894E304C8B6620"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Dreamcast2"
+  ]
+}

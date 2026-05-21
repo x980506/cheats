@@ -1,0 +1,284 @@
+{
+  "name": "Wo Long: Fallen Dynasty 卧龙：苍天陨落",
+  "id": "CUSA36986",
+  "version": "01.19",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Invulnerable | 无敌模式",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "04FDFFFA",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health | 无限体力",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "04FDFFF0",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Max Spirit | 最高气势",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "04FDFFF1",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Max Morale | 最高士气",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "04FDFFF2",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Max Divine Beast Gauge | 满神兽量表",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "04FDFFFF",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "One Hit Kill | 一击必杀",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "04FDFFFB",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Stealth Mode | 隐身模式",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "04FDFFFD",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Zero Weight | 负重清零",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "51F642",
+          "on": "31C090",
+          "off": "4489F0"
+        }
+      ]
+    },
+    {
+      "name": "Dragon's Cure Pot 99 | 龙愈之壶 99",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "04FDFFF9",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Shortcut Items | 无限快捷栏道具",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "EA5B2B",
+          "on": "EB",
+          "off": "74"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ammo & Throwables | 无限弹药和投掷武器",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "EA5C68",
+          "on": "EB",
+          "off": "74"
+        }
+      ]
+    },
+     {
+      "name": "Infinite Buff Duration | 无限 Buff 持续时间",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "04FDFFE1",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Edit Max Health 999999 | 设定体力上限 999999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "04FDFFFC",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "LV 150 | 等级 150",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "04FDFFF6",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Virtue 99 | 德 99",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "04FDFFF7",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Wizardry Spell Point 99 | 奇术修炼值 99",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "04FDFFF8",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Genuine Qi 99999999 | 真气 99999999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "04FDFFF3",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Coppers 99999999 | 铜钱 99999999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "04FDFFF4",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Accolades 99999999 | 武勋 99999999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "04FDFFF5",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Game Speed Multiply 0.5 | 游戏速度 0.5 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "04FDFFE2",
+          "on": "01",
+          "off": "00"
+        },
+        {
+          "offset": "2ABB59D",
+          "on": "B70E5202",
+          "off": "77AEFCFF"
+        }
+      ]
+    },
+    {
+      "name": "Game Speed Multiply 1.5 | 游戏速度 1.5 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "04FDFFE2",
+          "on": "01",
+          "off": "00"
+        },
+        {
+          "offset": "2ABB59D",
+          "on": "358A2402",
+          "off": "77AEFCFF"
+        }
+      ]
+    },
+    {
+      "name": "Game Speed Multiply 2 | 游戏速度 2 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "04FDFFE2",
+          "on": "01",
+          "off": "00"
+        },
+        {
+          "offset": "2ABB59D",
+          "on": "4C275202",
+          "off": "77AEFCFF"
+        }
+      ]
+    },
+    {
+      "name": "Game Speed Multiply 3 | 游戏速度 3 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "04FDFFE2",
+          "on": "01",
+          "off": "00"
+        },
+        {
+          "offset": "2ABB59D",
+          "on": "B58A2402",
+          "off": "77AEFCFF"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Fullcodes"
+  ]
+}

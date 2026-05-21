@@ -1,0 +1,227 @@
+{
+  "name": "Atomic Heart 原子之心",
+  "id": "CUSA37321",
+  "version": "01.12",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Infinite Health | 无限生命",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5915611",
+          "on": "89",
+          "off": "39"
+        }
+      ]
+    },
+    {
+      "name": "Shocker No Cooldown | 电击无需冷却", 
+      "type": "checkbox", 
+      "memory": [
+        {
+          "offset": "591293C", 
+          "on": "76", 
+          "off": "EB"
+        }
+      ]
+    }, 
+    {
+      "name": "Special Abilities No Cooldown | 技能无需冷却", 
+      "type": "checkbox", 
+      "memory": [
+        {
+          "offset": "586D050", 
+          "on": "4C89FF4889C6C705A06ECB0201000000E993768BFB", 
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "11246F2", 
+          "on": "E95989740490", 
+          "off": "4C89FF4889C6"
+        },
+        {
+          "offset": "586D078", 
+          "on": "C5FA104DE4C705796ECB0200000000E98E768BFB", 
+          "off": "0000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1124715", 
+          "on": "E95E897404", 
+          "off": "C5FA104DE4"
+        },
+        {
+          "offset": "586D09C", 
+          "on": "833D5D6ECB02017522C705516ECB02000000009090C5FA1005BB7A3B00C4A17A1144300CC4A17A11443008E95CDA83FA", 
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "A87F6", 
+          "on": "E9C1247C05", 
+          "off": "E94DFFFFFF"
+        }
+      ]
+    }, 
+    {
+      "name": "Melee Instant Charge | 近战武器瞬间蓄力",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "19B85B4", 
+          "on": "C5FA1005503EB003", 
+          "off": "C5FA108750080000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Weapon Energy | 无限武器能量", 
+      "type": "checkbox", 
+      "memory": [
+        {
+          "offset": "591561C", 
+          "on": "89",
+          "off": "39"
+        }
+      ]
+    }, 
+    {
+      "name": "Infinite Cartridge Energy | 无限武器模块能量", 
+      "type": "checkbox", 
+      "memory": [
+        {
+          "offset": "184EEA5", 
+          "on": "44",
+          "off": "40"
+        }
+      ]
+    }, 
+    {
+      "name": "No Raload | 无需装弹",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4990F43",
+          "on": "909090909090",
+          "off": "FF8B50050000"
+        }
+      ]
+    },
+    {
+      "name": "No Recoil | 无后坐力",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "15B96A0",
+          "on": "C3",
+          "off": "55"
+        }
+      ]
+    },
+    {
+      "name": "Rapid Fire | 快速连射",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "59129A1",
+          "on": "00",
+          "off": "08"
+        }
+      ]
+    },
+    {
+      "name": "Moon Jump | 月球跳", 
+      "type": "checkbox", 
+      "memory": [
+        {
+          "offset": "5912971", 
+          "on": "00", 
+          "off": "08"
+        }
+      ]
+    },
+    {
+      "name": "Stealth Mode | 隐身模式",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "18D1250",
+          "on": "C3",
+          "off": "55"
+        }
+      ]
+    },
+    {
+      "name": "Move Speed Multiply 2 | 移动速度 2 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "586CFD0",
+          "on": "81BC83AC01000000009643741B81BC83AC01000000001644740EC5FA108483AC010000E978CC23FEC5FA10052881F0FFC5FA118483AC010000E962CC23FE",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "3AA9C67",
+          "on": "E96433DC0190909090",
+          "off": "C5FA108483AC010000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Neuropolymer | 神经聚合物使用不减",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "15493A5",
+          "on": "4531ED",
+          "off": "448B28"
+        }
+      ]
+    },
+    {
+      "name": "No Crafting Requirements | 制作无需资源",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "586CFB0",
+          "on": "4531ED45896F084585EDE9CBBCCBFB",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "1528C83",
+          "on": "E9284334049090",
+          "off": "458B6F084585ED"
+        }
+      ]
+    },
+    {
+      "name": "No Crafting Recipes Requirements | 制作无需蓝图",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "586D020",
+          "on": "418A8C241003000080F9047502B101E92C01E7FB",
+          "off": "0000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "16DD159",
+          "on": "E9C2FE1804909090",
+          "off": "418A8C2410030000"
+        }
+      ]
+    },
+    {
+      "name": "No Upgrade Recipes Requirements | 升级无需蓝图",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "17EB2E3",
+          "on": "B00190",
+          "off": "4489F0"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "炸片饭"
+  ]
+}

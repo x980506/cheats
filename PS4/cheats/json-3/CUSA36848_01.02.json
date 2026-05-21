@@ -1,0 +1,198 @@
+{
+  "name": "Lies of P 匹诺曹的谎言",
+  "id": "CUSA36848",
+  "version": "01.02",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Infinite HP | 无限生命值",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "07B0BFEB",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Stamina | 无限精力",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "07B0BFE1",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Fable | 无限虚构",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "07B0BFE2",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Legion | 无限军团",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "07B0BFE3",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Stealth Mode | 隐身模式",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "07B0BFE0",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "One Hit Kill | 一击必杀",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "07B0BFEA",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Max Weight | 最大负重上限",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "07B0BFE4",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Drop Rate 100%% | 掉宝率 100%%",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "07B0BFEF",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Max Items After Use | 道具使用后最大",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "07B0BFED",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Weapon Durability | 无限武器耐久度",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "07B0BFEC",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Ignore Update Weapon Required | 无视武器升级需求",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "07B0BFEE",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Ergo 999,999,999 | 自我素 999,999,999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "07B0BFE6",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Reset Play Time | 重置游戏时间",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "07B0BFE7",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Death Count 0 | 死亡次数 0",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "07B0BFE8",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Move Speed Multiply 2 | 移动速度 2 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "50A2454",
+          "on": "AD68A6",
+          "off": "2463A6"
+        }
+      ]
+    },
+    {
+      "name": "Move Speed Multiply 3 | 移动速度 3 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "50A2454",
+          "on": "2ED28D",
+          "off": "2463A6"
+        }
+      ]
+    },
+    {
+      "name": "Move Speed Multiply 4 | 移动速度 4 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "50A2454",
+          "on": "18DC9D",
+          "off": "2463A6"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Fullcodes"
+  ]
+}

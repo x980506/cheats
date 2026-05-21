@@ -1,0 +1,155 @@
+{
+  "name": "Double Dragon Gaiden: Rise of the Dragons 双截龙外传：双龙出海",
+  "id": "CUSA42936",
+  "version": "01.09",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "无敌",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "8180BDE0",
+          "on": "E90B08120590",
+          "off": "88851BFFFFFF"
+        },
+        {
+          "section": "0",
+          "offset": "8692C5F0",
+          "on": "488B8548FFFFFF8A405C240188851BFFFFFFE9DFF7EDFA",
+          "off": "0000000000000000000000000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "name": "金钱10倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "82BC6036",
+          "on": "8B75E06BF60A0375E489F0",
+          "off": "8B7DE48B75E0E8BF599AFD"
+        }
+      ]
+    },
+    {
+      "name": "代币不减",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "8418DD00",
+          "on": "31C090",
+          "off": "8B45F4"
+        }
+      ]
+    },
+    {
+      "name": "无限能量",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "8184652B",
+          "on": "31F690",
+          "off": "8B75C0"
+        }
+      ]
+    },
+    {
+      "name": "连击数10倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "84E05BFB",
+          "on": "E9906AB2019090",
+          "off": "48897DF88975F4"
+        },
+        {
+          "section": "0",
+          "offset": "8692C690",
+          "on": "6BF60A48897DF88975F4E963954DFE",
+          "off": "000000000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "name": "移动速度提升",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "84C8ED2E",
+          "on": "E9FDD8C901",
+          "off": "C5FA1045EC"
+        },
+        {
+          "section": "0",
+          "offset": "8692C630",
+          "on": "2EC5FA100D54385D00C5FA1045ECC5FA59C1E9EC2636FE",
+          "off": "0000000000000000000000000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "name": "跑步速度提升",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "8181081D",
+          "on": "E93EBE1105909090",
+          "off": "C5FA1085B4FAFFFF"
+        },
+        {
+          "section": "0",
+          "offset": "8692C660",
+          "on": "C5FA1085B4FAFFFF2EC5FA100D1C385D00C5FA59C1E9AB41EEFA",
+          "off": "0000000000000000000000000000000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "name": "武器耐久不减",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "818A3625",
+          "on": "BE00000000",
+          "off": "BE01000000"
+        }
+      ]
+    },
+    {
+      "name": "全角色可使用",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "8418E4DE",
+          "on": "909090909090",
+          "off": "0F8405000000"
+        }
+      ]
+    },
+    {
+      "name": "全屏收集金币能量",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "8513FF69",
+          "on": "C5FA10159553DB01",
+          "off": "C5FA10956CFFFFFF"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "怪盗B"
+  ]
+}

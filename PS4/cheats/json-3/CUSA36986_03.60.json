@@ -1,0 +1,196 @@
+{
+	"name": "卧龙-完全版",
+	"id": "CUSA36986",
+	"version": "03.60",
+	"process": "eboot.bin",
+	"mods": [
+		{
+			"name": "无敌",
+			"type": "checkbox",
+			"memory": [
+				{
+					"offset": "047E3FFA",
+					"on": "01",
+					"off": "00"
+				}
+			]
+		},
+		{
+			"name": "无限生命",
+			"type": "checkbox",
+			"memory": [
+				{
+					"offset": "047E3FF0",
+					"on": "01",
+					"off": "00"
+				}
+			]
+		},
+		{
+			"name": "最高气势",
+			"type": "checkbox",
+			"memory": [
+				{
+					"offset": "047E3FF1",
+					"on": "01",
+					"off": "00"
+				}
+			]
+		},
+		{
+			"name": "最高士气",
+			"type": "checkbox",
+			"memory": [
+				{
+					"offset": "047E3FF2",
+					"on": "01",
+					"off": "00"
+				}
+			]
+		},
+		{
+			"name": "满神兽槽",
+			"type": "checkbox",
+			"memory": [
+				{
+					"offset": "047E3FFF",
+					"on": "01",
+					"off": "00"
+				}
+			]
+		},
+		{
+			"name": "真气99999999",
+			"type": "checkbox",
+			"memory": [
+				{
+					"offset": "047E3FF3",
+					"on": "01",
+					"off": "00"
+				}
+			]
+		},
+		{
+			"name": "铜钱99999999",
+			"type": "checkbox",
+			"memory": [
+				{
+					"offset": "047E3FF4",
+					"on": "01",
+					"off": "00"
+				}
+			]
+		},
+		{
+			"name": "武勋99999999",
+			"type": "checkbox",
+			"memory": [
+				{
+					"offset": "047E3FF5",
+					"on": "01",
+					"off": "00"
+				}
+			]
+		},
+		{
+			"name": "奇术点数999",
+			"type": "checkbox",
+			"memory": [
+				{
+					"offset": "047E3FF8",
+					"on": "01",
+					"off": "00"
+				}
+			]
+		},
+		{
+			"name": "设定体力上限999999",
+			"type": "checkbox",
+			"memory": [
+				{
+					"offset": "047E3FFC",
+					"on": "01",
+					"off": "00"
+				}
+			]
+		},
+		{
+			"name": "无限快捷栏道具",
+			"type": "checkbox",
+			"memory": [
+				{
+					"offset": "047E3FFE",
+					"on": "01",
+					"off": "00"
+				}
+			]
+		},
+		{
+			"name": "龙愈之壶 99",
+			"type": "checkbox",
+			"memory": [
+				{
+					"offset": "047E3FF9",
+					"on": "01",
+					"off": "00"
+				}
+			]
+		},
+		{
+			"name": "潜行模式",
+			"type": "checkbox",
+			"memory": [
+				{
+					"offset": "047E3FFD",
+					"on": "01",
+					"off": "00"
+				}
+			]
+		},
+		{
+			"name": "一击必杀",
+			"type": "checkbox",
+			"memory": [
+				{
+					"offset": "047E3FFB",
+					"on": "01",
+					"off": "00"
+				}
+			]
+		},
+		{
+			"name": "等级150",
+			"type": "checkbox",
+			"memory": [
+				{
+					"offset": "047E3FF6",
+					"on": "01",
+					"off": "00"
+				}
+			]
+		},
+		{
+			"name": "德99",
+			"type": "checkbox",
+			"memory": [
+				{
+					"offset": "047E3FF7",
+					"on": "01",
+					"off": "00"
+				}
+			]
+		}
+	],
+	"credits": [
+		" Fullcodes"
+	]
+}  
+ 
+   
+   
+ 
+  
+   
+
+
+  

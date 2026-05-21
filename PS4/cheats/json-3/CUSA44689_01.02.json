@@ -1,0 +1,281 @@
+{
+  "name": "暖雪 Warm Snow",
+  "id": "CUSA44689",
+  "version": "01.02",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "无敌",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "80D76CC0",
+          "on": "C3",
+          "off": "55"
+        }
+      ]
+    },
+    {
+      "name": "生命不减",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "81CF40E3",
+          "on": "EB19",
+          "off": "7419"
+        }
+      ]
+    },
+    {
+      "name": "怒气最大",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "8220FA75",
+          "on": "C5F82EC9",
+          "off": "C5F82EC1"
+        }
+      ]
+    },
+    {
+      "name": "免费购物",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "81914979",
+          "on": "C7404000000000",
+          "off": "C7404005000000"
+        }
+      ]
+    },
+    {
+      "name": "红魂不减",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "8132BD63",
+          "on": "9090",
+          "off": "29DE"
+        },
+        {
+          "section": "0",
+          "offset": "8132F1EA",
+          "on": "90909090",
+          "off": "412B762C"
+        },
+        {
+          "section": "0",
+          "offset": "81D7671E",
+          "on": "9090",
+          "off": "FFCE"
+        }
+      ]
+    },
+    {
+      "name": "飞剑无冷却",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "80A9C0B0",
+          "on": "C3",
+          "off": "C5"
+        }
+      ]
+    },
+    {
+      "name": "防御力两倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "81CF4F6F",
+          "on": "E96DBFBF01",
+          "off": "C5FA5845E4"
+        },
+        {
+          "section": "0",
+          "offset": "838F0EE1",
+          "on": "C5FA5845E4C5FA58C0E9854040FE",
+          "off": "0000000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "name": "移动速度两倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "81CF43E9",
+          "on": "E901CBBF01",
+          "off": "4883C4085B"
+        },
+        {
+          "section": "0",
+          "offset": "838F0EEF",
+          "on": "C5FA58C04883C4085BE9F13440FE",
+          "off": "0000000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "name": "攻击速度两倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "81CF46CA",
+          "on": "E92EC8BF01",
+          "off": "C5FA5845DC"
+        },
+        {
+          "section": "0",
+          "offset": "838F0EFD",
+          "on": "C5FA5845DCC5FA58C0E9C43740FE",
+          "off": "0000000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "name": "物理伤害两倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "823E034C",
+          "on": "E8BA0B510190",
+          "off": "C4C17A594520"
+        },
+        {
+          "section": "0",
+          "offset": "838F0F0B",
+          "on": "C4C17A594520C5FA58C0C3",
+          "off": "0000000000000000000000"
+        }
+      ]
+    },
+    {
+      "name": "免费进行祈祷",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "81335BFC",
+          "on": "83C300",
+          "off": "83C332"
+        }
+      ]
+    },
+    {
+      "name": "免费进行锻造",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "8190CC61",
+          "on": "31DB",
+          "off": "89C3"
+        },
+        {
+          "section": "0",
+          "offset": "8190CE7B",
+          "on": "31C09090",
+          "off": "C5FA2CC0"
+        }
+      ]
+    },
+    {
+      "name": "移除剑热槽限制",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "8213294C",
+          "on": "9090909090909090",
+          "off": "C5FA5805D03BC300"
+        }
+      ]
+    },
+    {
+      "name": "幽冥之魂掉量提升",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "8221087D",
+          "on": "EB69",
+          "off": "7769"
+        },
+        {
+          "section": "0",
+          "offset": "822108E6",
+          "on": "9090",
+          "off": "7697"
+        }
+      ]
+    },
+    {
+      "name": "大师皮肤全解锁",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "808BC195",
+          "on": "9090",
+          "off": "7E1D"
+        },
+        {
+          "section": "0",
+          "offset": "808BC1AC",
+          "on": "B00190",
+          "off": "0F9DC0"
+        },
+        {
+          "section": "0",
+          "offset": "808BC3F5",
+          "on": "9090",
+          "off": "7E22"
+        },
+        {
+          "section": "0",
+          "offset": "808BC411",
+          "on": "B00190",
+          "off": "0F97C0"
+        },
+        {
+          "section": "0",
+          "offset": "808BC341",
+          "on": "B00190",
+          "off": "0F97C0"
+        },
+        {
+          "section": "0",
+          "offset": "808BC398",
+          "on": "B00190",
+          "off": "0F9DC0"
+        }
+      ]
+    },
+    {
+      "name": "清洗词条较易出现传说圣物",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "82210940",
+          "on": "C5FA108720010000C3",
+          "off": "C5FA10870C010000C5"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "怪盗B"
+  ]
+}

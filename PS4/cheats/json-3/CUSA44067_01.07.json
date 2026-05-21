@@ -1,0 +1,241 @@
+{
+  "name": "Sniper Elite: Resistance 狙击精英：抵抗",
+  "id": "CUSA44067",
+  "version": "01.07",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Master Code | 必须码",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "15D2740",
+          "on": "83BB8400000001750E803DA1D8DD01017505C5FA104B6483BB8400000009750C803D8BD8DD010175030F57C9C5FA114B60E95F62FDFE",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "5A89D0",
+          "on": "E96B9D0201",
+          "off": "C5FA114B60"
+        },
+        {
+          "offset": "15D2790",
+          "on": "803D89D7DD0101740B803D82D7DD01017428EB53C60575D7DD0100508B416089055FD7DD018B416489055AD7DD018B4168890555D7DD0158EB2DC60551D7DD0100833D3CD7DD0100741D528B1533D7DD018951608B152ED7DD018951648B1529D7DD018951685AC5F8105160E980ACADFF",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "10AD47C",
+          "on": "E90F535200",
+          "off": "C5F8105160"
+        },
+        {
+          "offset": "15D2820",
+          "on": "803DCCD7DD010175030F57C0C5FA114310E9FC24ABFF",
+          "off": "00000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1084D2D",
+          "on": "E9EEDA5400",
+          "off": "C5FA114310"
+        },
+        {
+          "offset": "15D2850",
+          "on": "85F6803D9BD7DD01017505B8E703000089472CE9F4B28EFF",
+          "off": "000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "EBDB57",
+          "on": "E9F44C7100",
+          "off": "85F689472C"
+        },
+        {
+          "offset": "15D2880",
+          "on": "0F853A389AFF803D68D7DD01017508B96300000089482C8B482CE968359AFF",
+          "off": "00000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "F75DFE",
+          "on": "E97DCA650090909090",
+          "off": "0F85BC0200008B482C"
+        },
+        {
+          "offset": "15D28B0",
+          "on": "0F84DBAEB1FF803D39D7DD0101750A41BF3F420F0044897808448B7808E92FADB1FF",
+          "off": "00000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "10ED5F7",
+          "on": "E9B4524E009090909090",
+          "off": "0F8494010000448B7808"
+        },
+        {
+          "offset": "15D28F0",
+          "on": "803D00D7DD01017507C743089F860100488B430849894608E9D14B3AFF",
+          "off": "0000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "9774D6",
+          "on": "E915B4C500909090",
+          "off": "488B430849894608"
+        },
+        {
+          "offset": "15D2920",
+          "on": "803DD1D6DD010175030F57C0C5FA1105341CDC01E9E36771FF",
+          "off": "00000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "CE9114",
+          "on": "E907988E00909090",
+          "off": "C5FA11054CB46A02"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health | 无限生命",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "033AFFF1",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "One Hit Kill | 一击必杀",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "033AFFF2",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Zero Heartrate | 心率清零",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1085833",
+          "on": "9090909090",
+          "off": "C5FA584B10"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Empty Lung | 无限屏息",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "033AFFF3",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Stealth Mode | 隐身模式",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6C8AB0",
+          "on": "C3",
+          "off": "55"
+        }
+      ]
+    },
+    {
+      "name": "No Reload | 无需装弹",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "E98BBD",
+          "on": "41895740",
+          "off": "41897740"
+        }
+      ]
+    },
+    {
+      "name": "Max Ammo | 最大弹药数量",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "033AFFF4",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Max Items | 最大道具数量",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "033AFFF5",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Max XP | 最大经验值",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "033AFFF6",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Propaganda Challenge: Max Score | 宣传挑战：最高得分",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "033AFFF7",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Propaganda Challenge: Infinite Timer | 宣传挑战：无限倒计时",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "033AFFF8",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Save Location | 保存位置",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "033AFF20",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Load Location | 读取位置",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "033AFF22",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    }
+    
+  ],
+  "credits": [
+    "Reddevil82 & Fullcodes"
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "name": "CRYMACHINA 恸哭奇机",
+  "id": "CUSA42215",
+  "version": "01.20",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "infinite ammo/无限子弹",
+      "description": "无限子弹",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6013000",
+          "on": "BE6300000089B79C020000E99ACBDAFA",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "DBFBA4",
+          "on": "E95734250590",
+          "off": "89B79C020000"
+        }
+      ]
+    },
+    {
+      "name": "infinite Exp/无限经验",
+      "description": "使用经验时不减反增",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "CBC1D7",
+          "on": "0188F4000000",
+          "off": "2988F4000000"
+        }
+      ]
+    },
+    {
+      "name": "infinite HP/无限HP",
+      "description": "卡关或异常请关闭",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6013020",
+          "on": "480F47F341837F5C00750949897708E9EE48BDFA4939F40F87E548BDFA49897708E9DC48BDFA",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "BE791A",
+          "on": "E901B74205909090",
+          "off": "480F47F349897708"
+        }
+      ]
+    },
+    {
+      "name": "infinite MP/无限MP",
+      "description": "无限MP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "CC5AAF",
+          "on": "9090909090",
+          "off": "C5FA11575C"
+        }
+      ]
+    },
+    {
+      "name": "EGO=99999/金钱=99999",
+      "description": "使用时生效",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "6013060",
+          "on": "BE3F420F0089B0F8000000E9E398CAFA",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "CBC94D",
+          "on": "E90E67350590",
+          "off": "89B0F8000000"
+        },
+		{
+          "offset": "6013080",
+          "on": "B83F420F00898324070000E9013FCAFA",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "CB6F8B",
+          "on": "E9F0C0350590",
+          "off": "298324070000"
+        }
+      ]
+    },
+    {
+      "name": "infinite HP and one hit kill/无限HP且一击秒杀",
+      "description": "卡关或异常请关闭",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "60130A0",
+          "on": "480F47F341837F5C00751048C7C60000000049897708E96748BDFA4939F40F875E48BDFA49897708E95548BDFA",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "BE791A",
+          "on": "E981B74205909090",
+          "off": "480F47F349897708"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "allyzc"
+  ]
+}

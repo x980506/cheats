@@ -1,0 +1,47 @@
+{
+  "name": "Rogue Legacy 2 盗贼遗产2",
+  "id": "CUSA42371",
+  "version": "01.00",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Infinite Mana | 无限法力",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "81B6CD90",
+          "on": "41C784241803000000C07944E94281A1FE",
+          "off": "0000000000000000000000000000000000"
+        },
+        {
+          "section": "0",
+          "offset": "80584ED9",
+          "on": "E9B27E5E019090909090",
+          "off": "C4C17A11842418030000"
+        }
+      ]
+    },
+    {
+      "name": "Money 99999999 | 金钱 99999999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "81B6CD60",
+          "on": "4401EBBBFFE0F505895840E99C44B4FE",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "section": "0",
+          "offset": "806B1206",
+          "on": "E955BB4B0190",
+          "off": "4401EB895840"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Dreamcast2"
+  ]
+}

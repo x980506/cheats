@@ -1,0 +1,16 @@
+{"name":"Red Dead Redemption 荒野大镖客：救赎","id":"CUSA36843","version":"01.04","process":"eboot.bin","mods":[
+{"name":"Invincible Mode | 无敌模式","type":"checkbox","memory":[{"offset":"023BFFF4","on":"01","off":"00"}]},
+{"name":"Infinite Health | 无限生命值","type":"checkbox","memory":[{"offset":"023BFFF5","on":"01","off":"00"}]},
+{"name":"Infinite Dead Eye | 无限死神之眼","type":"checkbox","memory":[{"offset":"023BFFF2","on":"01","off":"00"}]},
+{"name":"Infinite Ammo | 无限弹药","type":"checkbox","memory":[{"offset":"023BFFFD","on":"01","off":"00"}]},
+{"name":"No Reload | 无需装弹","type":"checkbox","memory":[{"offset":"023BFFFE","on":"01","off":"00"}]},
+{"name":"Infinite Items | 无限物品","type":"checkbox","memory":[{"offset":"005C5878","on":"87","off":"8F"}]},
+{"name":"No Bounty | 悬赏清零","type":"checkbox","memory":[{"offset":"023BFFFF","on":"01","off":"00"}]},
+{"name":"Infinite Horse Stamina | 马匹无限耐力","type":"checkbox","memory":[{"offset":"023BFFF0","on":"01","off":"00"}]},
+{"name":"Maximum Horse Stamina | 马匹最大耐力上限","type":"checkbox","memory":[{"offset":"023BFFF1","on":"01","off":"00"}]},
+{"name":"Rapid Increase in Good Honor | 好人荣誉值快速增加","type":"checkbox","memory":[{"offset":"023BFFF8","on":"01","off":"00"}]},
+{"name":"Rapid Increase in Good Fame | 好人声望值快速增加","type":"checkbox","memory":[{"offset":"023BFFFA","on":"01","off":"00"}]},
+{"name":"Hold X to Run Speed Multiply 2 | 按住 X 奔跑速度 2 倍","type":"checkbox","memory":[{"offset":"023BFFF6","on":"01","off":"00"},{"offset":"156E207","on":"0040","off":"803F"}]},
+{"name":"Hold X to Run Speed Multiply 3 | 按住 X 奔跑速度 3 倍","type":"checkbox","memory":[{"offset":"023BFFF6","on":"01","off":"00"},{"offset":"156E207","on":"4040","off":"803F"}]},
+{"name":"Money 99,999 | 金钱 99,999","type":"checkbox","memory":[{"offset":"023BFFF7","on":"01","off":"00"}]}
+],"credits":["Fullcodes"]}

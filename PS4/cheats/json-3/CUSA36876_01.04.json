@@ -1,0 +1,23 @@
+{"name":"Fatal Frame: Mask of the Lunar Eclipse 零～月蚀的假面～","id":"CUSA36876","version":"01.04","process":"eboot.bin","mods":[
+{"name":"Denoise 去噪点","type":"checkbox","memory":[{"offset":"0047B720","on":"C3","off":"55"}]},
+{"name":"Turn Off Box-Shadow 关闭边框阴影","type":"checkbox","memory":[{"offset":"0046C8C9","on":"A2","off":"92"}]},
+{"name":"God Mode 无敌模式","type":"checkbox","memory":[{"offset":"025D7FE6","on":"01","off":"00"}]},
+{"name":"Infinite Health 无限生命","type":"checkbox","memory":[{"offset":"025D7FE0","on":"01","off":"00"}]},
+{"name":"Max Health 2000 生命上限2000","type":"checkbox","memory":[{"offset":"025D7FE1","on":"01","off":"00"}]},
+{"name":"Hold <L2> to High Speed Run 按住 <L2> 高速奔跑","type":"checkbox","memory":[{"offset":"025D7FE7","on":"01","off":"00"}]},
+{"name":"Hold <R1> to Walk Through the Wall 按住<R1>穿墙","type":"checkbox","memory":[{"offset":"025D7FE8","on":"01","off":"00"}]},
+{"name":"Instant Camera Lock 射影机瞬间锁定","type":"checkbox","memory":[{"offset":"008995E2","on":"F0","off":"F4"}]},
+{"name":"Instant Camera Cooldown 射影机瞬间冷却","type":"checkbox","memory":[{"offset":"0088F2AE","on":"F057C9","off":"F22ACB"}]},
+{"name":"Max Spirit Power 满灵力槽","type":"checkbox","memory":[{"offset":"025D7FEC","on":"01","off":"00"}]},
+{"name":"Instant Camera Recharge 射影机瞬间充能","type":"checkbox","memory":[{"offset":"0088F40D","on":"5F","off":"5D"},{"offset":"0088A239","on":"5F","off":"5D"}]},
+{"name":"One Hit Kill 一击必杀","type":"checkbox","memory":[{"offset":"008967B7","on":"0C","off":"0A"}]},
+{"name":"Score 9999999 分数9999999","type":"checkbox","memory":[{"offset":"025D7FE2","on":"01","off":"00"}]},
+{"name":"Blue Spirit Stone 500 蓝色灵力碎片500","type":"checkbox","memory":[{"offset":"025D7FE3","on":"01","off":"00"}]},
+{"name":"Red Spirit Stone 500 红色灵力碎片500","type":"checkbox","memory":[{"offset":"025D7FE4","on":"01","off":"00"}]},
+{"name":"Infinite Pts Use 无限拍摄点数消耗","type":"checkbox","memory":[{"offset":"009A0B08","on":"9090","off":"29F0"}]},
+{"name":"Infinite Item Use 无限道具使用","type":"checkbox","memory":[{"offset":"025D7FE9","on":"01","off":"00"}]},
+{"name":"Skip The Puzzle 跳过拼图","type":"checkbox","memory":[{"offset":"025D7FEC","on":"01","off":"00"}]},
+{"name":"Reset Play Time 重置游戏时间","type":"checkbox","memory":[{"offset":"025D7FE5","on":"01","off":"00"}]},
+{"name":"New Game to Final Mission 新游戏直接最后一章","type":"checkbox","memory":[{"offset":"009A0749","on":"0D","off":"00"}]},
+{"name":"Change to Nightmare Level 改为噩梦难度","type":"checkbox","memory":[{"offset":"025D7FEB","on":"01","off":"00"}]}
+],"credits":[" Fullcodes（PLAYSTATION/PC修改讨论群:1167084913）"]}

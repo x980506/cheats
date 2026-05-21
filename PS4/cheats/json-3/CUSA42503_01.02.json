@@ -1,0 +1,9 @@
+{"name":"Atomfall 原子陨落 ","id":"CUSA42503","version":"01.02","process":"eboot.bin",
+"master":{"challenged":"yes","memory":[{"offset":"D3A300","on":"538B58E8488D1C1FEB098B436C894368488B075BF644170C01E9F586B7FF"},{"offset":"8B2A0E","on":"E9ED784800"}]},"mods":[
+{"name":"Infinite Health | 无限生命","type":"checkbox","memory":[{"offset":"D3A309","on":"00","off":"09"}]},
+{"name":"Infinite Ammo | 无限弹药","type":"checkbox","memory":[{"offset":"B67DA5","on":"01","off":"29"}]},
+{"name":"Low Heart Rate | 超低心率","type":"checkbox","memory":[{"offset":"867A2D","on":"5D","off":"5F"},{"offset":"8679DC","on":"5D","off":"5F"},{"offset":"8670E6","on":"5C","off":"58"}]},
+{"name":"Stealth Mode | 隐身模式","type":"checkbox","memory":[{"offset":"8B3C60","on":"C3","off":"55"},{"offset":"8AA3B0","on":"C3","off":"55"}]},
+{"name":"Infinite Materials | 材料使用不减","type":"checkbox","memory":[{"offset":"BC031E","on":"01","off":"29"}]},
+{"name":"Ignore Crafting Requirments | 无视制作需求","type":"checkbox","memory":[{"offset":"BAB886","on":"4839C0","off":"4439E8"},{"offset":"BAB8D8","on":"4839C0","off":"4439E8"}]},
+],"credits":["Hank"]}

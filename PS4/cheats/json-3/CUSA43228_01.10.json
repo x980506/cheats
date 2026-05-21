@@ -1,0 +1,22 @@
+{"name":"Like a Dragon Gaiden: The Man Who Erased His Name 人中之龙７外传 无名之龙","id":"CUSA43228","version":"01.10","process":"eboot.bin","mods":[
+{"name":"God Mode/Ignore Hits 无敌模式","type":"checkbox","memory":[{"offset":"0363BFE1","on":"01","off":"00"}]},
+{"name":"Infinite Health 无限体力","type":"checkbox","memory":[{"offset":"0363BFE2","on":"01","off":"00"}]},
+{"name":"Infinite Heat 无限热血","type":"checkbox","memory":[{"offset":"0363BFE3","on":"01","off":"00"}]},
+{"name":"Low Health 超低体力","type":"checkbox","memory":[{"offset":"0363BFF5","on":"01","off":"00"}]},
+{"name":"Full Drunk 醉酒状态","type":"checkbox","memory":[{"offset":"0363BFE4","on":"01","off":"00"}]},
+{"name":"No Drunk 酒醒状态","type":"checkbox","memory":[{"offset":"0363BFE5","on":"01","off":"00"}]},
+{"name":"Infinite Item Use 无限道具使用","type":"checkbox","memory":[{"offset":"0363BFE7","on":"01","off":"00"}]},
+{"name":"Infinite Weapon Durability 无限武器耐久度","type":"checkbox","memory":[{"offset":"0363BFE8","on":"01","off":"00"}]},
+{"name":"EXP Multi 5 on Gain 经验值5倍增加","type":"checkbox","memory":[{"offset":"0363BFE9","on":"01","off":"00"}]},
+{"name":"EXP Multi 20 on Gain 经验值20倍增加","type":"checkbox","memory":[{"offset":"0363BFEA","on":"01","off":"00"}]},
+{"name":"EXP Max on Gain 经验值最大增加","type":"checkbox","memory":[{"offset":"0363BFEB","on":"01","off":"00"}]},
+{"name":"One Hit Kill 一击必杀","type":"checkbox","memory":[{"offset":"0363BFED","on":"01","off":"00"}]},
+{"name":"Money 999,999,999 所持金 999,999,999","type":"checkbox","memory":[{"offset":"0363BFE6","on":"01","off":"00"}]},
+{"name":"Akame Points 9,999,999 赤目点数 9,999,999","type":"checkbox","memory":[{"offset":"0363BFEC","on":"01","off":"00"}]},
+{"name":"PP 9,999,999 PP 9,999,999","type":"checkbox","memory":[{"offset":"0363BFEF","on":"01","off":"00"}]},
+{"name":"GP 9,999,999 GP 9,999,999","type":"checkbox","memory":[{"offset":"0363BFF0","on":"01","off":"00"}]},
+{"name":"Wooden Tags 9,999,999 木牌数量9,999,999","type":"checkbox","memory":[{"offset":"0363BFF1","on":"01","off":"00"}]},
+{"name":"Casino Chips 9,999,999 赌场代币9,999,999","type":"checkbox","memory":[{"offset":"0363BFF2","on":"01","off":"00"}]},
+{"name":"Shogi Points 9,999,999 将棋点数9,999,999","type":"checkbox","memory":[{"offset":"0363BFF3","on":"01","off":"00"}]},
+{"name":"Billiard Points 9,999,999 台球点数9,999,999","type":"checkbox","memory":[{"offset":"0363BFF4","on":"01","off":"00"}]}
+],"credits":["Fullcodes  PC/PS游戏修改交流: 一群 1167084913  二群 702196858"]}

@@ -1,0 +1,15 @@
+{"name":"Persona 5 Tactica 女神异闻录5 战略版","id":"CUSA43148_00","version":"01.02","process":"eboot.bin","mods":[
+{"name":"Infinite Health 无限HP","type":"checkbox","memory":[{"section":"0","offset":"87673FE0","on":"01","off":"00"}]},
+{"name":"Infinite SP 无限SP","type":"checkbox","memory":[{"section":"0","offset":"87673FE1","on":"01","off":"00"}]},
+{"name":"MaxHP 9999 HP上限9999","type":"checkbox","memory":[{"section":"0","offset":"87673FE3","on":"01","off":"00"}]},
+{"name":"MaxSP 999 SP上限999","type":"checkbox","memory":[{"section":"0","offset":"87673FE4","on":"01","off":"00"}]},
+{"name":"Moves Rang Max 移动能力最大","type":"checkbox","memory":[{"section":"0","offset":"87673FE2","on":"01","off":"00"}]},
+{"name":"Freeze Enemy 锁住敌人","type":"checkbox","memory":[{"section":"0","offset":"87673FE6","on":"01","off":"00"}]},
+{"name":"Damage Multi 2 攻击力2倍","type":"checkbox","memory":[{"section":"0","offset":"87673FE7","on":"01","off":"00"}]},
+{"name":"Damage Multi 4 攻击力4倍","type":"checkbox","memory":[{"section":"0","offset":"87673FE9","on":"01","off":"00"}]},
+{"name":"Money 9,999,999 金钱 9,999,999","type":"checkbox","memory":[{"section":"0","offset":"87673FED","on":"01","off":"00"}]},
+{"name":"GP 999 成长点数999","type":"checkbox","memory":[{"section":"0","offset":"87673FE8","on":"01","off":"00"}]},
+{"name":"EXP Multi 4 on gain 经验值4倍获得","type":"checkbox","memory":[{"section":"0","offset":"87673FEA","on":"01","off":"00"}]},
+{"name":"EXP Multi 20 on gain 经验值20倍获得","type":"checkbox","memory":[{"section":"0","offset":"87673FEB","on":"01","off":"00"}]},
+{"name":"EXP Max on gain 经验值最大获得","type":"checkbox","memory":[{"section":"0","offset":"87673FEB","on":"01","off":"00"}]}
+],"credits":["Fullcodes  PC/PS游戏修改交流: 一群 1167084913  二群 702196858"]}

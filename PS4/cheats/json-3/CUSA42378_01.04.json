@@ -1,0 +1,12 @@
+{"name":"Contra: Operation Galuga 魂斗罗:加鲁加行动","id":"CUSA42378_00","version":"01.04","process":"eboot.bin","mods":[
+{"name":"God Mode/Ignore Hits 无敌模式/无视伤害判定","type":"checkbox","memory":[{"offset":"808186D3","on":"02","off":"00"}]},
+{"name":"Infinite HP 无限血量","type":"checkbox","memory":[{"offset":"8495bfe2","on":"01","off":"00"}]},
+{"name":"Infinite Doulbe Jump 无限二段跳","type":"checkbox","memory":[{"offset":"8495bfe5","on":"01","off":"00"}]},
+{"name":"Move Speed Multi 2 移动速度2倍","type":"checkbox","memory":[{"offset":"8495bfe0","on":"01","off":"00"}]},
+{"name":"Move Speed Multi 4 移动速度4倍","type":"checkbox","memory":[{"offset":"8495bfe1","on":"01","off":"00"}]},
+{"name":"Infinite Credits 无限魂币","type":"checkbox","memory":[{"offset":"81281E93","on":"01","off":"29"}]},
+{"name":"Infinite Lives 无限命数","type":"checkbox","memory":[{"offset":"80829705","on":"C7","off":"CF"}]},
+{"name":"Time Used 00:00 in Chanllenge Mode 挑战模式用时00:00","type":"checkbox","memory":[{"offset":"810D0C00","on":"C3","off":"55"}]},
+{"name":"Damage Multi 3 伤害3倍","type":"checkbox","memory":[{"offset":"8495bfe3","on":"01","off":"00"}]},
+{"name":"One Hit Kills 一击必杀","type":"checkbox","memory":[{"offset":"8495bfe4","on":"01","off":"00"}]}
+],"credits":["Fullcodes  PC/PS游戏修改交流: 一群 1167084913  二群 702196858"]}

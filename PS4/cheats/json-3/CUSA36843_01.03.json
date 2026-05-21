@@ -1,0 +1,15 @@
+{"name":"Red Dead Redemption 荒野大镖客 救赎","id":"CUSA36843_00","version":"01.03","process":"eboot.bin","mods":[
+{"name":"God Mode/Ignore Hits 无敌模式","type":"checkbox","memory":[{"offset":"023BFFF4","on":"01","off":"00"}]},
+{"name":"Infinite Health 无限生命值","type":"checkbox","memory":[{"offset":"023BFFF5","on":"01","off":"00"}]},
+{"name":"Infinite DeadEye 无限死亡之眼","type":"checkbox","memory":[{"offset":"023BFFF2","on":"01","off":"00"}]},
+{"name":"Hold <X> to Run Speed Multi 3 按住 <X> 3倍奔跑移动","type":"checkbox","memory":[{"offset":"023BFFF6","on":"01","off":"00"}]},
+{"name":"Infinite Horse Stamina 无限马匹耐力","type":"checkbox","memory":[{"offset":"023BFFF0","on":"01","off":"00"}]},
+{"name":"Maximum Horse MaxStamina 最大马匹耐力上限","type":"checkbox","memory":[{"offset":"023BFFF1","on":"01","off":"00"}]},
+{"name":"Infinite Carriage Stamina 无限马车耐力","type":"checkbox","memory":[{"offset":"023BFFF3","on":"01","off":"00"}]},
+{"name":"Infinite Total Ammo 无限弹药","type":"checkbox","memory":[{"offset":"023BFFFD","on":"01","off":"00"}]},
+{"name":"No Reload 无需装弹","type":"checkbox","memory":[{"offset":"023BFFFE","on":"01","off":"00"}]},
+{"name":"Money 99,999 金钱 99,999","type":"checkbox","memory":[{"offset":"023BFFF7","on":"01","off":"00"}]},
+{"name":"No Bounty 清零悬赏","type":"checkbox","memory":[{"offset":"023BFFFF","on":"01","off":"00"}]},
+{"name":"Rapid Increase in Good Honor 好人荣誉值快速增加","type":"checkbox","memory":[{"offset":"023BFFF8","on":"01","off":"00"}]},
+{"name":"Rapid Increase in Good Fame 好人声望值快速增加","type":"checkbox","memory":[{"offset":"023BFFFA","on":"01","off":"00"}]}
+],"credits":["Fullcodes  PC/PS游戏修改交流: 一群 1167084913  二群 702196858"]}

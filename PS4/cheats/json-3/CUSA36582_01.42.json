@@ -1,0 +1,19 @@
+{"name":"Prince Of Persia: The Lost Crown 波斯王子：失落的王冠","id":"CUSA36582","version":"01.42","process":"eboot.bin",
+"master":{"challenged":"yes","memory":[{"offset":"83AF9690","on":"488B4010488B7B28488B7F10488B7F2048893D29298C01488BFB4C8BFBE93B5590FD"},{"offset":"813FEBE6","on":"9090E9A3AA6F02"},{"offset":"83AF96C0","on":"483B3D09298C01740055488BEC4157E952DF00FD4883FA007415807E4100750F66837E5C017508807E70017502EBDAC3"},{"offset":"80B07620","on":"E99B20FF0290"},{"offset":"83AF9700","on":"498B7C247848893D44288C01488B8788000000488B4010488B4078488B4078EB07C74028F4010000E906BC33FD"},{"offset":"80E3532E","on":"E9CD43CC02"},{"offset":"83AF9740","on":"48890599288C01C680F001000001E93D835FFE"},{"offset":"820F1A89","on":"9090E9B07CA001"},{"offset":"83AF9770","on":"53C5F813805C020000488B1D60288C014883FB00741F80BBF001000001EB16680000F040C57A103C244883C408C57A11B8600200005BE9B80360FE"},{"offset":"820F9B5B","on":"909090E90DFC9F01"}]},"mods":[
+{"name":"Invincible Mode | 无敌模式","type":"checkbox","memory":[{"offset":"83AF96C8","on":"0B","off":"00"},{"offset":"82FE6BA0","on":"C3","off":"55"}]},
+{"name":"Infinite Health | 无限生命","type":"checkbox","memory":[{"offset":"83AF9720","on":"00","off":"07"}]},
+{"name":"Infinite Dash | 无限冲刺","type":"checkbox","memory":[{"offset":"80E38CF7","on":"B001C390909090","off":"0FB68001020000"}]},
+{"name":"Infinite Athra Surges | 无限炎火迸发","type":"checkbox","memory":[{"offset":"80C1A48C","on":"E9C500000090","off":"0F8DC4000000"},{"offset":"80C1A5FC","on":"C0","off":"C1"},{"offset":"8092CA97","on":"C0","off":"C1"}]},
+{"name":"Infinite Healing Potion | 无限治疗药水","type":"checkbox","memory":[{"offset":"817BC2F5","on":"00","off":"01"}]},
+{"name":"Infinite Memory Shard | 无限记忆碎片","type":"checkbox","memory":[{"offset":"8136AE7D","on":"01","off":"29"}]},
+{"name":"Infinite Arrows | 无限箭矢","type":"checkbox","memory":[{"offset":"817B06A2","on":"00","off":"01"}]},
+{"name":"Half Screen Arrow Attack | 半屏箭矢攻击","type":"checkbox","memory":[{"offset":"817B01F0","on":"90B80C","off":"8B8084"},{"offset":"817B02F3","on":"05689B1D02","off":"80D4000000"}]},
+{"name":"Full Screen Arrow Attack | 全屏箭矢攻击","type":"checkbox","memory":[{"offset":"817B01F0","on":"90B817","off":"8B8084"},{"offset":"817B02F3","on":"05689B1D02","off":"80D4000000"}]},
+{"name":"One Hit Kill | 一击必杀","type":"checkbox","memory":[{"offset":"80F0FBDD","on":"6689C1","off":"8B4810"}]},
+{"name":"Moon Jump | 月球跳","type":"checkbox","memory":[{"offset":"83AF978D","on":"75","off":"EB"}]},
+{"name":"Infinite Double Jumps | 无限二段跳","type":"checkbox","memory":[{"offset":"82B705FB","on":"EB","off":"7C"}]},
+{"name":"Full Screen Collection | 全屏收集","type":"checkbox","memory":[{"offset":"80C29AE8","on":"C8","off":"C9"}]},
+{"name":"Unlock Six Powers | 解锁六项能力","type":"checkbox","memory":[{"offset":"80AAC2AA","on":"02","off":"00"},{"offset":"80F1A317","on":"02","off":"00"},{"offset":"80AADF18","on":"02","off":"00"},{"offset":"80F1C675","on":"02","off":"00"},{"offset":"80F1C6D8","on":"02","off":"00"}]},
+{"name":"All Amulets Can Be Equip | 可装备全部护符","type":"checkbox","memory":[{"offset":"811E7626","on":"1B","off":"24"},{"offset":"80F1292D","on":"1B","off":"24"}]},
+{"name":"Ignore Buy & Upgrades Requirements | 无视购买和升级需求","type":"checkbox","memory":[{"offset":"80F0B605","on":"4839C090","off":"413B4514"}]}
+],"credits":["Hank"]}

@@ -1,0 +1,102 @@
+{
+  "name": "Atomfall",
+  "id": "CUSA42503",
+  "version": "01.06",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Infinite Health",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "100DC01",
+          "on": "83BBB8000000007405C5FA114B68E9771231FF",
+          "off": "00000000000000000000000000000000000000"
+        },
+        {
+          "offset": "31EE86",
+          "on": "E976EDCE00",
+          "off": "C5FA114B68"
+        }
+      ]
+    },
+    {
+      "name": "One Hit Kills",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "100DC16",
+          "on": "C5F25C4DF483BBB8000000007404C5F057C9E9511231FF",
+          "off": "0000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "31EE79",
+          "on": "E998EDCE00",
+          "off": "C5F25C4DF4"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Heart Rate",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8672E8",
+          "on": "9090909090",
+          "off": "C5FA114308"
+        },
+        {
+          "offset": "867B35",
+          "on": "C5FA10470C",
+          "off": "C5FA5D476C"
+        },
+        {
+          "offset": "867BB3",
+          "on": "9090909090",
+          "off": "C5FA114308"
+        },
+        {
+          "offset": "867C04",
+          "on": "9090909090",
+          "off": "C5FA114708"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Skills",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "9102FB",
+          "on": "909090",
+          "off": "4429E8"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Items/Ammo On Craft/Trade/Reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "BC2F6E",
+          "on": "9090",
+          "off": "29DE"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ammo, No Need To Reload",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B68995",
+          "on": "9090",
+          "off": "29F0"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "TatyPS2"
+  ]
+}

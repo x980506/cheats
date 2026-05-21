@@ -1,0 +1,443 @@
+{
+  "name": "星之海洋2 第二个故事R",
+  "id": "CUSA40651",
+  "version": "01.01",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "HP不减",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "80F401FD",
+          "on": "E9518EF900",
+          "off": "89C24889D9"
+        },
+        {
+          "section": "0",
+          "offset": "81ED9053",
+          "on": "89C24889D956E8C2F37CFE84C0740231D25EE9987106FF",
+          "off": "0000000000000000000000000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "name": "MP不减",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "80F45936",
+          "on": "9090",
+          "off": "29F1"
+        }
+      ]
+    },
+    {
+      "name": "BP不减",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "80F4473C",
+          "on": "9090",
+          "off": "7410"
+        },
+        {
+          "section": "0",
+          "offset": "80F48118",
+          "on": "31C090",
+          "off": "4489F0"
+        }
+      ]
+    },
+    {
+      "name": "SP不减",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "80F47C58",
+          "on": "31C090",
+          "off": "4489E8"
+        }
+      ]
+    },
+    {
+      "name": "道具不减",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "80CEE878",
+          "on": "909090",
+          "off": "4429FE"
+        },
+        {
+          "section": "0",
+          "offset": "80CEF116",
+          "on": "909090",
+          "off": "4429E6"
+        },
+        {
+          "section": "0",
+          "offset": "80CEF265",
+          "on": "909090",
+          "off": "4429FE"
+        }
+      ]
+    },
+    {
+      "name": "免费购物",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "807D1D15",
+          "on": "31F6",
+          "off": "89DE"
+        }
+      ]
+    },
+    {
+      "name": "一击破防",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "8074B3DA",
+          "on": "C5F25CC1",
+          "off": "C5F25CC0"
+        }
+      ]
+    },
+    {
+      "name": "经验倍率必须码",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "80B819BE",
+          "on": "E9CA76350190",
+          "off": "4189C4488B07"
+        },
+        {
+          "section": "0",
+          "offset": "81ED908D",
+          "on": "4189C42EA10491C10100000000440FAFE0488B07E91E89CAFE",
+          "off": "00000000000000000000000000000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "name": "结算经验值2倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "81ED9104",
+          "on": "02000000",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "结算经验值4倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "81ED9104",
+          "on": "04000000",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "结算经验值8倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "81ED9104",
+          "on": "08000000",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "结算经验值16倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "81ED9104",
+          "on": "10000000",
+          "off": "00000000"
+        }
+      ]
+    },
+    {
+      "name": "走路速度2倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "809F438F",
+          "on": "E9AE4C4E01",
+          "off": "C5FA104014"
+        },
+        {
+          "section": "0",
+          "offset": "81ED9042",
+          "on": "C7401400008040C5FA104014E941B3B1FE",
+          "off": "0000000000000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "name": "跑步速度2倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "809F4378",
+          "on": "E9B44C4E01",
+          "off": "C5FA104010"
+        },
+        {
+          "section": "0",
+          "offset": "81ED9031",
+          "on": "C7401000002041C5FA104010E93BB3B1FE",
+          "off": "0000000000000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "name": "跑步速度3倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "809F4378",
+          "on": "E9B44C4E01",
+          "off": "C5FA104010"
+        },
+        {
+          "section": "0",
+          "offset": "81ED9031",
+          "on": "C7401000007041C5FA104010E93BB3B1FE",
+          "off": "0000000000000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "name": "免疫异常状态",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "80F412D8",
+          "on": "E9E000000090",
+          "off": "0F87DF000000"
+        }
+      ]
+    },
+    {
+      "name": "缩短咏唱时间",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "806B1D85",
+          "on": "9090",
+          "off": "7433"
+        }
+      ]
+    },
+    {
+      "name": "奖励量表Max",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "817BC83D",
+          "on": "0F4DC0",
+          "off": "0F4DC3"
+        }
+      ]
+    },
+    {
+      "name": "突击量表Max",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "806459D5",
+          "on": "C5F25DC1",
+          "off": "C5FA5DC1"
+        }
+      ]
+    },
+    {
+      "name": "储存功能常开",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "807CCC5A",
+          "on": "B801000000",
+          "off": "E8212C0000"
+        }
+      ]
+    },
+    {
+      "name": "偷窃次数不减",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "817BF01F",
+          "on": "909090",
+          "off": "4401F3"
+        }
+      ]
+    },
+    {
+      "name": "道具无冷却时间",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "80761B58",
+          "on": "C5F25CC190",
+          "off": "C5FA104024"
+        }
+      ]
+    },
+    {
+      "name": "道具掉落率两倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "80B81856",
+          "on": "9090",
+          "off": "742B"
+        }
+      ]
+    },
+    {
+      "name": "偷窃成功率最大",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "8110AC17",
+          "on": "C5F25DC9",
+          "off": "C5F25DC8"
+        }
+      ]
+    },
+    {
+      "name": "解锁顺手牵羊功能",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "8110BAD0",
+          "on": "909090909090",
+          "off": "0F84EC000000"
+        },
+        {
+          "section": "0",
+          "offset": "8110BB55",
+          "on": "EB15",
+          "off": "7515"
+        }
+      ]
+    },
+    {
+      "name": "鱼上钩后不会逃跑",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "80A028E9",
+          "on": "9090",
+          "off": "7309"
+        }
+      ]
+    },
+    {
+      "name": "垂钓必出最大尺寸",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "81108310",
+          "on": "9090",
+          "off": "7E14"
+        }
+      ]
+    },
+    {
+      "name": "偷窃失败不降好感度",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "8110B25A",
+          "on": "EBE6",
+          "off": "74E6"
+        }
+      ]
+    },
+    {
+      "name": "触碰敌人不会进入战斗",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "805769D0",
+          "on": "31C0C390",
+          "off": "554889E5"
+        }
+      ]
+    },
+    {
+      "name": "精准反击失败没有惩罚",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "80FD8C46",
+          "on": "909090909090",
+          "off": "0F8386000000"
+        }
+      ]
+    },
+    {
+      "name": "改造加工必附加稀有因子",
+      "type": "checkbox",
+      "memory": [
+        {
+          "section": "0",
+          "offset": "80966009",
+          "on": "909090909090",
+          "off": "0F8D64030000"
+        },
+        {
+          "section": "0",
+          "offset": "809661CE",
+          "on": "41B402",
+          "off": "41FFC4"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "怪盗B"
+  ]
+}                                     retn

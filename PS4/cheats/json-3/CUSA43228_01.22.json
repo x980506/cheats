@@ -1,0 +1,22 @@
+{"name":"Like a Dragon Gaiden: The Man Who Erased His Name 人中之龙7外传：无名之龙","id":"CUSA43228","version":"01.22","process":"eboot.bin","mods":[
+{"name":"Invincible Mode | 无敌模式","type":"checkbox","memory":[{"offset":"0363BFE1","on":"01","off":"00"}]},
+{"name":"Infinite Health | 无限体力","type":"checkbox","memory":[{"offset":"0363BFE2","on":"01","off":"00"}]},
+{"name":"Low Health | 超低体力","type":"checkbox","memory":[{"offset":"0363BFF5","on":"01","off":"00"}]},
+{"name":"Infinite Heat | 无限热血","type":"checkbox","memory":[{"offset":"0363BFE3","on":"01","off":"00"}]},
+{"name":"Infinite Weapon Durability | 无限武器耐久度","type":"checkbox","memory":[{"offset":"0363BFE8","on":"01","off":"00"}]},
+{"name":"One Hit Kill | 一击必杀","type":"checkbox","memory":[{"offset":"0363BFED","on":"01","off":"00"}]},
+{"name":"Infinite Item | 无限道具","type":"checkbox","memory":[{"offset":"0363BFE7","on":"01","off":"00"}]},
+{"name":"Never Drunk | 不会醉酒","type":"checkbox","memory":[{"offset":"0363BFE5","on":"01","off":"00"}]},
+{"name":"Always Drunk | 总是醉酒","type":"checkbox","memory":[{"offset":"0363BFE4","on":"01","off":"00"}]},
+{"name":"Akame EXP Multiply 10 | 赤目情报网经验值 10 倍","type":"checkbox","memory":[{"offset":"0363BFE9","on":"01","off":"00"}]},
+{"name":"Akame EXP Multiply 100 | 赤目情报网经验值 100 倍","type":"checkbox","memory":[{"offset":"0363BFEA","on":"01","off":"00"}]},
+{"name":"Max Akame EXP | 最大赤目情报网经验值","type":"checkbox","memory":[{"offset":"0363BFEB","on":"01","off":"00"}]},
+{"name":"Money 999999999 | 金钱 999999999","type":"checkbox","memory":[{"offset":"0363BFE6","on":"01","off":"00"}]},
+{"name":"Akame Points 9999999 | 赤目点数 9999999","type":"checkbox","memory":[{"offset":"0363BFEC","on":"01","off":"00"}]},
+{"name":"PP 9999999 | PP 9999999","type":"checkbox","memory":[{"offset":"0363BFEF","on":"01","off":"00"}]},
+{"name":"GP 9999999 | GP 9999999","type":"checkbox","memory":[{"offset":"0363BFF0","on":"01","off":"00"}]},
+{"name":"Wooden Tags 9999999 | 木牌数量 9999999","type":"checkbox","memory":[{"offset":"0363BFF1","on":"01","off":"00"}]},
+{"name":"Casino Chips 9999999 | 赌场代币 9999999","type":"checkbox","memory":[{"offset":"0363BFF2","on":"01","off":"00"}]},
+{"name":"Shogi Points 9999999 | 将棋点数 9999999","type":"checkbox","memory":[{"offset":"0363BFF3","on":"01","off":"00"}]},
+{"name":"Billiard Points 9999999 | 台球点数 9999999","type":"checkbox","memory":[{"offset":"0363BFF4","on":"01","off":"00"}]}
+],"credits":["Fullcodes"]}

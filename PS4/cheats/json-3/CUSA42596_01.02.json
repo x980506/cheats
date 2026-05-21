@@ -1,0 +1,12 @@
+{"name":"Front Mission 1st Remake 前线任务1 重制版","id":"CUSA42596_00","version":"01.02","process":"eboot.bin","mods":[
+{"name":"Infinite Health 无限HP","type":"checkbox","memory":[{"offset":"84797FE0","on":"01","off":"00"}]},
+{"name":"HPMax 999 HP上限999","type":"checkbox","memory":[{"offset":"84797FE1","on":"01","off":"00"}]},
+{"name":"Enemy HP 1 敌机HP 1","type":"checkbox","memory":[{"offset":"84797FE6","on":"01","off":"00"}]},
+{"name":"Unlimited Movement 全屏移动","type":"checkbox","memory":[{"offset":"84797FE2","on":"01","off":"00"}]},
+{"name":"Infinite Action 无限行动","type":"checkbox","memory":[{"offset":"84797FE5","on":"01","off":"00"}]},
+{"name":"Infinite Ammo 无限弹药","type":"checkbox","memory":[{"offset":"84797FE7","on":"01","off":"00"}]},
+{"name":"EXP Multi 5 on Gain 经验值5倍增加","type":"checkbox","memory":[{"offset":"84797FE3","on":"01","off":"00"}]},
+{"name":"EXP Multi 100 on Gain 经验值100倍增加","type":"checkbox","memory":[{"offset":"84797FE4","on":"01","off":"00"}]},
+{"name":"Money 9999999 on Gain 钱款增加时9999999","type":"checkbox","memory":[{"offset":"00EFCC4F","on":"89C3","off":"7C2A"}]},
+{"name":"Infinite Money Use 无限钱款使用","type":"checkbox","memory":[{"offset":"0152A954","on":"3B","off":"2B"}]}
+],"credits":["Fullcodes  PC/PS游戏修改交流: 一群 1167084913  二群 702196858"]}

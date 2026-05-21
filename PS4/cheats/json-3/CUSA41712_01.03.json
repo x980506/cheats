@@ -1,0 +1,131 @@
+{
+  "name": "Soulstice 灵魂至日",
+  "id": "CUSA36848",
+  "version": "01.03",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Infinite Health | 无限生命值",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "074D3FE2",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Evocation Field | 无限招魂领域",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "CD60E3",
+          "on": "5D",
+          "off": "58"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Item Use | 无限道具使用",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "074D3FE7",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Jump | 无限跳跃",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "074D3FE4",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "One Hit Kill | 一击必杀",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "074D3FE5",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Max Score | 最高得分",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "074D3FE6",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Crimson Tear Residue 999999 | 猩红裂缝残余 999999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "074D3FE0",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Comalt Tear Residue 999999 | 钴蓝裂缝残余 999999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "074D3FE1",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Move Speed Multiply 2 | 移动速度 2 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "074D3FE3",
+          "on": "01",
+          "off": "00"
+        },
+        {
+          "offset": "52F6F8E",
+          "on": "0040",
+          "off": "803F"
+        }
+      ]
+    },
+    {
+      "name": "Move Speed Multiply 3 | 移动速度 3 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "074D3FE3",
+          "on": "01",
+          "off": "00"
+        },
+        {
+          "offset": "52F6F8E",
+          "on": "4040",
+          "off": "803F"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Fullcodes"
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "name": "Atomic Heart 原子之心",
+  "id": "CUSA37321",
+  "version": "01.24",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Infinite Health | 无限生命",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5A05E91",
+          "on": "89",
+          "off": "39"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Weapon Energy | 无限武器能量",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5A05E9C",
+          "on": "89",
+          "off": "39"
+        }
+      ]
+    },
+    {
+      "name": "Instant Melee Charge | 近战武器瞬间蓄力",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1A0D387",
+          "on": "05A4DFCE03",
+          "off": "8768080000"
+        }
+      ]
+    },
+    {
+      "name": "No Dodge Cooldown | 闪避无需冷却",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5A05EAA",
+          "on": "89",
+          "off": "39"
+        }
+      ]
+    },
+    {
+      "name": "No Shocker Cooldown | 电击无需冷却",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5A05ECC",
+          "on": "76",
+          "off": "EB"
+        }
+      ]
+    },
+    {
+      "name": "No Special Abilities Cooldown | 技能无需冷却",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5923F20",
+          "on": "4C89FF4889C6C705D0BFE00201000000E9535D80FB",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1129C82",
+          "on": "E999A27F0490",
+          "off": "4C89FF4889C6"
+        },
+        {
+          "offset": "5923F40",
+          "on": "C5FA104DE4C705B1BFE00200000000E9565D80FB",
+          "off": "0000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1129CA5",
+          "on": "E996A27F04",
+          "off": "C5FA104DE4"
+        },
+        {
+          "offset": "5923F60",
+          "on": "833D99BFE002017522C7058DBFE002000000009090C5FA1005937DDAFFC4A17A1144300CC4A17A11443008E9187178FA",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "AB156",
+          "on": "E9058E8705",
+          "off": "E94DFFFFFF"
+        }
+      ]
+    },
+    {
+      "name": "No Raload | 无需装弹",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4A30937",
+          "on": "909090909090",
+          "off": "FF8B40050000"
+        }
+      ]
+    },
+    {
+      "name": "No Recoil | 无后坐力",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "15E07F0",
+          "on": "C3",
+          "off": "55"
+        }
+      ]
+    },
+    {
+      "name": "Rapid Fire | 快速连射",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5A05F11",
+          "on": "00",
+          "off": "08"
+        }
+      ]
+    },
+    {
+      "name": "Moon Jump | 月球跳",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5A05EF1",
+          "on": "00",
+          "off": "08"
+        }
+      ]
+    },
+    {
+      "name": "Stealth Mode | 隐身模式",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1919A80",
+          "on": "C3",
+          "off": "55"
+        }
+      ]
+    },
+    {
+      "name": "Move Speed Multiply 2 | 移动速度 2 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5923E90",
+          "on": "81BC83AC01000000009643741B81BC83AC01000000001644740EC5FA108483AC010000E9085E22FEC5FA100570753700C5FA118483AC010000E9F25D22FE",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "3B49CB7",
+          "on": "E9D4A1DD0190909090",
+          "off": "C5FA108483AC010000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Neuropolymer | 神经聚合物使用不减",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "15B1E85",
+          "on": "4531ED",
+          "off": "448B28"
+        }
+      ]
+    },
+    {
+      "name": "No Crafting Requirements | 制作无需资源",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5A05F30",
+          "on": "4831FF4889384885FFE9F5C9B3FB",
+          "off": "0000000000000000000000000000"
+        },
+        {
+          "offset": "154292D",
+          "on": "E9FE354C0490",
+          "off": "488B384885FF"
+        }
+      ]
+    },
+    {
+      "name": "No Crafting Recipes Requirements | 制作无需蓝图",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5923EF0",
+          "on": "418A8C241003000080F9047502B101E95C19E0FB",
+          "off": "0000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1725858",
+          "on": "E993E61F04909090",
+          "off": "418A8C2410030000"
+        }
+      ]
+    },
+    {
+      "name": "No Upgrade Recipes Requirements | 升级无需蓝图",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "182B83A",
+          "on": "B00190",
+          "off": "4489F0"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "炸片饭"
+  ]
+}
