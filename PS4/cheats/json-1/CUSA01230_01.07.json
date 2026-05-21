@@ -1,0 +1,165 @@
+{
+  "name": "Axiom Verge 公理边缘",
+  "id": "CUSA01230",
+  "version": "01.07",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Invincible Mode | 无敌模式",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "176E910",
+          "on": "C3",
+          "off": "48"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Glitch Bomb | 无限定址炸弹",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "183FA25",
+          "on": "00",
+          "off": "01"
+        }
+      ]
+    },
+    {
+      "name": "Max Laser Drill Shoot Distance | 最大镭射钻头攻击距离",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "174D7C5",
+          "on": "B063",
+          "off": "03C1"
+        }
+      ]
+    },
+    {
+      "name": "Increase Weapon Shoot Range | 加大武器攻击范围",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "174DE87",
+          "on": "B009",
+          "off": "03C1"
+        }
+      ]
+    },
+    {
+      "name": "Max Weapon Shoot Range | 最大武器攻击范围",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "174DE87",
+          "on": "B0FF",
+          "off": "03C1"
+        }
+      ]
+    },
+    {
+      "name": "Max Shoot Power | 最大攻击力",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "174CE22",
+          "on": "B063",
+          "off": "03C1"
+        }
+      ]
+    },
+    {
+      "name": "Jump Height Multiply 2 | 跳跃高度 2 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "17994D0",
+          "on": "0578F1A900",
+          "off": "85A8FDFFFF"
+        }
+      ]
+    },
+    {
+      "name": "Jump Height Multiply 4 | 跳跃高度 4 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "17994D0",
+          "on": "051919A700",
+          "off": "85A8FDFFFF"
+        }
+      ]
+    },
+    {
+      "name": "Jump Height Multiply 8 | 跳跃高度 8 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "17994D0",
+          "on": "05D9F2B200",
+          "off": "85A8FDFFFF"
+        }
+      ]
+    },
+    {
+      "name": "Jump Height Multiply 16 | 跳跃高度 16 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "17994D0",
+          "on": "0519A77C00",
+          "off": "85A8FDFFFF"
+        }
+      ]
+    },
+    {
+      "name": "Drone Jump Height Multiply 2 | 无人机跳跃高度 2 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1779770",
+          "on": "05D8EEAB00",
+          "off": "85A8FDFFFF"
+        }
+      ]
+    },
+    {
+      "name": "Drone Jump Height Multiply 4 | 无人机跳跃高度 4 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1779770",
+          "on": "057916A900",
+          "off": "85A8FDFFFF"
+        }
+      ]
+    },
+    {
+      "name": "Drone Jump Height Multiply 8 | 无人机跳跃高度 8 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1779770",
+          "on": "0539F0B400",
+          "off": "85A8FDFFFF"
+        }
+      ]
+    },
+    {
+      "name": "Drone Jump Height Multiply 16 | 无人机跳跃高度 16 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1779770",
+          "on": "0579A47E00",
+          "off": "85A8FDFFFF"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Hank"
+  ]
+}
