@@ -1,5 +1,0 @@
-{"name":"DEAD OR ALIVE 5 Last Round 死或生5 最后一战","id":"CUSA01207","version":"01.19","process":"eboot.bin","mods":[
-{"name":"Infinite Health | 无限生命","type":"checkbox","memory":[{"offset":"36EFFF0","on":"01","off":"00"}]},
-{"name":"One Hit Kill | 一击必杀","type":"checkbox","memory":[{"offset":"36EFFF1","on":"01","off":"00"}]},
-{"name":"Max Score | 最高分数","type":"checkbox","memory":[{"offset":"3AF024","on":"89C190","off":"0F42C8"}]}
-],"credits":["TLH"]}
