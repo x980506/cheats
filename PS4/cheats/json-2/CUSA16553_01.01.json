@@ -1,0 +1,45 @@
+{
+  "name": "猫咪斗恶龙2",
+  "id": "CUSA16553",
+  "version": "01.01",
+  "process": "eboot.bin",
+  "mods": [
+	{
+      "name": "infinite hp/无限HP",
+      "description": "两功能只能开一个",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8437F000",
+          "on": "4983F9017408894810E919E526FC4181FCA063FFEE0F840CE526FC894810E904E526FC",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+		{
+          "offset": "805ED522",
+          "on": "E9D91AD903C3",
+          "off": "894810C39090"
+        }
+      ]
+    },
+	{
+      "name": "infinite hp end 1 hit kill/无限HP且一击秒杀",
+      "description": "两功能只能开一个",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "8437F000",
+          "on": "4983F901740CC7401000000000E915E526FC4181FCA063FFEE0F8408E526FC894810E900E526FC",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+		{
+          "offset": "805ED522",
+          "on": "E9D91AD903C3",
+          "off": "894810C39090"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "allyzc"
+  ]
+}

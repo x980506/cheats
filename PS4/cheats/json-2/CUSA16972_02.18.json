@@ -1,0 +1,16 @@
+{"name":"Ghost of Tsushima: Director's Cut 对马岛: 导演剪辑版","id":"CUSA16972","version":"02.18","process":"eboot.bin","mods":[
+{"name":"All Materials at least 99|所有背囊材料数量至少99","type":"checkbox","memory":[{"offset":"01EA3C12","on":"01","off":"00"}]},
+{"name":"Infinite Player Resolve Use|角色决意使用不减","type":"checkbox","memory":[{"offset":"01EA3C10","on":"01","off":"00"}]},
+{"name":"Ghost Stance Gauge Max|战鬼架势槽最大维持","type":"checkbox","memory":[{"offset":"00624DAC","on":"5F","off":"5D"}]},
+{"name":"Player Invincible|角色无敌状态","type":"checkbox","memory":[{"offset":"01EA3C04","on":"01","off":"00"}]},
+{"name":"Infinite Player Health|角色生命值最大维持","type":"checkbox","memory":[{"offset":"01EA3C02","on":"01","off":"00"}]},
+{"name":"Player Stealth|角色潜行模式","type":"checkbox","memory":[{"offset":"01EA3C00","on":"01","off":"00"}]},
+{"name":"Press <X> to Player Fly|按 <X> 角色可飞天","type":"checkbox","memory":[{"offset":"01EA3C14","on":"01","off":"00"}]},
+{"name":"Player Multi 10 Attak|10倍攻击力","type":"checkbox","memory":[{"offset":"01EA3C06","on":"01","off":"00"}]},
+{"name":"One Hit Break|一击破防","type":"checkbox","memory":[{"offset":"00E181CE","on":"F057","off":"EA58"}]},
+{"name":"XP Multi 8 on Gain|经验值8倍获得","type":"checkbox","memory":[{"offset":"011BEF73","on":"08","off":"01"}]},
+{"name":"Infinite Technique Points Use|武技点数使用不减","type":"checkbox","memory":[{"offset":"011BEF9","on":"75","off":"EB"}]},
+{"name":"Teleport to Waypoint|瞬移至标志位置","type":"checkbox","memory":[{"offset":"01EA3C0E","on":"01","off":"00"}]},
+{"name":"Unlock All Techinique and NEW GAME+|解锁全武技（招式）和NG+","type":"checkbox","memory":[{"offset":"01EA3C0a","on":"01","off":"00"}]},
+{"name":"Game Speed Multi 3|游戏速度3倍","type":"checkbox","memory":[{"offset":"01EA3C16","on":"01","off":"00"}]}
+],"credits":[" Fullcodes（PLAYSTATION/PC修改讨论群:1167084913）"]}

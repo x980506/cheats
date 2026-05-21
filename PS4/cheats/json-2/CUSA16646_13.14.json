@@ -1,0 +1,118 @@
+{
+	"name": "海贼无双4",
+	"id": "CUSA16646",
+	"version": "13.14",
+	"process": "eboot.bin",
+	"mods": [
+		{
+			"name": "❤️无限生命",
+			"type": "checkbox",
+			"memory": [
+				{
+					"offset": "633E49",
+					"on": "11",
+					"off": "10"
+				}
+			]
+		},
+		{
+			"name": "🍖无限耐力",
+			"type": "checkbox",
+			"memory": [
+				{
+					"offset": "633D0B",
+					"on": "48",
+					"off": "44"
+				},
+				{
+					"offset": "633D0D",
+					"on": "7A114744",
+					"off": "FA107F48"
+				},
+				{
+					"offset": "633D1E",
+					"on": "41782EC0",
+					"off": "C1782EF8"
+				}
+			]
+		},
+		{
+			"name": "➡️满特殊技量表",
+			"type": "checkbox",
+			"memory": [
+				{
+					"offset": "6343FD",
+					"on": "4E14C5FA114E1C9090",
+					"off": "0DC2F0D000C5F82EF0"
+				}
+			]
+		},
+		{
+			"name": "🔝最高 K.O.",
+			"type": "checkbox",
+			"memory": [
+				{
+					"offset": "220759",
+					"on": "909090",
+					"off": "0F42FE"
+				}
+			]
+		},
+		{
+			"name": "🔝最高击破数",
+			"type": "checkbox",
+			"memory": [
+				{
+					"offset": "18E545",
+					"on": "89F090",
+					"off": "0F43C6"
+				}
+			]
+		},
+		{
+			"name": "🍖贝里使用不减",
+			"type": "checkbox",
+			"memory": [
+				{
+					"offset": "6D52A6",
+					"on": "9090",
+					"off": "29C2"
+				}
+			]
+		},
+		{
+			"name": "🍖贝里 999,999,999",
+			"type": "checkbox",
+			"memory": [
+				{
+					"offset": "37B9FC",
+					"on": "909090",
+					"off": "0F42CF"
+				}
+			]
+		},
+		{
+			"name": "➡️无视成长海图素材需求",
+			"type": "checkbox",
+			"memory": [
+				{
+					"offset": "6C4800",
+					"on": "C3",
+					"off": "55"
+				}
+			]
+		}
+	],
+	"credits": [
+		"Fullcodes"
+	]
+}  
+ 
+   
+   
+ 
+  
+   
+
+
+  

@@ -1,0 +1,179 @@
+{
+  "name": "Tales of Arise 破晓传说",
+  "id": "CUSA17088",
+  "version": "01.06",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Infinite HP | 无限 HP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "07F3BFF3",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Infinite AG | 无限 AG",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "07F3BFF4",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Infinite CP | 无限 CP",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "18CDA47",
+          "on": "4E",
+          "off": "4F"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Boost Attacks | 无限增幅攻击",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "07F3BFF7",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Max Arte Proficiency | 最大术技熟练度",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1A020AD",
+          "on": "5F",
+          "off": "5D"
+        },
+        {
+          "offset": "1A94341",
+          "on": "4F",
+          "off": "4C"
+        }
+      ]
+    },
+    {
+      "name": "Consumables 10 | 消耗品数量 10",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "07F3BFF1",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Materials 90 | 素材数量 90",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "07F3BFF2",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "SP 99999999 | SP 99999999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1E5ECA5",
+          "on": "4F",
+          "off": "4C"
+        }
+      ]
+    },
+    {
+      "name": "Gald 9999999 | 金钱 9999999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "07F3BFF0",
+          "on": "01",
+          "off": "00"
+        },
+        {
+          "offset": "5745EFE",
+          "on": "89",
+          "off": "8B"
+        }
+      ]
+    },
+    {
+      "name": "EXP Multiply 10 | 经验值 10 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "07F3BFF6",
+          "on": "01",
+          "off": "00"
+        },
+        {
+          "offset": "5743545",
+          "on": "0A",
+          "off": "01"
+        }
+      ]
+    },
+    {
+      "name": "EXP Multiply 20 | 经验值 20 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "07F3BFF6",
+          "on": "01",
+          "off": "00"
+        },
+        {
+          "offset": "5743545",
+          "on": "14",
+          "off": "01"
+        }
+      ]
+    },
+     {
+      "name": "EXP Multiply 50 | 经验值 50 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "07F3BFF6",
+          "on": "01",
+          "off": "00"
+        },
+        {
+          "offset": "5743545",
+          "on": "32",
+          "off": "01"
+        }
+      ]
+    },
+    {
+      "name": "Max EXP | 最大经验值",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "07F3BFF5",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Fullcodes"
+  ]
+}

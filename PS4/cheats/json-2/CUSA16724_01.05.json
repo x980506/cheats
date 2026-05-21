@@ -1,0 +1,607 @@
+{
+  "name": "RESIDENT EVIL 3 生化危机3：重制版",
+  "id": "CUSA16724",
+  "version": "01.05",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Invulnerable | 无敌模式",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "507BFF0",
+          "on": "4183FF000F84E89D56FDE871A756FDE9DE9D56FD",
+          "off": "0000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "25E5DDD",
+          "on": "E90E62A902",
+          "off": "E88E090000"
+        },
+        {
+          "offset": "25E5B2E",
+          "on": "9090",
+          "off": "FFD0"
+        },
+        {
+          "offset": "17A7E27",
+          "on": "9090909090",
+          "off": "E85405AEFE"
+        },
+        {
+          "offset": "277210",
+          "on": "C3909090",
+          "off": "488B4750"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health | 无限生命",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "507C020",
+          "on": "48B8F8BFEF0B000000008B0039C6750C8B465431D231C9E9A19DA1FB8B4658F7D90F4CCAE9949DA1FB",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "A95DD8",
+          "on": "E943625E04",
+          "off": "F7D90F4CCA"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Ammo | 无限弹药",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1F03412",
+          "on": "909090",
+          "off": "4529E6"
+        },
+        {
+          "offset": "1F02BAB",
+          "on": "89DA90",
+          "off": "4401F2"
+        },
+        {
+          "offset": "1F02B3F",
+          "on": "909090909090",
+          "off": "0F8E27010000"
+        }
+      ]
+    },
+    {
+      "name": "No Reload | 无需装弹",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1E958BE",
+          "on": "909090",
+          "off": "4429F2"
+        }
+      ]
+    },
+    {
+      "name": "No Recoil | 无后坐力",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "507D900",
+          "on": "48C7401000000000C5FA104010E90D26A8FB",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "AFFF1A",
+          "on": "E9E1D95704",
+          "off": "C5FA104010"
+        }
+      ]
+    },
+    {
+      "name": "Super Accurary | 超级精准度",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "507D8D0",
+          "on": "C4C17A104510C4C17A105514C5FA58C2C4C17A118628010000E9931ED1FC",
+          "off": "000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1D8F778",
+          "on": "E953E12E0390909090",
+          "off": "C4C17A108628010000"
+        }
+      ]
+    },
+    {
+      "name": "One Hit Kill | 一击必杀",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "507C060",
+          "on": "48B8F8BFEF0B000000008B0039C6740FBA0000FFFF8B46588BCAE9599DA1FBEBF4",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "A95DD3",
+          "on": "E988625E04",
+          "off": "8B465889D1"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Items | 无限物品",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "61BB4B",
+          "on": "909090",
+          "off": "294820"
+        },
+        {
+          "offset": "1156570",
+          "on": "9090909090",
+          "off": "E88BA989FF"
+        }
+      ]
+    },
+    {
+      "name": "Max Belted Pouch Size | 最大腰包空间",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "507D5E0",
+          "on": "4183F914750744898890000000448BA090000000E9EBC559FB",
+          "off": "00000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "619BDD",
+          "on": "E9FE39A6049090",
+          "off": "448BA090000000"
+        },
+        {
+          "offset": "507D610",
+          "on": "4183F914740C4489B328010000E90C6ED5FF44898B28010000E9006ED5FF",
+          "off": "000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "4DD4427",
+          "on": "E9E4912A009090",
+          "off": "4489B328010000"
+        }
+      ]
+    },
+    {
+      "name": "Nemesis Can't Get Up | 追踪者无法起身",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2389281",
+          "on": "C5F828C1",
+          "off": "C5F25CC0"
+        }
+      ]
+    },
+    {
+      "name": "Nemesis Instant Get Up | 追踪者瞬间起身",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "2389281",
+          "on": "0F57C090",
+          "off": "C5F25CC0"
+        }
+      ]
+    },
+    {
+      "name": "Always Open Code-Locks | 密码锁始终开启状态",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "160D9A1",
+          "on": "9090",
+          "off": "752B"
+        }
+      ]
+    },
+    {
+      "name": "Electric Generators No Cooldown | 发电机无需冷却",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B33FA0",
+          "on": "909090",
+          "off": "894818"
+        }
+      ]
+    },
+    {
+      "name": "Fully Modded Weapons After Combined With Parts | 组合改装零件时改满武器",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "1F04633",
+          "on": "66C74018FF00",
+          "off": "4409E9894818"
+        }
+      ]
+    },
+    {
+      "name": "Save Zero | 存档为零",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "507D710",
+          "on": "C74024000000008B4024E9B59259FC",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "16169CF",
+          "on": "E93C6DA603",
+          "off": "8B4024FFC0"
+        }
+      ]
+    },
+    {
+      "name": "Reset Play Time | 重置游玩时间",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "507D8A0",
+          "on": "0F846229CBFC4831DB48895818E9A928CBFC",
+          "off": "000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1D30151",
+          "on": "E94AD734039090909090",
+          "off": "0F84B1000000488B5818"
+        }
+      ]
+    },
+    {
+      "name": "Shop Points 999999 | 商店点数 999999",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "507D730",
+          "on": "448B787C4181FF3F420F00730A41BF3F420F004489787C488D05A29FC905E9521D88FC",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "18FF49E",
+          "on": "E98DE277039090",
+          "off": "488D054B824109"
+        }
+      ]
+    },
+    {
+      "name": "Move Speed Multiply 2 | 移动速度 2 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "507C0A0",
+          "on": "49BCE0BFEF0B00000000458B24244439E3740AC5FA104330E9FD97BBFD49BCF0BFEF0B00000000458B24244183FC0074E24181FCFF00000073D9C4C17A1006F30F58C0C4C17A1106C4C17A104608F30F58C0C4C17A114608EBB9",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "2C358B5",
+          "on": "E9E6674402",
+          "off": "C5FA104330"
+        }
+      ]
+    },
+    {
+      "name": "Move Speed Multiply 4 | 移动速度 4 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "507C0A0",
+          "on": "49BCE0BFEF0B00000000458B24244439E3740AC5FA104330E9FD97BBFD49BCF0BFEF0B00000000458B24244183FC0074E24181FCFF00000073D9C4C17A1006F30F58C0F30F58C0C4C17A1106C4C17A104608F30F58C0F30F58C0C4C17A114608EBB1",
+          "off": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "2C358B5",
+          "on": "E9E6674402",
+          "off": "C5FA104330"
+        }
+      ]
+    },
+    {
+      "name": "Player Size Multiply 0.5 | 人物大小 0.5 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "507D867",
+          "on": "41C74424500000003F41C74424540000003F41C74424540000003F",
+          "off": "41C74424500000803F41C74424540000803F41C74424580000803F"
+        }
+      ]
+    },
+    {
+      "name": "Player Size Multiply 1.5 | 人物大小 1.5 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "507D867",
+          "on": "41C74424500000C03F41C74424540000C03F41C74424540000C03F",
+          "off": "41C74424500000803F41C74424540000803F41C74424580000803F"
+        }
+      ]
+    },
+    {
+      "name": "Results - Clear Time 00:00:00 | 游戏成果 - 通关时间 00:00:00",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "507D7A0",
+          "on": "4831DB48895E50488B00E9060AE4FC",
+          "off": "000000000000000000000000000000"
+        },
+        {
+          "offset": "1EBE1AE",
+          "on": "E9EDF51B039090",
+          "off": "48895E50488B00"
+        }
+      ]
+    },
+    {
+      "name": "Results - Times Saved 0 | 游戏成果 - 保存次数 0",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "507D7C0",
+          "on": "4531ED4489682444896E58E9060AE4FC",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "1EBE1CE",
+          "on": "E9EDF51B03909090",
+          "off": "448B682444896E58"
+        }
+      ]
+    },
+    {
+      "name": "Results - Deaths 0 | 游戏成果 - 死亡次数 0",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "507D7E0",
+          "on": "C780C0000000000000008B80C0000000E94A0AE4FC",
+          "off": "000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "1EBE239",
+          "on": "E9A2F51B0390",
+          "off": "8B80C0000000"
+        }
+      ]
+    },
+    {
+      "name": "Results - Rank S | 游戏成果 - 评分 S",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "507D810",
+          "on": "BB01000000895E5C488B00E9100AE4FC",
+          "off": "00000000000000000000000000000000"
+        },
+        {
+          "offset": "1EBE22A",
+          "on": "E9E1F51B0390",
+          "off": "895E5C488B00"
+        }
+      ]
+    },
+    {
+      "name": "Use Any Item Works | 使用任意物品开门开锁开箱子",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "507D580",
+          "on": "81F9D70000007405EB11894A103B4A100F8446818FFBE98D808FFB81F9D400000074EA81F9B600000074E281F9BB00000074DA81F9BC00000074D281F9BD00000074CAEBC5",
+          "off": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "975622",
+          "on": "E9597F700490",
+          "off": "0F84B4000000"
+        }
+      ]
+    },
+    {
+      "name": "Game Mode When Saved <Assisted> | 存档时变更游戏模式为 <辅助>",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "507D770",
+          "on": "41BE0000000044897020488D05CF21C905E99DAF5EFB",
+          "off": "00000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "66871C",
+          "on": "E94F50A1049090",
+          "off": "488D052D726A0A"
+        }
+      ]
+    },
+    {
+      "name": "Game Mode When Saved <Assisted> | 存档时变更游戏模式为 <标准>",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "507D770",
+          "on": "41BE0100000044897020488D05CF21C905E99DAF5EFB",
+          "off": "00000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "66871C",
+          "on": "E94F50A1049090",
+          "off": "488D052D726A0A"
+        }
+      ]
+    },
+    {
+      "name": "Game Mode When Saved <Standard> | 存档时变更游戏模式为 <专家>",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "507D770",
+          "on": "41BE0200000044897020488D05CF21C905E99DAF5EFB",
+          "off": "00000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "66871C",
+          "on": "E94F50A1049090",
+          "off": "488D052D726A0A"
+        }
+      ]
+    },
+    {
+      "name": "Game Mode When Saved <Hardcore> | 存档时变更游戏模式为 <恶梦>",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "507D770",
+          "on": "41BE0300000044897020488D05CF21C905E99DAF5EFB",
+          "off": "00000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "66871C",
+          "on": "E94F50A1049090",
+          "off": "488D052D726A0A"
+        }
+      ]
+    },
+    {
+      "name": "Game Mode When Saved <Inferno> | 存档时变更游戏模式为 <地狱>",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "507D770",
+          "on": "41BE0400000044897020488D05CF21C905E99DAF5EFB",
+          "off": "00000000000000000000000000000000000000000000"
+        },
+        {
+          "offset": "66871C",
+          "on": "E94F50A1049090",
+          "off": "488D052D726A0A"
+        }
+      ]
+    },
+    {
+      "name": "Swap Handgun Ammo To <.44 AE Lightning Hawk> | 替换手枪弹药为 <.44 AE 闪电鹰>",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5089984",
+          "on": "740990909090",
+          "off": "0F84AA025AFB"
+        }
+      ]
+    },
+    {
+      "name": "Swap Handgun Ammo To <Infinite MUP Handgun | 替换手枪弹药为 <无限 MUP 手枪>",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5089984",
+          "on": "741C90909090",
+          "off": "0F84AA025AFB"
+        }
+      ]
+    },
+    {
+      "name": "Swap Handgun Ammo To <M3 Shotgun> | 替换手枪弹药为 <M3 散弹枪>",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5089984",
+          "on": "742F90909090",
+          "off": "0F84AA025AFB"
+        }
+      ]
+    },
+    {
+      "name": "Swap Handgun Ammo To <Infinite CQBR Assault Rifle> | 替换手枪弹药为 <无限 CQBR 冲锋枪>",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5089984",
+          "on": "744290909090",
+          "off": "0F84AA025AFB"
+        }
+      ]
+    },
+    {
+      "name": "Swap Handgun Ammo To <RAI-DEN> | 替换手枪弹药为 <雷电>",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5089984",
+          "on": "745590909090",
+          "off": "0F84AA025AFB"
+        }
+      ]
+    },
+    {
+      "name": "Swap Handgun Ammo To <MGL Grenade Launcher> | 替换手枪弹药为 <连发式榴弹发射器>",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5089984",
+          "on": "746890909090",
+          "off": "0F84AA025AFB"
+        }
+      ]
+    },
+    {
+      "name": "Swap Handgun Ammo To <HOT DOGGER> | 替换手枪弹药为 <赤红利刃>",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5089984",
+          "on": "747B90909090",
+          "off": "0F84AA025AFB"
+        }
+      ]
+    },
+    {
+      "name": "Swap Handgun Ammo To <Infinite Rocket Launcher> | 替换手枪弹药为 <无限火箭发射器>",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5089984",
+          "on": "0F848A000000",
+          "off": "0F84AA025AFB"
+        }
+      ]
+    },
+    {
+      "name": "Swap Handgun Ammo To <Lock Pick> | 替换手枪弹药为 <开锁工具>",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5089984",
+          "on": "0F849D000000",
+          "off": "0F84AA025AFB"
+        }
+      ]
+    },
+    {
+      "name": "Swap Handgun Ammo To <Bolt Cutters> | 替换手枪弹药为 <破坏剪>",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "5089984",
+          "on": "0F84A9000000",
+          "off": "0F84AA025AFB"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Dioniso & KevinTamvan & TLH"
+  ]
+}
