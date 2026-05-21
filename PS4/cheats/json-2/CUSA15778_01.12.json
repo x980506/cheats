@@ -1,0 +1,277 @@
+{
+  "name": "Far Cry® 6 孤岛惊魂6",
+  "id": "CUSA15778",
+  "version": "01.12",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Invincible Mode | 无敌模式",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "38B5F9F",
+          "on": "9090909090",
+          "off": "E80CFCFEFF"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Health | 无限生命",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "389F083",
+          "on": "909090",
+          "off": "FF5040"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Stamina | 无限耐力",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "389A9F6",
+          "on": "909090",
+          "off": "FF5040"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Oxygen | 无限氧气",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "389AC34",
+          "on": "909090",
+          "off": "FF5040"
+        }
+      ]
+    },
+    {
+      "name": "No Reload | 无需装弹",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4D306FF",
+          "on": "4189C690",
+          "off": "440F42F0"
+        }
+      ]
+    },
+    {
+      "name": "No Recoil | 无后坐力",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4E7A350",
+          "on": "C3",
+          "off": "55"
+        }
+      ]
+    },
+    {
+      "name": "Super Accuracy | 超级精准度",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4D942B4",
+          "on": "10",
+          "off": "34"
+        }
+      ]
+    },
+    {
+      "name": "Weapon No Overheat | 武器不会过热",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "092EBFF2",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "One Hit Kill | 一击必杀",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "092EBFF0",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "One Hit Kill (Animals) | 一击必杀 (动物)",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "092EBFF1",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    },
+    {
+      "name": "Stealth Mode | 隐身模式",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "26BDC30",
+          "on": "9090909090",
+          "off": "E85B030000"
+        }
+      ]
+    },
+    {
+      "name": "Never Wanted | 不会被通缉",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "092EBFF4",
+          "on": "01",
+          "off": "00"
+        },
+        {
+          "offset": "092EBF12",
+          "on": "0000",
+          "off": "0000"
+        }
+      ]
+    },
+    {
+      "name": "Always Wanted | 总是被通缉",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "092EBFF4",
+          "on": "01",
+          "off": "00"
+        },
+        {
+          "offset": "092EBF12",
+          "on": "F042",
+          "off": "F042"
+        }
+      ]
+    },
+    {
+      "name": "Ignore Crafting Requirement | 无视制作需求",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "4AA0F47",
+          "on": "31DB9090",
+          "off": "418B5E18"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Everything Use | 金钱、贫铀、弹药、营地资源、材料等使用不减",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "134BC13",
+          "on": "909090",
+          "off": "4429F0"
+        }
+      ]
+    },
+    {
+      "name": "Everything is Max | 金钱、贫铀、弹药、营地资源、材料等数量最大",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "134BD01",
+          "on": "89435490",
+          "off": "448B7354"
+        },
+        {
+          "offset": "134BD0F",
+          "on": "4189C690",
+          "off": "440F43F0"
+        }
+      ]
+    },
+    {
+      "name": "Jump Height Multiply 5 | 跳跃高度 5 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "092EBFF3",
+          "on": "01",
+          "off": "00"
+        },
+        {
+          "offset": "092EBF02",
+          "on": "A040",
+          "off": "A03F"
+        }
+      ]
+    },
+    {
+      "name": "Jump Height Multiply 10 | 跳跃高度 10 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "092EBFF3",
+          "on": "01",
+          "off": "00"
+        },
+        {
+          "offset": "092EBF02",
+          "on": "2041",
+          "off": "A03F"
+        }
+      ]
+    },
+    {
+      "name": "Jump Height Multiply 20 | 跳跃高度 20 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "092EBFF3",
+          "on": "01",
+          "off": "00"
+        },
+        {
+          "offset": "092EBF02",
+          "on": "A041",
+          "off": "A03F"
+        }
+      ]
+    },
+    {
+      "name": "Jump Height Multiply 30 | 跳跃高度 30 倍",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "092EBFF3",
+          "on": "01",
+          "off": "00"
+        },
+        {
+          "offset": "092EBF02",
+          "on": "F041",
+          "off": "A03F"
+        }
+      ]
+    },
+    {
+      "name": "Teleport to Waypoint | 瞬移到标记位置",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "092EBFF5",
+          "on": "01",
+          "off": "00"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "Fullcodes"
+  ]
+}

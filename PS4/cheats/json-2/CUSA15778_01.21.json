@@ -1,0 +1,80 @@
+{
+	"name": "孤岛惊魂6",
+	"id": "CUSA15778",
+	"version": "01.21",
+	"process": "eboot.bin",
+	"mods": [
+		{
+			"name": "无限弹药+无需装弹",
+			"type": "checkbox",
+			"memory": [
+				{
+					"offset": "4BDE163",
+					"on": "89837C01000090",
+					"off": "4489B37C010000"
+				}
+			]
+		},
+		{
+			"name": "无限生命",
+			"type": "checkbox",
+			"memory": [
+				{
+					"offset": "7C53822",
+					"on": "4D39E8750AC5FA104F1CE9AC9CA1FBC5FA104718E9A29CA1FB",
+					"off": "00000000000000000000000000000000000000000000000000"
+				},
+				{
+					"offset": "366D4D8",
+					"on": "E945635E04",
+					"off": "C5FA104718"
+				}
+			]
+		},
+		{
+			"name": "道具永不减少",
+			"type": "checkbox",
+			"memory": [
+				{
+					"offset": "131F333",
+					"on": "909090",
+					"off": "4429F0"
+				}
+			]
+		},
+		{
+			"name": "道具数量最大",
+			"type": "checkbox",
+			"memory": [
+				{
+					"offset": "131F2B9",
+					"on": "894354",
+					"off": "894B54"
+				}
+			]
+		},
+		{
+			"name": "金钱不减",
+			"type": "checkbox",
+			"memory": [
+				{
+					"offset": "131F336",
+					"on": "909090",
+					"off": "894354"
+				}
+			]
+		}
+	],
+	"credits": [
+		"Test"
+	]
+}  
+ 
+   
+   
+ 
+  
+   
+
+
+  

@@ -1,0 +1,88 @@
+﻿{
+  "name": "Nioh 2",
+  "id": "CUSA16157",
+  "version": "01.27",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "INF Amirta 无限精华",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "D35267",
+          "on": "490107",
+          "off": "498907"
+        }
+      ]
+    },
+    {
+      "name": "INF Gold 无限金钱",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "D35267",
+          "on": "490107",
+          "off": "498907"
+        }
+      ]
+    },
+    {
+      "name": "INF KI 无限体力",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "A677E4",
+          "on": "9090909090",
+          "off": "C5FA115F08"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Anima 无限妖力",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "A6B57E",
+          "on": "C5FA118B58010000",
+          "off": "C5FA11A358010000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Shortcut Items 无限快捷键物品",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "D586B9",
+          "on": "9090909090909090",
+          "off": "66899C06745D1000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Items 无限道具",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "D586B9",
+          "on": "9090909090909090",
+          "off": "66899C06745D1000"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Yokai Shift Duration 无限妖化时间",
+      "type": "checkbox",
+      "memory": [
+        {
+          "offset": "B18740",
+          "on": "C5FA11BBC4000000",
+          "off": "C5FA118BC4000000"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    "M3hdi PS"
+  ]
+}

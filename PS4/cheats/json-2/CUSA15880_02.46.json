@@ -1,0 +1,5 @@
+{"name":"SAMURAI SHODOWN 侍魂：晓","id":"CUSA15880","version":"02.46","process":"eboot.bin","mods":[
+{"name":"Infinite Health | 无限生命","type":"checkbox","memory":[{"offset":"066EBFF1","on":"01","off":"00"}]},
+{"name":"Infinite Power Gauge | 无限怒气槽","type":"checkbox","memory":[{"offset":"066EBFF2","on":"01","off":"00"}]},
+{"name":"Infinite Super Special Moves | 无限秘奥义","type":"checkbox","memory":[{"offset":"066EBFF3","on":"01","off":"00"}]}
+],"credits":["炸片饭"]}

@@ -1,0 +1,53 @@
+﻿{
+	"name": "魂斗罗铁血军团",
+	"id": "CUSA15032",
+	"version": "01.04",
+	"process": "eboot.bin",
+	"mods": [
+		{
+			"name": "武器不会过热",
+			"type": "checkbox",
+			"memory": [
+				{
+					"offset": "565EAD",
+					"on": "C5FA118B58080000",
+					"off": "C5FA118358080000"
+				}
+			]
+		},
+		{
+			"name": "武器不用装弹",
+			"type": "checkbox",
+			"memory": [
+				{
+					"offset": "566803",
+					"on": "C5FA118B58080000",
+					"off": "C5FA118358080000"
+				}
+			]
+		},
+		{
+			"name": "玩家生命无限",
+			"type": "checkbox",
+			"memory": [
+				{
+					"offset": "32601D",
+					"on": "C5FA104314",
+					"off": "C5FA114314"
+				}
+			]
+		}
+	],
+	"credits": [
+		"越狱兔电玩"
+	]
+}
+   
+ 
+
+
+ 
+ 
+  
+  
+  

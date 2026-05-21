@@ -1,0 +1,68 @@
+﻿{
+	"name": "Call Of Duty：Modern Warfare",
+	"id": "CUSA15556",
+	"version": "01.09",
+	"process": "default.elf",
+	"mods": [
+		{
+			"name": "Unlimited Ammo 无限弹药",
+			"type": "checkbox",
+			"memory": [
+				{
+					"offset": "1F07DF0",
+					"on": "8B4940B9E7030000E98DAE8DFE",
+					"off": "00000000000000000000000000"
+				},
+				{
+					"offset": "7E2C84",
+					"on": "E96751720190",
+					"off": "8B49404401F1"
+				}
+			]
+		},
+		{
+			"name": "No need to change orders 武器无需换弹",
+			"type": "checkbox",
+			"memory": [
+				{
+					"offset": "1F07E00",
+					"on": "0F8C0F008BFEB963000000E910F78AFE",
+					"off": "00000000000000000000000000000000"
+				},
+				{
+					"offset": "7B7517",
+					"on": "E9E408750190909090",
+					"off": "0F8CFE0800004429F1"
+				}
+			]
+		},
+		{
+			"name": "Unlimited Grenades 无限手雷",
+			"type": "checkbox",
+			"memory": [
+				{
+					"offset": "1F07E10",
+					"on": "FFC966C740506300E9819D8AFE",
+					"off": "00000000000000000000000000"
+				},
+				{
+					"offset": "7B1B99",
+					"on": "E972627501",
+					"off": "FFC9894850"
+				}
+			]
+		}
+	],
+	"credits": [
+		"PS4 9.00"
+	]
+} 
+  
+   
+  
+
+  
+  
+
+  
+

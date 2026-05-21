@@ -1,0 +1,14 @@
+{"name":"Nioh 2","id":"CUSA16157","version":"01.00","process":"eboot.bin","mods":[
+{"name":"无限灵魂","type":"checkbox","memory":[{"offset":"C33A37","on":"490107","off":"498907"}]},
+{"name":"满级","type":"checkbox","memory":[{"offset":"C33EC7","on":"410107","off":"418907"}]},
+{"name":"无限物品","type":"checkbox","memory":[{"offset":"C57974","on":"9090","off":"29CB"}]},
+{"name":"添加物品","type":"checkbox","memory":[{"offset":"C5797D","on":"66019C06745D1000","off":"66899C06745D1000"}]},
+{"name":"最大武器熟练度/精通","type":"checkbox","memory":[{"offset":"10697F9","on":"4501770C","off":"4589770C"}]},{"name":"最大武器熟练度/精通","type":"checkbox","memory":[{"offset":"C34877","on":"410107","off":"418907"}]},
+{"name":"最大 Yokai Shift 量规","type":"checkbox","memory":[{"offset":"A28910","on":"90909090","off":"C5F828CA"}]},{"name":"无限 Yokai Shift 持续时间","type":"checkbox","memory":[{"offset":"9AE1EA","on":"9090909090909090","off":"C5FA1188C4000000"}]},
+{"name":"无限气","type":"checkbox","memory":[{"offset":"9AD4B3","on":"909090","off":"8B4008"}]},
+{"name":" 无限 BUFF/技能 持续时间","type":"checkbox","memory":[{"offset":"A3015B","on":"90909090","off":"C5FA1117"}]},
+{"name":"frend no go","type":"checkbox","memory":[{"offset":"C10752","on":"909090909090","off":"89B7D0080000"}]},{"name":"无限知觉","type":"checkbox","memory":[{"offset":"996005","on":"909090909090","off":"C4E3694AC010"}]},
+{"name":"无限快捷方式项目","type":"checkbox","memory":[{"offset":"D2A8BF","on":"909090","off":"4129CB"}]},
+{"name":"无限冲击比爆破护身符","type":"checkbox","memory":[{"offset":"97D093","on":"9090909090909090","off":"C5F2590DD12A6501"}]},
+{"name":"水火毒闪电剑上无限奔跑","type":"checkbox","memory":[{"offset":"9D380F","on":"909090909090","off":"C4C17A11461C"}]},
+{"name":"inc glory","type":"checkbox","memory":[{"offset":"D1B291","on":"018BBC040000","off":"898BBC040000"}]}],"credits":["أبراهيم"]}
