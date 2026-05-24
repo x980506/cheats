@@ -1,8 +1,8 @@
-1-PPSA02530_01.200.000.shn=识质存在.PRAGMATA Deluxe Edition
+1-PPSA07631_01.000.000.shn=沙罗周期：豪华版.SAROS Digital Deluxe Edition
 2-PPSA09519_01.000.011.shn=明末：渊虚之羽.Wuchang: Fallen Feathers
 3-PPSA30803_01.200.000.shn=生化危机9：安魂曲（美版）.Resident Evil Requiem Deluxe Edition
 4-PPSA15304_01.001.004.shn=合金装备：食蛇者 – 重制版 数字豪华版.METAL GEAR SOLID Δ: SNAKE EATER Digital Deluxe Edition
-5-PPSA09259_01.006.000.shn=地狱即我们.Hell Is Us
+5-PPSA02530_01.200.000.shn=识质存在.PRAGMATA Deluxe Edition
 ---------------------------------------------------------------------------------------
 PPSA01285_03.000.004.shn=死亡回归.Returnal
 PPSA01337_01.009.000.shn=对马岛之魂
@@ -131,8 +131,9 @@ PPSA26786_01.009.000.shn=夺宝奇兵：古老之圈 – 高级版.Indiana Jones
 PPSA28329_01.005.000.shn=机械战警：暴戾都市.未尽之事
 PPSA30803_01.200.000.shn=生化危机9：安魂曲（美版）.Resident Evil Requiem Deluxe Edition
 PPSA31246_01.200.000.shn=生化危机9：安魂曲（欧版）.Resident Evil Requiem Deluxe Edition
+PPSA10872_01.008.000.shn=女神异闻录3：Reload.Persona 3 Reload
 PPSA02530_01.200.000.shn=识质存在.PRAGMATA Deluxe Edition
 PPSA09259_01.006.000.shn=地狱即我们.Hell Is Us
 PPSA15304_01.001.004.shn=合金装备：食蛇者 – 重制版 数字豪华版.METAL GEAR SOLID Δ: SNAKE EATER Digital Deluxe Edition
 PPSA09519_01.000.011.shn=明末：渊虚之羽.Wuchang: Fallen Feathers
-
+PPSA07631_01.000.000.shn=沙罗周期：豪华版.SAROS Digital Deluxe Edition
