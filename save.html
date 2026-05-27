@@ -99,13 +99,12 @@
                 savesGrid.innerHTML = '';
                 lines.forEach(line => {
                     const parts = line.split('=');
-                    const saveFile = parts[0].trim();
-                    const nameAndInfo = parts.length > 1 ? parts[1].trim() : saveFile.replace('.zip', '');
-                    const infoParts = nameAndInfo.split('//');
-                    const saveName = infoParts[0].trim();
-                    const saveInfo = infoParts.length > 1 ? infoParts[1].trim() : '';
-                    const saveId = saveFile.replace('.zip', '').trim();
-                    const saveCard = createSaveCard(saveId, saveName, saveFile, saveInfo);
+                    const saveFile = parts[0].trim(); // 直接是 PPSA23226，没有 .zip 后缀
+                    const saveId = saveFile.trim();
+                    const saveName = parts.length > 1 ? parts[1].trim() : saveFile;
+                    const saveInfo = parts.length > 2 ? parts[2].trim() : '';
+                    const downloadUrl = parts.length > 3 ? parts[3].trim() : '';
+                    const saveCard = createSaveCard(saveId, saveName, saveFile, saveInfo, downloadUrl);
                     savesGrid.appendChild(saveCard);
                 });
             } catch (error) {
@@ -114,10 +113,10 @@
             }
         }
 
-        function createSaveCard(saveId, saveName, saveFile, saveInfo) {
+        function createSaveCard(saveId, saveName, saveFile, saveInfo, downloadUrl) {
             const card = document.createElement('div');
             card.className = 'game-card';
-            card.onclick = () => showSavePreview(saveId, saveName, saveFile, saveInfo);
+            card.onclick = () => showSavePreview(saveId, saveName, saveFile, saveInfo, downloadUrl);
 
             const folder = saveId.substring(0, 4);
             const imagePath = `images/${folder}/${saveId}`;
@@ -136,14 +135,20 @@
             return card;
         }
 
-        function showSavePreview(saveId, saveName, saveFile, saveInfo) {
+        function showSavePreview(saveId, saveName, saveFile, saveInfo, downloadUrl) {
             const existingModal = document.querySelector('.save-preview-modal');
             if (existingModal) existingModal.remove();
 
             const folder = saveId.substring(0, 4);
             const imagePath = `images/${folder}/${saveId}`;
-            const downloadPath = `SAVES/savedata/${saveFile}`;
+            const localDownloadPath = `SAVES/savedata/${saveFile}.zip`; // 添加 .zip 后缀
             const isPS5 = saveId.startsWith('PPSA');
+
+            // 优先使用外链下载，如果没有则使用本地下载
+            const isValidUrl = downloadUrl && downloadUrl.trim() !== '' && downloadUrl.trim() !== 'http://' && downloadUrl.trim() !== 'https://';
+            const downloadLink = isValidUrl ? downloadUrl.trim() : localDownloadPath;
+            const downloadTarget = isValidUrl ? '_blank' : '_self';
+            const downloadAttr = isValidUrl ? '' : 'download';
 
             const modal = document.createElement('div');
             modal.className = 'save-preview-modal';
@@ -164,7 +169,7 @@
                             <div class="save-preview-detail-value">${saveInfo}</div>
                         </div>` : ''}
                         <div class="save-preview-actions">
-                            <a href="${downloadPath}" class="save-preview-download" download>
+                            <a href="${downloadLink}" class="save-preview-download" ${downloadAttr} target="${downloadTarget}">
                                 <svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                     <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
                                     <polyline points="7 10 12 15 17 10"/>
