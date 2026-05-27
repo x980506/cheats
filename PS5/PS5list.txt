@@ -1,8 +1,8 @@
-1-PPSA07631_01.000.000.shn=沙罗周期：豪华版.SAROS Digital Deluxe Edition
-2-PPSA09519_01.000.011.shn=明末：渊虚之羽.Wuchang: Fallen Feathers
-3-PPSA30803_01.200.000.shn=生化危机9：安魂曲（美版）.Resident Evil Requiem Deluxe Edition
-4-PPSA15304_01.001.004.shn=合金装备：食蛇者 – 重制版 数字豪华版.METAL GEAR SOLID Δ: SNAKE EATER Digital Deluxe Edition
-5-PPSA02530_01.200.000.shn=识质存在.PRAGMATA Deluxe Edition
+1-PPSA25286_01.000.151.shn=红色沙漠.Crimson Desert
+2-PPSA07631_01.000.000.shn=沙罗周期：豪华版.SAROS Digital Deluxe Edition
+3-PPSA09519_01.000.011.shn=明末：渊虚之羽.Wuchang: Fallen Feathers
+4-PPSA30803_01.200.000.shn=生化危机9：安魂曲（美版）.Resident Evil Requiem Deluxe Edition
+5-PPSA15304_01.001.004.shn=合金装备：食蛇者 – 重制版 数字豪华版.METAL GEAR SOLID Δ: SNAKE EATER Digital Deluxe Edition
 ---------------------------------------------------------------------------------------
 PPSA01285_03.000.004.shn=死亡回归.Returnal
 PPSA01337_01.009.000.shn=对马岛之魂
@@ -137,3 +137,5 @@ PPSA09259_01.006.000.shn=地狱即我们.Hell Is Us
 PPSA15304_01.001.004.shn=合金装备：食蛇者 – 重制版 数字豪华版.METAL GEAR SOLID Δ: SNAKE EATER Digital Deluxe Edition
 PPSA09519_01.000.011.shn=明末：渊虚之羽.Wuchang: Fallen Feathers
 PPSA07631_01.000.000.shn=沙罗周期：豪华版.SAROS Digital Deluxe Edition
+PPSA25286_01.000.151.shn=红色沙漠.Crimson Desert
+PPSA00000_00.000.000.shn=我全都要.All in
