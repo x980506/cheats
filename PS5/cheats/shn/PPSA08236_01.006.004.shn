@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?><Trainer xmlns:xsd="http://w3.org" xmlns:xsi="http://w3.org-instance" Game="Immortals of Aveum" Moder="Aigars Uze" Cusa="PPSA08236" Version="01.006.004" Process="eboot.bin">
+  <Genres Name="Action-Adventure" />
+  <Items />
+  <Cheat Text="无敌模式 1 | God mode 1">
+    <Cheatline>
+      <Offset>49CDC4</Offset>
+      <Section>0</Section>
+      <ValueOn>E9-D3-F0-B0-05</ValueOn>
+      <ValueOff>C5-FA-11-47-08</ValueOff>
+    </Cheatline>
+    <Cheatline>
+      <Offset>5FABE9C</Offset>
+      <Section>0</Section>
+      <ValueOn>50-48-B8-70-47-FF-EE-07-00-00-00-49-39-C4-58-75-05-E9-17-0F-4F-FA-C5-FA-11-47-08-E9-0D-0F-4F-FA</ValueOn>
+      <ValueOff>00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="无敌模式 2 | God mode 2">
+    <Cheatline>
+      <Offset>211FAE5</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90-90</ValueOn>
+      <ValueOff>FF-90-70-03-00-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="无敌模式3 | God mode 3">
+    <Cheatline>
+      <Offset>213799F</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90</ValueOn>
+      <ValueOff>E8-4C-AF-FD-FD</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="法术弹药无限 无需装填 | Infinite Ammo">
+    <Cheatline>
+      <Offset>474D54</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90-90</ValueOn>
+      <ValueOff>E8-67-B2-05-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="生命水晶与升华点数无限 | Infinite Health Crystals">
+    <Cheatline>
+      <Offset>2270011</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90</ValueOn>
+      <ValueOff>41-2B-CD</ValueOff>
+    </Cheatline>
+  </Cheat>
+  <Cheat Text="金币无限（仅购买物品时生效） | Infinite Gold">
+    <Cheatline>
+      <Offset>226FD40</Offset>
+      <Section>0</Section>
+      <ValueOn>90-90-90-90</ValueOn>
+      <ValueOff>45-89-7D-00</ValueOff>
+    </Cheatline>
+  </Cheat>
+</Trainer>
